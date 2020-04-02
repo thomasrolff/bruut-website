@@ -102,41 +102,78 @@ document.querySelector("#bruut").addEventListener("click", function () {
 });
 
 function overlayOn() {
-  var overlay = document.querySelector("#overlay-shop");
-  overlay.style.display = "block"; // Create container div
+  var container = document.querySelector("#overlay-shop");
+  container.style.display = "block"; // Create .overlay-wrapper
+
+  var overlayWrapper = document.createElement("div");
+  overlayWrapper.setAttribute("class", "overlay-wrapper");
+  container.appendChild(overlayWrapper); // Create .top-bar-wrapper
+
+  var topBarWrapper = document.createElement("div");
+  topBarWrapper.setAttribute("class", "top-bar-wrapper");
+  overlayWrapper.appendChild(topBarWrapper); // Create .left-bar-wrapper
+
+  var leftBarWrapper = document.createElement("div");
+  leftBarWrapper.setAttribute("class", "left-bar-wrapper");
+  leftBarWrapper.setAttribute("id", "previous-item");
+  overlayWrapper.appendChild(leftBarWrapper); // Add svg previous-item 'left arrow' image
+
+  var previousArrow = document.createElement("img");
+  previousArrow.setAttribute("src", "./../img/arrow-previous.svg");
+  leftBarWrapper.appendChild(previousArrow); // Create .content-wrapper
 
   var contentWrapper = document.createElement("div");
   contentWrapper.setAttribute("class", "content-wrapper");
-  overlay.appendChild(contentWrapper); // Create close button container
+  overlayWrapper.appendChild(contentWrapper); // Create .right-bar-wrapper
+
+  var rightBarWrapper = document.createElement("div");
+  rightBarWrapper.setAttribute("class", "right-bar-wrapper");
+  overlayWrapper.appendChild(rightBarWrapper); // Add svg next-item 'right arrow' image
+
+  var nextArrow = document.createElement("img");
+  nextArrow.setAttribute("src", "./../img/arrow-next.svg");
+  rightBarWrapper.setAttribute("id", "next-item");
+  rightBarWrapper.appendChild(nextArrow); // Create .button-close container
 
   var buttonContainer = document.createElement("div");
   buttonContainer.setAttribute("class", "button-close");
-  contentWrapper.appendChild(buttonContainer); // Add close button image
+  topBarWrapper.appendChild(buttonContainer); // Add close button image
 
-  var img = document.createElement("img");
-  img.setAttribute("src", "./../img/cross.svg");
-  buttonContainer.appendChild(img); // Listen on close-button
+  var cross = document.createElement("img");
+  cross.setAttribute("src", "./../img/cross.svg");
+  buttonContainer.appendChild(cross); // Listen on close-button
 
   document.querySelector(".button-close").addEventListener("click", function () {
-    overlay.style.display = "none";
-    contentWrapper.remove();
+    container.style.display = "none";
+    overlayWrapper.remove();
+  }); // Listen on #previous-item and #next-item
+
+  document.querySelector("#previous-item").addEventListener("click", function () {
+    console.log("Yup, previous arrow is clicked!");
+  });
+  document.querySelector("#next-item").addEventListener("click", function () {
+    console.log("Yup, next arrow is clicked!");
   });
 }
 
 function createContent(item) {
-  var container = document.querySelector(".content-wrapper"); // image
+  // Get .content-wrapper
+  var container = document.querySelector(".content-wrapper"); // Create .image-container
+
+  var imageContainer = document.createElement("div");
+  imageContainer.setAttribute("class", "image-container"); // Create item image
 
   var image = document.createElement("img");
   image.setAttribute("src", item.image);
-  image.setAttribute("class", "item-image");
-  container.appendChild(image); // .info-container
+  container.appendChild(imageContainer);
+  imageContainer.appendChild(image); // Create .info-container
 
   var infoContainer = document.createElement("div");
   infoContainer.setAttribute("class", "info-container");
-  container.appendChild(infoContainer); // header
+  container.appendChild(infoContainer); // Create header
 
   var heading = document.createElement("h2");
-  var title = document.createTextNode(item.title); // paragraphs
+  var title = document.createTextNode(item.title); // Create paragraphs
 
   var p1 = document.createElement("p");
   var text1 = document.createTextNode(item.released);
@@ -151,7 +188,7 @@ function createContent(item) {
   var p6 = document.createElement("p");
   var text6 = document.createTextNode(item.produced);
   var p7 = document.createElement("p");
-  var text7 = document.createTextNode(item.available); // paragraph container for p2-p5
+  var text7 = document.createTextNode(item.available); // Create .para-container for p2-p5
 
   var paraContainer = document.createElement("div");
   paraContainer.setAttribute("class", "para-container"); // add header and paragraphs to the DOM 
@@ -162,7 +199,7 @@ function createContent(item) {
   infoContainer.appendChild(p1);
   p1.appendChild(text1); // add .para-container    
 
-  infoContainer.appendChild(paraContainer); // Check if Anton should be added to .para-container
+  infoContainer.appendChild(paraContainer); // Check if Anton should be added to .para-container <------ TODO !! ------<< 
   // if (item.anton) {
   //     const pAnton = document.createElement("p");
   //     pAnton.createTextNode(item.anton);

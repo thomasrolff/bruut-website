@@ -98,61 +98,100 @@ document.querySelector("#bruut").addEventListener("click", () => createContent(b
 
 
 function overlayOn() {
-    const overlay = document.querySelector("#overlay-shop");
-    overlay.style.display = "block";
+    const container = document.querySelector("#overlay-shop");
+    container.style.display = "block";
     
-    // Create container div
+    // Create .overlay-wrapper
+    const overlayWrapper = document.createElement("div");
+    overlayWrapper.setAttribute("class", "overlay-wrapper");
+    container.appendChild(overlayWrapper);
+
+    // Create .top-bar-wrapper
+    const topBarWrapper = document.createElement("div");
+    topBarWrapper.setAttribute("class", "top-bar-wrapper");
+    overlayWrapper.appendChild(topBarWrapper);
+
+    // Create .left-bar-wrapper
+    const leftBarWrapper = document.createElement("div");
+    leftBarWrapper.setAttribute("class", "left-bar-wrapper");
+    leftBarWrapper.setAttribute("id", "previous-item"); 
+    overlayWrapper.appendChild(leftBarWrapper);
+
+    // Add svg previous-item 'left arrow' image
+    const previousArrow = document.createElement("img");
+    previousArrow.setAttribute("src", "./../img/arrow-previous.svg"); 
+    leftBarWrapper.appendChild(previousArrow);
+
+    // Create .content-wrapper
     const contentWrapper = document.createElement("div");
     contentWrapper.setAttribute("class", "content-wrapper");
-    overlay.appendChild(contentWrapper);
+    overlayWrapper.appendChild(contentWrapper);
+
+    // Create .right-bar-wrapper
+    const rightBarWrapper = document.createElement("div");
+    rightBarWrapper.setAttribute("class", "right-bar-wrapper");
+    overlayWrapper.appendChild(rightBarWrapper);
+
+    // Add svg next-item 'right arrow' image
+    const nextArrow = document.createElement("img");
+    nextArrow.setAttribute("src", "./../img/arrow-next.svg"); 
+    rightBarWrapper.setAttribute("id", "next-item"); 
+    rightBarWrapper.appendChild(nextArrow);
     
-    // Create close button container
+    // Create .button-close container
     const buttonContainer = document.createElement("div");
     buttonContainer.setAttribute("class", "button-close");
-    contentWrapper.appendChild(buttonContainer);
+    topBarWrapper.appendChild(buttonContainer);
 
     // Add close button image
-    const img = document.createElement("img");
-    img.setAttribute("src", "./../img/cross.svg");
-    buttonContainer.appendChild(img);
+    const cross = document.createElement("img");
+    cross.setAttribute("src", "./../img/cross.svg");
+    buttonContainer.appendChild(cross);
 
     // Listen on close-button
     document.querySelector(".button-close").addEventListener("click", () => {
-        overlay.style.display = "none";
-        contentWrapper.remove();
+        container.style.display = "none";
+        overlayWrapper.remove();
     });
+
+    // Listen on #previous-item and #next-item
+    document.querySelector("#previous-item").addEventListener("click", () => {
+        console.log("Yup, previous arrow is clicked!");
+    });
+
+    document.querySelector("#next-item").addEventListener("click", () => {
+        console.log("Yup, next arrow is clicked!");
+    });
+
 }
 
 
-
-
-
-
 function createContent(item) {
+    // Get .content-wrapper
     const container = document.querySelector(".content-wrapper");
 
-
-    // image
+    // Create .image-container
+    const imageContainer = document.createElement("div");
+    imageContainer.setAttribute("class", "image-container");
+   
+    // Create item image
     const image = document.createElement("img");
     image.setAttribute("src", item.image);
-    image.setAttribute("class", "item-image");
 
-    container.appendChild(image);
+    container.appendChild(imageContainer);
+    imageContainer.appendChild(image);
 
-
-    // .info-container
+    // Create .info-container
     const infoContainer = document.createElement("div");
     infoContainer.setAttribute("class", "info-container");
-
     container.appendChild(infoContainer);
 
-
-    // header
+    // Create header
     const heading = document.createElement("h2");
     const title = document.createTextNode(item.title);
 
 
-    // paragraphs
+    // Create paragraphs
     const p1 = document.createElement("p");
     const text1 = document.createTextNode(item.released);
     const p2 = document.createElement("p");
@@ -169,7 +208,7 @@ function createContent(item) {
     const text7 = document.createTextNode(item.available);
 
 
-    // paragraph container for p2-p5
+    // Create .para-container for p2-p5
     const paraContainer = document.createElement("div");
     paraContainer.setAttribute("class", "para-container");
 
@@ -185,7 +224,7 @@ function createContent(item) {
     // add .para-container    
     infoContainer.appendChild(paraContainer);
 
-    // Check if Anton should be added to .para-container
+    // Check if Anton should be added to .para-container <------ TODO !! ------<< 
     // if (item.anton) {
     //     const pAnton = document.createElement("p");
     //     pAnton.createTextNode(item.anton);
