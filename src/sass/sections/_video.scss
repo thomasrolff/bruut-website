@@ -1,0 +1,25 @@
+.video {
+    background: $black;
+    color: $white;
+    padding: 5rem 0;
+    .title {
+        grid-column: 2 / 4;
+    }
+    .video-container {
+        grid-column: 2 / 12;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 20px;
+        justify-items: start;
+        align-content: start;
+        margin-bottom: 2rem;
+        iframe {
+            width: 100%;
+        }
+    }
+    .button__flex--video {
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

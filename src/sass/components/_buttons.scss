@@ -1,0 +1,147 @@
+// Generic Button //
+.button {
+    display: block;
+    width: 200px;
+    padding: 11px 0;
+    border: 2px solid $white;
+    color: $white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+// Shop Album Buttons
+.button__album {
+    width: 88%;
+    border: 1px solid $socials-grey;
+    color: $socials-grey;
+    padding: 10px;
+    font-weight: 100;
+    display: relative;
+}
+
+
+// Specific Buttons //
+.button__buy {
+    position: relative;
+    padding-left: 90px;
+    &::before {
+        position: absolute;
+        content: url("./../img/shopping.svg");
+        display: block;
+        left: 29%;
+    }
+}
+
+.button__spotify {
+    position: relative;
+    padding-left: 70px;
+    &::before {
+        position: absolute;
+        content: url("./../img/spotify.svg");
+        display: block;
+        left: 20%;
+    }
+}
+
+.button__apple {
+    position: relative;
+    padding-left: 90px;
+    &::before {
+        position: absolute;
+        content: url("./../img/apple.svg");
+        display: block;
+        left: 29%;
+    }
+}
+
+
+// Flex Buttons //
+.button__flex {
+    width: 100%;
+    @include hover-white;
+}
+
+.button__flex--buy {
+    .buy {    
+    display: flex;
+    justify-content: center;
+    position: relative;
+        &::before {
+            content: url("./../img/shopping.svg");
+            position: absolute;
+            right: 62%;
+        }
+    }
+}
+
+
+// Borderless Buttons 
+.button__buy--borderless {
+    border: none;  
+    padding: 0;
+    margin: 5px 0;
+    padding-left: 32px; 
+    &::before {
+        position: absolute;
+        display: block;
+        left: 0;
+    }
+}
+
+.button__spotify--borderless {
+    border: none; 
+    padding: 0;
+    margin: 5px 0;
+    padding-left: 32px; 
+    &::before {
+        position: absolute;
+        display: block;
+        left: 3px;
+    }
+}
+
+.button__apple--borderless {
+    border: none;  
+    padding: 0;
+    margin: 5px 0;
+    padding-left: 32px; 
+    &::before {
+        position: absolute;
+        display: block;
+        left: 4px;
+    }
+}
+
+
+// Shop buttons
+.button__shop--buy {
+    position: relative;
+    padding-left: 90px;
+    &::before {
+        position: absolute;
+        content: url("./../img/shopping.svg");
+        display: block;
+        left: 29%;
+    }
+    &:hover {
+        background: $white;
+        color: $black;
+    }
+}
+
+.button__shop--stream {
+    position: relative;
+    padding-left: 60px;
+    &::before {
+        position: absolute;
+        content: url("./../img/down-arrow.svg");
+        display: block;
+        right: 9%;
+    }
+    &:hover {
+        background: $white;
+        color: $black;
+    }
+}

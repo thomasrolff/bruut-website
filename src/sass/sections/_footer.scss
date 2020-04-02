@@ -1,0 +1,89 @@
+.footer {
+    @include black-bg;
+    height: 55vh;
+    padding: 1.5rem 0;
+    .flex-wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        h3 {
+            text-transform: uppercase;
+            font-weight: 100;
+            font-size: .9rem;
+        }
+        .socials-container {
+            margin-top: 1rem;
+            width: 18vw;
+            min-width: 200px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .socials {
+            padding: 10px;
+            svg path {
+                fill: $socials-grey;
+                transition: fill .15s linear;
+
+            }
+            &:hover {
+                svg path {
+                    fill: $white;
+                }
+            }
+        }
+        
+        #mc_embed_signup {
+            background: $black; 
+            color: $white;
+            clear: left; 
+            width: 60%;
+            height: 44px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            #mc-embedded-subscribe-form, #mc_embed_signup_scroll,
+            .clear {
+                padding: 0;
+                height: 100%;
+                .email,
+                .button {
+                    height: 100%;
+                    font-family: futura, sans-serif;
+                    font-size: .9rem;
+                    border: none;
+                    border-bottom: 2px solid $white;
+                    border-radius: 0;
+                    background-color: $black;
+                }
+                .email {
+                    margin-right: 5px;
+                    &::placeholder {
+                        color: $grey;
+                        opacity: 1;
+                    }
+                    &:focus {
+                        outline: none;
+                        caret-color: $white;
+                        color: $white;
+                        font-size: 1.3rem;
+                    }
+                    &:focus::placeholder {
+                        color: transparent;
+                    }
+                }
+                .button {
+                    border: 2px solid $white;
+                    width: 80px;
+                    @include hover-white;
+                }
+            }
+        }
+        .logo-container {
+            margin-bottom: 1rem;
+        }
+        .copyright {
+            font-size: .85rem;
+        }
+    }
+}

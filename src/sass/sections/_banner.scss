@@ -1,0 +1,56 @@
+.banner {
+    height: 78vh;
+    background: $black;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    overflow: hidden;
+    .ad-image {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .album-cover{ 
+            z-index: 1;
+            max-width: 30%;
+            min-width: 30vw; 
+        }
+        .lp {
+            max-width: 30%;
+            min-width: 30vw;
+            position: absolute;
+            left: 15%;
+            transition: all .5s ease;
+            &:hover {
+                left: 37%; 
+                transform: rotate(180deg);   
+            }
+        }
+    }
+    .ad-text {
+        width: 50vw;
+        color: $white;
+        text-align: center;
+        .go-surfing-logo {
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
+        .quote {
+            font-size: 1.1rem;
+            line-height: 1.65;
+            margin-bottom: 50px;
+            span {
+                font-style: italic;
+            }
+        }
+        .button {
+            display: inline-block;
+            text-align: left;
+            margin: 5px;
+         }
+        .footnote {
+            text-transform: uppercase;
+            font-size: .7rem;
+            margin-top: 40px;
+        }
+    }
+}

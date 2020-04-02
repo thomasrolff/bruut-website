@@ -1,0 +1,11 @@
+.parallax {
+    // image and height
+    background-image: url("/img/parallax.jpg");
+    height: 70vh; 
+    // parallax effect
+    // background-attachment: fixed;
+    // positioning
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

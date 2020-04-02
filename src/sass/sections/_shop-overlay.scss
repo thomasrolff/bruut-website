@@ -1,0 +1,54 @@
+#overlay-shop {
+    display: none;
+    position: relative;
+    height: 100vh;
+    width: 100%; // is default?
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,.86);
+    z-index: 100;
+    .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+        margin-top: 10%;
+        width: 50%;
+        height: 60%;
+        .button-close {
+            z-index: 100;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $white;
+            display: inline-block;
+            padding: 1rem;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .item-image {
+            height: 100%;
+            margin-right: 6%;
+        }
+        .info-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 6%;
+            .buttons-container {
+                display: flex;
+                margin-top: 1.5rem;
+                .button__shop--buy {
+                    margin-right: 1.5rem;
+                }
+            }
+        } h2 {
+            font-size: 2.7rem;
+        } p {
+            font-size: .94rem;
+            line-height: 1.5;
+        }
+    }
+}

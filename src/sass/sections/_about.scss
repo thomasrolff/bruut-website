@@ -1,0 +1,24 @@
+.about {
+    background: $off-white;
+    color: $off-black;
+    padding: 5rem 0;
+    .title {
+        grid-column: 2 / 5;
+    }
+    .text {
+        grid-column: 2 / 5;
+        font-size: .99rem;
+    }
+    .photo-container {
+        grid-column: 6 / 11;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 20px;
+        justify-items: start;
+        align-content: start;
+        img {
+            width: 100%;
+        }
+    }
+}
+

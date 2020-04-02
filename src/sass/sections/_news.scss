@@ -1,0 +1,27 @@
+.news {
+    height: 22vh;
+    background: $off-white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $off-black;
+        padding: 0.1rem 1rem;
+    }
+    a {
+        color: $off-black;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 2.2rem;
+        transition-property: color, font-size;
+        transition-duration: .2s, .2s;
+        &:hover {
+            color: $hover-white;
+            font-size: 2.27rem;
+        }
+    }
+}
