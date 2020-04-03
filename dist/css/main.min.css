@@ -407,6 +407,9 @@ h2 {
     .shop .button__flex--webshop:hover .arrow {
       right: 15px; }
 
+.noscroll {
+  overflow: hidden; }
+
 #overlay-shop {
   display: none;
   height: 100vh;

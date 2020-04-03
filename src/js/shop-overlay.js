@@ -93,6 +93,10 @@ document.querySelector("#bruut").addEventListener("click", () => createContent(i
 function overlayOn() {
     const container = document.querySelector("#overlay-shop");
     container.style.display = "block";
+
+
+    // set body to .noscroll 
+    document.body.setAttribute("class", "noscroll");
     
     // Create .overlay-wrapper
     const overlayWrapper = document.createElement("div");
@@ -155,6 +159,7 @@ function overlayOn() {
     document.querySelector(".button-close").addEventListener("click", () => {
         container.style.display = "none";
         overlayWrapper.remove();
+        document.body.removeAttribute("class");
     });
 }
 
