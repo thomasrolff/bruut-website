@@ -436,40 +436,57 @@ h2 {
         #overlay-shop .overlay-wrapper .top-bar-wrapper .button-close:hover {
           cursor: pointer; }
     #overlay-shop .overlay-wrapper .left-bar-wrapper {
-      padding: 8rem 1.5rem;
-      padding-left: 1.5rem; }
+      padding: 8rem 3rem;
+      padding-right: 4rem; }
+      #overlay-shop .overlay-wrapper .left-bar-wrapper svg path {
+        fill: #262626;
+        transition: all .2s linear; }
       #overlay-shop .overlay-wrapper .left-bar-wrapper:hover {
         cursor: pointer; }
+        #overlay-shop .overlay-wrapper .left-bar-wrapper:hover svg path {
+          fill: #414141; }
     #overlay-shop .overlay-wrapper .right-bar-wrapper {
-      padding: 8rem 1.5rem; }
+      padding: 8rem 3rem;
+      padding-left: 4rem; }
+      #overlay-shop .overlay-wrapper .right-bar-wrapper svg path {
+        fill: #262626;
+        transition: all .2s linear; }
       #overlay-shop .overlay-wrapper .right-bar-wrapper:hover {
         cursor: pointer; }
+        #overlay-shop .overlay-wrapper .right-bar-wrapper:hover svg path {
+          fill: #414141; }
     #overlay-shop .overlay-wrapper .content-wrapper {
       display: flex;
       justify-content: center;
       max-width: 65%; }
-      #overlay-shop .overlay-wrapper .content-wrapper .image-container {
-        max-height: 100%;
-        padding-right: 2%; }
-        #overlay-shop .overlay-wrapper .content-wrapper .image-container img {
-          width: 100%;
-          height: 100%; }
-      #overlay-shop .overlay-wrapper .content-wrapper .info-container {
+      #overlay-shop .overlay-wrapper .content-wrapper .content-container {
+        height: 100%;
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        max-width: 50%;
-        padding-left: 2%; }
-        #overlay-shop .overlay-wrapper .content-wrapper .info-container .buttons-container {
+        justify-content: center; }
+        #overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {
+          max-height: 100%;
+          max-width: 50%;
+          padding-right: 2.5%; }
+          #overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {
+            width: 100%;
+            height: 100%; }
+        #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {
           display: flex;
-          margin-top: 1.5rem; }
-          #overlay-shop .overlay-wrapper .content-wrapper .info-container .buttons-container .button__shop--buy {
-            margin-right: 1.5rem; }
-      #overlay-shop .overlay-wrapper .content-wrapper h2 {
-        font-size: 2.7rem; }
-      #overlay-shop .overlay-wrapper .content-wrapper p {
-        font-size: .9rem;
-        line-height: 1.4; }
+          flex-direction: column;
+          justify-content: space-between;
+          max-width: 50%;
+          padding-left: 2.5%; }
+          #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {
+            display: flex;
+            margin-top: 1.5rem; }
+            #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {
+              margin-right: 1.5rem; }
+        #overlay-shop .overlay-wrapper .content-wrapper .content-container h2 {
+          font-size: 2.7rem; }
+        #overlay-shop .overlay-wrapper .content-wrapper .content-container p {
+          font-size: .9rem;
+          line-height: 1.4; }
 
 .about {
   background: #fbfbfb;

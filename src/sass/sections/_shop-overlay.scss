@@ -32,53 +32,72 @@
             }
         }
         .left-bar-wrapper {
-            padding: 8rem 1.5rem;
-            padding-left: 1.5rem;
+            padding: 8rem 3rem;
+            padding-right: 4rem;
+            svg path {
+                fill: #262626;
+                transition: all .2s linear;
+            }
             &:hover {
                 cursor: pointer;
+                svg path {
+                    fill: #414141;
+                }
             }
         }
         .right-bar-wrapper {
-            padding: 8rem 1.5rem;
-                // svg path {
-                // fill: #333;
-                // }
+            padding: 8rem 3rem;
+            padding-left: 4rem;
+            svg path {
+                fill: #262626;
+                transition: all .2s linear;
+            }
             &:hover {
                 cursor: pointer;
+                svg path {
+                    fill: #414141;
+                }
             }
         }
         .content-wrapper {
             display: flex;
             justify-content: center;
+            // height: 100%;
+            // width: 100%;
             max-width: 65%;
-            .image-container {
-                max-height: 100%;
-                // max-width: 50%;
-                padding-right: 2%;
-
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-            .info-container {
+            .content-container {
+                height: 100%;
+                width: 100%;
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                max-width: 50%;
-                padding-left: 2%;
-                .buttons-container {
-                    display: flex;
-                    margin-top: 1.5rem;
-                    .button__shop--buy {
-                        margin-right: 1.5rem;
+                justify-content: center;
+                .image-container {
+                    max-height: 100%;
+                    max-width: 50%;
+                    padding-right: 2.5%;
+                    img {
+                        width: 100%;
+                        height: 100%;
                     }
                 }
-            } h2 {
-                font-size: 2.7rem;
-            } p {
-                font-size: .9rem;
-                line-height: 1.4;
+                .info-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    max-width: 50%;
+                    padding-left: 2.5%;
+                    .buttons-container {
+                        display: flex;
+                        margin-top: 1.5rem;
+                        .button__shop--buy {
+                            margin-right: 1.5rem;
+                        }
+                    }
+                } h2 {
+                    font-size: 2.7rem;
+                } p {
+                    font-size: .9rem;
+                    line-height: 1.4;
+                }
             }
         }
     }
