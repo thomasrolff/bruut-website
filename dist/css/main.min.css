@@ -25,8 +25,8 @@ h2 {
   display: block;
   width: 200px;
   padding: 11px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #fbfbfb;
+  color: #fbfbfb;
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase; }
@@ -41,21 +41,37 @@ h2 {
 
 .button__buy {
   position: relative;
-  padding-left: 90px; }
-  .button__buy::before {
-    position: absolute;
-    content: url("./../img/shopping.svg");
-    display: block;
-    left: 29%; }
+  padding-left: 90px;
+  transition: all .15s linear; }
+  .button__buy .shopping {
+    position: relative; }
+    .button__buy .shopping svg {
+      position: absolute;
+      left: -32px; }
+      .button__buy .shopping svg path {
+        transition: all .15s linear; }
+  .button__buy:hover {
+    background-color: #fff;
+    color: #000; }
+    .button__buy:hover svg path {
+      fill: #000; }
 
 .button__spotify {
   position: relative;
-  padding-left: 70px; }
-  .button__spotify::before {
-    position: absolute;
-    content: url("./../img/spotify.svg");
-    display: block;
-    left: 20%; }
+  padding-left: 70px;
+  transition: all .15s linear; }
+  .button__spotify .spotify {
+    position: relative; }
+    .button__spotify .spotify svg {
+      position: absolute;
+      left: -32px; }
+      .button__spotify .spotify svg path {
+        transition: all .15s linear; }
+  .button__spotify:hover {
+    background-color: #fff;
+    color: #000; }
+    .button__spotify:hover svg path {
+      fill: #000; }
 
 .button__apple {
   position: relative;
@@ -68,9 +84,9 @@ h2 {
 
 .button__flex {
   width: 100%;
-  transition: all .2s linear; }
+  transition: all .15s linear; }
   .button__flex:hover {
-    background-color: #fff;
+    background-color: #fbfbfb;
     color: #000; }
 
 .button__flex--buy .buy {
@@ -114,27 +130,37 @@ h2 {
 
 .button__shop--buy {
   position: relative;
-  padding-left: 90px; }
-  .button__shop--buy::before {
-    position: absolute;
-    content: url("./../img/shopping.svg");
-    display: block;
-    left: 29%; }
+  padding-left: 90px;
+  transition: all .15s linear; }
+  .button__shop--buy .shopping {
+    position: relative; }
+    .button__shop--buy .shopping svg {
+      position: absolute;
+      left: -32px; }
+      .button__shop--buy .shopping svg path {
+        transition: all .15s linear; }
   .button__shop--buy:hover {
-    background: #fff;
+    background-color: #fff;
     color: #000; }
+    .button__shop--buy:hover svg path {
+      fill: #000; }
 
 .button__shop--stream {
   position: relative;
-  padding-left: 60px; }
-  .button__shop--stream::before {
+  padding-left: 60px;
+  transition: all .15s linear;
+  position: relative; }
+  .button__shop--stream .stream svg {
     position: absolute;
-    content: url("./../img/down-arrow.svg");
-    display: block;
-    right: 9%; }
+    left: 160px;
+    top: 16px; }
+    .button__shop--stream .stream svg path {
+      transition: all .15s linear; }
   .button__shop--stream:hover {
-    background: #fff;
+    background-color: #fff;
     color: #000; }
+    .button__shop--stream:hover .stream svg path {
+      fill: #000; }
 
 .parallax {
   background-image: url("/img/parallax.jpg");
@@ -285,11 +311,10 @@ h2 {
     text-decoration: underline;
     font-weight: 600;
     font-size: 2.2rem;
-    transition-property: color, font-size;
-    transition-duration: .2s, .2s; }
+    transition: all .15s linear; }
     .news a:hover {
-      color: #333;
-      font-size: 2.27rem; }
+      color: #000;
+      transform: scale(1.08); }
 
 .banner {
   height: 78vh;
@@ -310,7 +335,8 @@ h2 {
       min-width: 30vw;
       position: absolute;
       left: 15%;
-      transition: all .5s ease; }
+      transition-property: transform, left;
+      transition-duration: .6s; }
       .banner .ad-image .lp:hover {
         left: 37%;
         transform: rotate(180deg); }
@@ -374,7 +400,7 @@ h2 {
         align-items: center;
         color: #fff;
         opacity: 0;
-        transition: all .1s; }
+        transition: all .15s ease-in; }
         .shop .albums-container .album .overlay .album-title {
           font-size: 1.2em; }
         .shop .albums-container .album .overlay .album-info {
@@ -396,19 +422,25 @@ h2 {
     margin: 0 auto;
     line-height: 1;
     padding: 15px 0 15px 30px;
-    transition: all .2s linear; }
+    transition: all .15s linear; }
     .shop .button__flex--webshop .arrow {
       display: inline-block;
       position: absolute;
-      right: 20px;
-      transition: right .2s ease-out; }
-    .shop .button__flex--webshop:hover svg path {
-      fill: #000; }
+      transition: right .15s linear;
+      right: 20px; }
+    .shop .button__flex--webshop svg path {
+      fill: #fbfbfb;
+      transition: all .15s linear; }
     .shop .button__flex--webshop:hover .arrow {
       right: 15px; }
+    .shop .button__flex--webshop:hover svg path {
+      fill: #000; }
 
 .noscroll {
   overflow: hidden; }
+
+.no-selection {
+  user-select: none; }
 
 #overlay-shop {
   display: none;
@@ -416,7 +448,7 @@ h2 {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.88);
   z-index: 100; }
   #overlay-shop .overlay-wrapper {
     position: relative;
@@ -447,7 +479,7 @@ h2 {
       #overlay-shop .overlay-wrapper .left-bar-wrapper:hover {
         cursor: pointer; }
         #overlay-shop .overlay-wrapper .left-bar-wrapper:hover svg path {
-          fill: #414141; }
+          fill: #4A4A4A; }
     #overlay-shop .overlay-wrapper .right-bar-wrapper {
       padding: 8rem 3rem;
       padding-left: 4rem; }
@@ -457,7 +489,7 @@ h2 {
       #overlay-shop .overlay-wrapper .right-bar-wrapper:hover {
         cursor: pointer; }
         #overlay-shop .overlay-wrapper .right-bar-wrapper:hover svg path {
-          fill: #414141; }
+          fill: #4A4A4A; }
     #overlay-shop .overlay-wrapper .content-wrapper {
       display: flex;
       justify-content: center;
@@ -472,19 +504,21 @@ h2 {
           max-width: 50%;
           padding-right: 2.5%; }
           #overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {
-            width: 100%;
-            height: 100%; }
+            width: 100%; }
         #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          min-width: 420px;
           max-width: 50%;
-          padding-left: 2.5%; }
+          margin-left: 2.5%; }
           #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {
-            display: flex;
             margin-top: 1.5rem; }
+            #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {
+              display: inline-block;
+              margin-bottom: 3px; }
             #overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {
-              margin-right: 1.5rem; }
+              margin-right: 1rem; }
         #overlay-shop .overlay-wrapper .content-wrapper .content-container h2 {
           font-size: 2.7rem; }
         #overlay-shop .overlay-wrapper .content-wrapper .content-container p {
@@ -530,6 +564,8 @@ h2 {
     width: 200px;
     margin: 0 auto;
     text-align: center; }
+    .video .button__flex--video:hover {
+      cursor: pointer; }
 
 .contact {
   height: 45vh;
@@ -545,6 +581,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     white-space: nowrap; }
+    .contact .flex-wrapper p {
+      font-size: .9rem; }
     .contact .flex-wrapper h3 {
       font-size: 1rem; }
 
@@ -621,12 +659,13 @@ h2 {
         .footer .flex-wrapper #mc_embed_signup .clear .button {
           border: 2px solid #fff;
           width: 80px;
-          transition: all .2s linear; }
+          transition: all .15s linear; }
           .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button:hover, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button:hover,
           .footer .flex-wrapper #mc_embed_signup .clear .button:hover {
-            background-color: #fff;
+            background-color: #fbfbfb;
             color: #000; }
     .footer .flex-wrapper .logo-container {
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      margin-left: 20px; }
     .footer .flex-wrapper .copyright {
       font-size: .85rem; }

@@ -3,13 +3,12 @@
     display: block;
     width: 200px;
     padding: 11px 0;
-    border: 2px solid $white;
-    color: $white;
+    border: 2px solid $off-white;
+    color: $off-white;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
-
 
 // Shop Album Buttons
 .button__album {
@@ -21,27 +20,51 @@
     display: relative;
 }
 
-
 // Specific Buttons //
 .button__buy {
     position: relative;
     padding-left: 90px;
-    &::before {
-        position: absolute;
-        content: url("./../img/shopping.svg");
-        display: block;
-        left: 29%;
+    transition: all .15s linear;
+    .shopping {
+        position: relative;
+
+        svg {
+            position: absolute;
+            left: -32px;
+            path {
+            transition: all .15s linear;
+            }
+        }
+    }
+    &:hover {
+        background-color: $white;
+        color: $black;
+        svg path {
+            fill: $black;
+        }
     }
 }
 
 .button__spotify {
     position: relative;
     padding-left: 70px;
-    &::before {
-        position: absolute;
-        content: url("./../img/spotify.svg");
-        display: block;
-        left: 20%;
+    transition: all .15s linear;
+    .spotify {
+        position: relative;
+        svg {
+            position: absolute;
+            left: -32px;
+            path {
+            transition: all .15s linear;
+            }
+        }
+    }
+    &:hover {
+        background-color: $white;
+        color: $black;
+        svg path {
+            fill: $black;
+        }
     }
 }
 
@@ -114,34 +137,49 @@
     }
 }
 
-
-// Shop buttons
 .button__shop--buy {
     position: relative;
     padding-left: 90px;
-    &::before {
-        position: absolute;
-        content: url("./../img/shopping.svg");
-        display: block;
-        left: 29%;
+    transition: all .15s linear;
+    .shopping {
+        position: relative;
+        svg {
+            position: absolute;
+            left: -32px;
+            path {
+            transition: all .15s linear;
+            }
+        }
     }
     &:hover {
-        background: $white;
+        background-color: $white;
         color: $black;
+        svg path {
+            fill: $black;
+        }
     }
 }
 
 .button__shop--stream {
     position: relative;
     padding-left: 60px;
-    &::before {
-        position: absolute;
-        content: url("./../img/down-arrow.svg");
-        display: block;
-        right: 9%;
+    transition: all .15s linear;
+    position: relative;
+    .stream {
+        svg {
+            position: absolute;
+            left: 160px;
+            top: 16px;
+            path {
+            transition: all .15s linear;
+            }
+        }
     }
     &:hover {
-        background: $white;
+        background-color: $white;
         color: $black;
+        .stream svg path {
+            fill: $black;
+        }
     }
 }

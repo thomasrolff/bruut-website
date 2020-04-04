@@ -5,9 +5,9 @@
 }
 
 @mixin hover-white {
-    transition: all .2s linear;
+    transition: all .15s linear;
     &:hover {
-        background-color: $white;
+        background-color: $off-white;
         color: $black;
     }
 }

@@ -18,7 +18,8 @@
             min-width: 30vw;
             position: absolute;
             left: 15%;
-            transition: all .5s ease;
+            transition-property: transform, left;
+            transition-duration: .6s;
             &:hover {
                 left: 37%; 
                 transform: rotate(180deg);   

@@ -2,20 +2,22 @@
     overflow: hidden;
 }
 
+.no-selection {
+    user-select: none;
+}
+
 #overlay-shop {
     display: none;
     height: 100vh;
     width: 100%; // is default?
     position: fixed; // ??
     top: 0; // ??
-    background-color: rgba(0,0,0,.86);
+    background-color: rgba(0,0,0,.88);
     z-index: 100;
     .overlay-wrapper {
         position: relative;
         height: 100%;
         width: 100%;
-        // display: grid;
-        // grid-template-columns: repeat(3, 1fr);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -45,7 +47,7 @@
             &:hover {
                 cursor: pointer;
                 svg path {
-                    fill: #414141;
+                    fill: #4A4A4A;
                 }
             }
         }
@@ -59,15 +61,13 @@
             &:hover {
                 cursor: pointer;
                 svg path {
-                    fill: #414141;
+                    fill: #4A4A4A;
                 }
             }
         }
         .content-wrapper {
             display: flex;
             justify-content: center;
-            // height: 100%;
-            // width: 100%;
             max-width: 65%;
             .content-container {
                 height: 100%;
@@ -80,20 +80,26 @@
                     padding-right: 2.5%;
                     img {
                         width: 100%;
-                        height: 100%;
+                        // height: 100%;
                     }
                 }
                 .info-container {
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    min-width: 420px;
                     max-width: 50%;
-                    padding-left: 2.5%;
+                    // padding-left: 2.5%;
+                    margin-left: 2.5%;
                     .buttons-container {
-                        display: flex;
+                        // display: flex;
                         margin-top: 1.5rem;
+                        .button {
+                            display: inline-block;
+                            margin-bottom: 3px;
+                        }
                         .button__shop--buy {
-                            margin-right: 1.5rem;
+                            margin-right: 1rem;
                         }
                     }
                 } h2 {

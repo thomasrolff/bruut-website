@@ -11,7 +11,7 @@ const items = [
         felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT!",
         available: "Available on: VINYL | CD | DIGITAL",
-        image: "./img/hoes.png",
+        image: "./img/album-go-surfing-lp.jpg",
         buyURL: "https://bruut.bandcamp.com/album/superjazz"
     },
     {
@@ -110,7 +110,7 @@ function overlayOn() {
 
     // Create .left-bar-wrapper
     const leftBarWrapper = document.createElement("div");
-    leftBarWrapper.setAttribute("class", "left-bar-wrapper");
+    leftBarWrapper.setAttribute("class", "left-bar-wrapper no-selection");
     leftBarWrapper.setAttribute("id", "previous-item"); 
     overlayWrapper.appendChild(leftBarWrapper);
 
@@ -131,7 +131,7 @@ function overlayOn() {
 
     // Create .right-bar-wrapper
     const rightBarWrapper = document.createElement("div");
-    rightBarWrapper.setAttribute("class", "right-bar-wrapper");
+    rightBarWrapper.setAttribute("class", "right-bar-wrapper no-selection");
     rightBarWrapper.setAttribute("id", "next-item"); 
     overlayWrapper.appendChild(rightBarWrapper);
     
@@ -259,17 +259,31 @@ function createContent(item) {
     buttonShopBuy.setAttribute("class", "button button__shop--buy"); 
     const buy = document.createTextNode("BUY");
 
+    const shopSpan = document.createElement("span");
+    shopSpan.setAttribute("class", "shopping");
+    const shopSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"><path fill="#FBFBFB" d="M16.036 16.148a2.47 2.47 0 00-2.471 2.471 2.47 2.47 0 002.471 2.471 2.47 2.47 0 002.471-2.471c-.024-1.354-1.116-2.471-2.471-2.471zm4.348-11.783c-.048 0-.119-.024-.19-.024H5.227L4.989 2.75A2.127 2.127 0 002.875.92H.95a.953.953 0 00-.95.95c0 .523.428.95.95.95h1.924c.119 0 .214.095.238.214L4.585 13.06a2.606 2.606 0 002.566 2.209h9.882a2.64 2.64 0 002.566-2.091l1.544-7.721a.938.938 0 00-.759-1.092zM9.978 18.5a2.456 2.456 0 00-2.447-2.352 2.485 2.485 0 00-2.376 2.565 2.436 2.436 0 002.423 2.353h.048c1.354-.072 2.423-1.212 2.352-2.566z"/></svg>';
+
+
     const buttonShopStream = document.createElement("a");
     buttonShopStream.setAttribute("href", item.buyURL);
     buttonShopStream.setAttribute("target", "_blank");
     buttonShopStream.setAttribute("class", "button button__shop--stream"); 
     const stream = document.createTextNode("STREAM");
+    
+    const streamSpan = document.createElement("span");
+    streamSpan.setAttribute("class", "stream");
+    const streamSvg = '<svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.26804 0L9.23399 4.53252L13.1999 0H18.468L9.23399 10.5531L0 0H5.26804Z" fill="white"/></svg>';
 
     // add buttons to the DOM 
+    shopSpan.innerHTML = shopSvg;
+    streamSpan.innerHTML = streamSvg;
+
     buttonsContainer.appendChild(buttonShopBuy);
+    buttonShopBuy.appendChild(shopSpan);
     buttonShopBuy.appendChild(buy);
-    
+
     buttonsContainer.appendChild(buttonShopStream);
+    buttonShopStream.appendChild(streamSpan);
     buttonShopStream.appendChild(stream);
 
     // Listen on #previous-item, on click -> create new content
