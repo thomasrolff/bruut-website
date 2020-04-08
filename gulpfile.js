@@ -91,6 +91,12 @@ function img(done) {
     done();
 };
 
+// Upload current /dist to GitHub Pages /docs folder to update static hosted site
+function docs() {
+    return src('./dist/**/*')
+            .pipe(dest('./docs'))
+}
+
 
 function watcher() {
 
@@ -109,9 +115,11 @@ function watcher() {
 };
 
 
+
 // Use default task to launch Browsersync and watch style/script files
 // Run 'gulp img' to minify images into dist/img folder
 
 exports.default = watcher;
 exports.img = img;
 exports.css = css;
+exports.docs = docs;

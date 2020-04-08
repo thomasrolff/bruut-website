@@ -1,7 +1,3 @@
-// const lp = document.getElementById("lp");
-// lp.addEventListener("scroll", () => {
-//     lp.setAttribute("class", "lp move");
-// });
 // const video = document.querySelector(".video-container");
 // const loadButton = document.getElementById("load-video");
 // loadButton.addEventListener("click", () => {
@@ -326,6 +322,3 @@ function createContent(item) {
     }
   });
 }
-
-var margot = document.getElementById("margot");
-margot.innerText = "Hier worden de upcoming shows van BRUUT! geinjecteerd via de Songkick API.";
