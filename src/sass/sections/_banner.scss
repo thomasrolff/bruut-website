@@ -12,17 +12,26 @@
             z-index: 1;
             max-width: 30%;
             min-width: 30vw; 
+            // transition-property: transform, left;
+            // transition-duration: .8s;
+            opacity: 1;
+            will-change: opacity;
+            // left: 1rem;
+            // .is-visible {
+            //     opacity: 1;
+            // }
         }
         .lp {
             max-width: 30%;
             min-width: 30vw;
             position: absolute;
-            left: 15%;
-            transition-property: transform, left;
-            transition-duration: .6s;
-            &:hover {
-                left: 37%; 
-                transform: rotate(180deg);   
+            transition: left .5s .25s, transform 1.2s ease-out;
+            left: 0; 
+            will-change: left, transform;
+            &.is-visible {
+                opacity: 1;
+                left: 36%;
+                transform: rotate(720deg); 
             }
         }
     }
@@ -31,7 +40,7 @@
         color: $white;
         text-align: center;
         .go-surfing-logo {
-            width: 100%;
+            width: 90%;
             margin-top: 80px;
             margin-bottom: 50px;
         }

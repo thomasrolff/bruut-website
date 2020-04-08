@@ -11,7 +11,7 @@ const items = [
         felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT!",
         available: "Available on: VINYL | CD | DIGITAL",
-        image: "./img/album-go-surfing-lp.jpg",
+        image: "./img/album-go-surfing.jpg",
         buyURL: "https://bruut.bandcamp.com/album/superjazz"
     },
     {

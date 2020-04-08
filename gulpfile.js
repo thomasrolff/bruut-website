@@ -12,6 +12,9 @@ const concat = require('gulp-concat');
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const imagemin = require('gulp-imagemin');
+const postcss = require('gulp-postcss');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
 const browserSync = require('browser-sync').create();
 
 
@@ -25,11 +28,18 @@ const scriptDest = './dist/js';
 
 // Sass -> CSS
 function css(done) {
+    const plugin = [
+        autoprefixer(),
+        cssnano()
+    ];
     src(styleSrc)
         .pipe(plumber())
         .pipe(sass({
             style: 'compressed'
         })).on('error', sass.logError)
+        .pipe(dest(styleDest))
+        // postcss: autoprefixer, css nano
+        .pipe(postcss(plugin))
         .pipe(rename({
             basename: 'main',
             suffix: '.min'
@@ -104,3 +114,4 @@ function watcher() {
 
 exports.default = watcher;
 exports.img = img;
+exports.css = css;

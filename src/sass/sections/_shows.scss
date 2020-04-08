@@ -1,9 +1,29 @@
 .shows {
     height: 100vh;
     background: $off-white;
-    padding: 5rem 0;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
     h2 {
         color: $off-black;
+    }
+    img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        height: 100%;
+        transform: scale(50%);
+    }
+    .button__flex--video {
+        border: 2px solid $off-black;
+        color: $off-black;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        &:hover {
+            cursor: pointer;
+            background-color: $black;
+            border-color: $black;
+            color: $off-white;
+        }
     }
 }
 
