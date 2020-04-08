@@ -26,4 +26,20 @@
             cursor: pointer;
         }
     }
+    @media screen and (max-width: 900px) {
+        .video-container {
+            // grid-template-columns: repeat(1, auto); 
+            display: block;
+        }        
+    }
+    @media screen and (max-width: 600px) {
+    padding-bottom: 2rem;        
+        .video-container {
+            // grid-gap: 0;
+            .video-1, .video-2 {
+                max-height: 30vh;
+                // max-height: 50%;
+            }
+        } 
+    }
 }

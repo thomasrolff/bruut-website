@@ -24,5 +24,32 @@
             }
         }
     }
+    @media screen and (max-width: 900px) {
+        .title, .text {
+            grid-column: 2 / 6; 
+        }
+        .photo-container {
+            grid-column: 7 / 12;        
+            grid-template-columns: repeat(2, auto);
+            img:nth-child(8) {
+                display: none;
+            }
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .title, .text {
+            grid-column: 2 / 12; 
+        }
+        .photo-container {
+            grid-column: 2 / 12;        
+            grid-template-columns: repeat(1, auto);
+            img {
+                display: none;
+                &:nth-child(3) {
+                    display: block;
+                }
+            }
+        }   
+    }
 }
 

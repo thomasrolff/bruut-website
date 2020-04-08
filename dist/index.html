@@ -33,16 +33,19 @@
           </div>
         </nav>
       </div> <!-- navbar-container -->
-      <video autoplay loop muted>
-        <source src="img/test-video.mp4" type="video/mp4">
+      <video playsinline autoplay loop muted>
+          <source src="img/website_test_1080.mp4" type="video/mp4">
+          <source src="img/website_test_480.m4v" type="video/m4v" media="all and (max-width: 480px)"> 
       </video>
     </header> <!-- header -->
     <main>
         <section class="news">
-          <h2> >> go surfing is currently on hold until further notice <<</h2>
+          <div class="news-content margin-90">
+          <h2> >> go surfing is on hold until further notice <<</h2>
           <a href="#shows">
             check tourdates
           </a>
+        </div>
         </section> <!-- news -->
         <section class="banner">
           <div class="ad-image">
@@ -62,7 +65,6 @@
         <section class="shows" id="shows">
           <div class="margin-70">
             <h2>Shows</h2>
-            <!-- <p id="margot"></p> -->
             <div class="dates">
               <img src="img/dates.png" alt="">
               <div class="button button__flex button__flex--video">view more dates</div>
@@ -118,7 +120,7 @@
                 </div>
               </div>
             </div>
-            <a class="button button__flex button__flex--webshop" href="#" target="_blank">
+            <a class="button button__flex button__flex--webshop" href="https://bruut.bandcamp.com/" target="_blank">
               visit webshop
               <svg class="arrow" width="18" height="18" viewBox="0 1 22 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.712 8.3l-6.5-6.5a.978.978 0 00-.697-.287.978.978 0 00-.696.287l-.59.59a.997.997 0 000 1.401l3.792 3.801H.972A.961.961 0 000 8.561v.835c0 .543.43 1.011.972 1.011h12.092L9.229 14.23a.964.964 0 00-.288.69.97.97 0 00.288.693l.59.589a.977.977 0 00.696.286.978.978 0 00.697-.288l6.5-6.5A.979.979 0 0018 9a.978.978 0 00-.288-.7z" fill="#FBFBFB"/></svg>
             </a>

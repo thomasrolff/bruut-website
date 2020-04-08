@@ -1,5 +1,5 @@
 .shows {
-    height: 100vh;
+    // height: 100vh;
     background: $off-white;
     padding-bottom: 5rem;
     padding-top: 4rem;
@@ -11,6 +11,10 @@
         margin-bottom: 3rem;
         height: 100%;
         transform: scale(50%);
+        width: 100%;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
     .button__flex--video {
         border: 2px solid $off-black;

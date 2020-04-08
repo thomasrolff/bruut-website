@@ -1,6 +1,7 @@
 .footer {
     @include black-bg;
-    height: 50vh;
+    // height: 50vh;
+    height: 100%;
     padding: 1.5rem 0;
     .flex-wrapper {
         height: 100%;
@@ -39,16 +40,20 @@
             color: $white;
             clear: left; 
             width: 60%;
-            height: 44px;
+            height: 100%;
             margin-bottom: 2rem;
             margin-top: 1rem;
+            @media screen and (max-width: 600px) {
+                width: 90%;
+                margin-bottom: 3rem;
+            }
             #mc-embedded-subscribe-form, #mc_embed_signup_scroll,
             .clear {
                 padding: 0;
                 height: 100%;
                 .email,
                 .button {
-                    height: 100%;
+                    height: 44px;
                     font-family: futura, sans-serif;
                     font-size: .9rem;
                     border: none;
@@ -75,7 +80,15 @@
                 .button {
                     border: 2px solid $white;
                     width: 80px;
-                    @include hover-white;
+                    transition: all .15s linear;
+                    &:hover {
+                        background-color: $off-white;
+                        color: $black;
+                    }
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                        margin-top: .5rem;
+                    }
                 }
             }
         }
@@ -85,6 +98,16 @@
         }
         .copyright {
             font-size: .85rem;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        margin-top: 5rem;
+        .flex-wrapper {
+            text-align: center;
+            h3 {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
         }
     }
 }

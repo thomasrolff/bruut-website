@@ -1,8 +1,9 @@
 .banner {
     height: 78vh;
     background: $black;
-    display: grid;
-    grid-template-columns: 45% 55%;
+    // display: grid;
+    // grid-template-columns: 45% 55%;
+    display: flex;
     overflow: hidden;
     .ad-image {
         display: flex;
@@ -39,6 +40,8 @@
         width: 50vw;
         color: $white;
         text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
         .go-surfing-logo {
             width: 90%;
             margin-top: 80px;
@@ -61,6 +64,42 @@
             text-transform: uppercase;
             font-size: .7rem;
             margin-top: 40px;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .lp {
+            display: none;
+        }
+        .ad-image .album-cover {
+            max-width: 90%;
+        }
+        .ad-text {
+            .go-surfing-logo {
+                width: 100%;
+            }
+        } 
+    }
+    @media screen and (max-width: 600px) {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        .ad-image {
+            order: 2;
+            max-width: 80%;
+            margin: 3rem 0;
+            .album-cover {
+                max-width: 100%;
+            } 
+        }
+        .ad-text {
+            width: 90%;
+            .go-surfing-logo {
+                margin-top: 3rem;
+            }
+            .footnote {
+                margin-top: 1rem;
+            }
         }
     }
 }
