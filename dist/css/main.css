@@ -521,9 +521,11 @@ h2 {
         height: 100%;
         width: 100%;
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        min-height: 400px; }
         #overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {
           max-height: 100%;
+          min-width: 420px;
           max-width: 50%;
           padding-right: 2.5%; }
           #overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {
@@ -557,7 +559,7 @@ h2 {
     grid-column: 2 / 5; }
   .about .text {
     grid-column: 2 / 5;
-    font-size: .99rem; }
+    font-size: .98rem; }
   .about .photo-container {
     grid-column: 6 / 12;
     display: grid;

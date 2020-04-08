@@ -113,34 +113,37 @@ var items = [{
 }];
 /***** EVENT LISTENERS *****/
 // On click -> toggle overlay ON
-
-var test = Array.from(document.querySelectorAll(".overlay"));
-test.forEach(function (item) {
-  return item.addEventListener("click", function () {
-    return overlayOn();
-  });
-}); // On click -> create initial content
+// const test = Array.from(document.querySelectorAll(".overlay"));
+// test.forEach(item => item.addEventListener("click", () => overlayOn()));
+// On click -> create initial content
+// document.querySelector("#goSurfing").addEventListener("click", () => createContent(items[0]));
+// document.querySelector("#v").addEventListener("click", () => createContent(items[1]));
+// document.querySelector("#superjazz").addEventListener("click", () => createContent(items[2]));
+// document.querySelector("#madpack").addEventListener("click", () => createContent(items[3]));
+// document.querySelector("#fire").addEventListener("click", () => createContent(items[4]));
+// document.querySelector("#bruut").addEventListener("click", () => createContent(items[5]));
+//NEW: on click create overlay, then create item content
 
 document.querySelector("#goSurfing").addEventListener("click", function () {
-  return createContent(items[0]);
+  return overlayOn(items[0]);
 });
 document.querySelector("#v").addEventListener("click", function () {
-  return createContent(items[1]);
+  return overlayOn(items[1]);
 });
 document.querySelector("#superjazz").addEventListener("click", function () {
-  return createContent(items[2]);
+  return overlayOn(items[2]);
 });
 document.querySelector("#madpack").addEventListener("click", function () {
-  return createContent(items[3]);
+  return overlayOn(items[3]);
 });
 document.querySelector("#fire").addEventListener("click", function () {
-  return createContent(items[4]);
+  return overlayOn(items[4]);
 });
 document.querySelector("#bruut").addEventListener("click", function () {
-  return createContent(items[5]);
+  return overlayOn(items[5]);
 });
 
-function overlayOn() {
+function overlayOn(item) {
   var container = document.querySelector("#overlay-shop");
   container.style.display = "block"; // set body to .noscroll 
 
@@ -199,6 +202,7 @@ function overlayOn() {
     overlayWrapper.remove();
     document.body.removeAttribute("class");
   });
+  createContent(item);
 }
 
 function createContent(item) {

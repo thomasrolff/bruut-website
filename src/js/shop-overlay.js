@@ -77,20 +77,30 @@ const items = [
 ]
 
 /***** EVENT LISTENERS *****/
+
 // On click -> toggle overlay ON
-const test = Array.from(document.querySelectorAll(".overlay"));
-test.forEach(item => item.addEventListener("click", () => overlayOn()));
+// const test = Array.from(document.querySelectorAll(".overlay"));
+// test.forEach(item => item.addEventListener("click", () => overlayOn()));
 
 // On click -> create initial content
-document.querySelector("#goSurfing").addEventListener("click", () => createContent(items[0]));
-document.querySelector("#v").addEventListener("click", () => createContent(items[1]));
-document.querySelector("#superjazz").addEventListener("click", () => createContent(items[2]));
-document.querySelector("#madpack").addEventListener("click", () => createContent(items[3]));
-document.querySelector("#fire").addEventListener("click", () => createContent(items[4]));
-document.querySelector("#bruut").addEventListener("click", () => createContent(items[5]));
+// document.querySelector("#goSurfing").addEventListener("click", () => createContent(items[0]));
+// document.querySelector("#v").addEventListener("click", () => createContent(items[1]));
+// document.querySelector("#superjazz").addEventListener("click", () => createContent(items[2]));
+// document.querySelector("#madpack").addEventListener("click", () => createContent(items[3]));
+// document.querySelector("#fire").addEventListener("click", () => createContent(items[4]));
+// document.querySelector("#bruut").addEventListener("click", () => createContent(items[5]));
+
+//NEW: on click create overlay, then create item content
+document.querySelector("#goSurfing").addEventListener("click", () => overlayOn(items[0]));
+document.querySelector("#v").addEventListener("click", () => overlayOn(items[1]));
+document.querySelector("#superjazz").addEventListener("click", () => overlayOn(items[2]));
+document.querySelector("#madpack").addEventListener("click", () => overlayOn(items[3]));
+document.querySelector("#fire").addEventListener("click", () => overlayOn(items[4]));
+document.querySelector("#bruut").addEventListener("click", () => overlayOn(items[5]));
 
 
-function overlayOn() {
+
+function overlayOn(item) {
     const container = document.querySelector("#overlay-shop");
     container.style.display = "block";
 
@@ -161,6 +171,8 @@ function overlayOn() {
         overlayWrapper.remove();
         document.body.removeAttribute("class");
     });
+
+    createContent(item);
 }
 
 
