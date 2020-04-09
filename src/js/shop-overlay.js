@@ -6,7 +6,7 @@ const items = [
         released: "Released November 22, 2019",
         anton: "Anton Goudsmit - Guitar",
         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-        folkert: "Folkert Oosterbeek - Hammond organ & Mellotron",
+        folkert: "Folkert Oosterbeek - Hammond Organ",
         thomas: "Thomas Rolff - Double Bass",
         felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT!",
@@ -17,8 +17,8 @@ const items = [
     {
         title: "V",
         released: "Released November 30, 2018",
-        maarten: "Maarten Hogenhuis - alto & tenor saxophone",
-        folkert: "Folkert Oosterbeek - hammond organ, farfisa compact, vox continental, korg polysix, mellotron, piano and harmonium",
+        maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
+        folkert: "Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium",
         thomas: "Thomas Rolff - Double Bass",
         felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT! & Paul Willemsen",
@@ -30,7 +30,7 @@ const items = [
         title: "Superjazz",
         released: "Released February 3, 2017",
         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-        folkert: "Folkert Oosterbeek - Hammond organ & Mellotron",
+        folkert: "Folkert Oosterbeek - Hammond Organ & Mellotron",
         thomas: "Thomas Rolff - Double Bass",
         felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT!",
@@ -53,10 +53,10 @@ const items = [
     {
         title: "Fire",
         released: "Released November 8, 2013",
-        maarten: "Maarten Hogenhuis - alto & tenor saxophone",
-        folkert: "Folkert Oosterbeek - hammond organ",
-        thomas: "Thomas Rolff - double bass",
-        felix: "Felix Schlarmann - drums",
+        maarten: "Maarten Hogenhuis - Alto & Tenor Saxophone",
+        folkert: "Folkert Oosterbeek - Hammond Organ",
+        thomas: "Thomas Rolff - Double Bass",
+        felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT!",
         available: "Available on: VINYL | CD | DIGITAL",
         image: "./img/album-fire.jpg",
@@ -65,10 +65,10 @@ const items = [
     {
         title: "BRUUT!",
         released: "Released January 10, 2012",
-        maarten: "Maarten Hogenhuis - alto & tenor saxophone",
-        folkert: "Folkert Oosterbeek - hammond organ, farfisa compact, vox continental, korg polysix, mellotron, piano and harmonium",
-        thomas: "Thomas Rolff - double bass",
-        felix: "Felix Schlarmann - drums",
+        maarten: "Maarten Hogenhuis - Alto & Tenor Saxophone",
+        folkert: "Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium",
+        thomas: "Thomas Rolff - Double Bass",
+        felix: "Felix Schlarmann - Drums",
         produced: "Produced by BRUUT!",
         available: "Available on: CD | DIGITAL",
         image: "./img/album-bruut.jpg",
@@ -103,7 +103,6 @@ document.querySelector("#bruut").addEventListener("click", () => overlayOn(items
 function overlayOn(item) {
     const container = document.querySelector("#overlay-shop");
     container.style.display = "block";
-
 
     // set body to .noscroll 
     document.body.setAttribute("class", "noscroll");
@@ -162,7 +161,7 @@ function overlayOn(item) {
 
     // Add close button image
     const cross = document.createElement("img");
-    cross.setAttribute("src", "./../img/cross.svg");
+    cross.setAttribute("src", "./img/cross3.svg");
     buttonContainer.appendChild(cross);
 
     // Listen on close-button
@@ -237,11 +236,12 @@ function createContent(item) {
     infoContainer.appendChild(paraContainer);
 
     // Check if Anton should be added to .para-container <------ TODO !! ------<< 
-    // if (item.anton) {
-    //     const pAnton = document.createElement("p");
-    //     pAnton.createTextNode(item.anton);
-    //     paraContainer.appendChild(pAnton);
-    // } 
+    if (item.anton) {
+        const pAnton = document.createElement("p");
+        const antonText = document.createTextNode(item.anton);
+        paraContainer.appendChild(pAnton);
+        pAnton.appendChild(antonText);
+    } 
 
     // add p2-p5 to .para-container    
     paraContainer.appendChild(p2);

@@ -360,13 +360,13 @@ h2 {
       will-change: left, transform; }
       .banner .ad-image .lp.is-visible {
         opacity: 1;
-        left: 36%;
+        left: 43%;
         transform: rotate(720deg); }
   .banner .ad-text {
     width: 50vw;
     color: #fff;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%; }
     .banner .ad-text .go-surfing-logo {
       width: 90%;
@@ -542,7 +542,7 @@ h2 {
         left: 0;
         background-color: #fff;
         display: inline-block;
-        padding: 1rem; }
+        padding: .7rem; }
         #overlay-shop .overlay-wrapper .top-bar-wrapper .button-close:hover {
           cursor: pointer; }
     #overlay-shop .overlay-wrapper .left-bar-wrapper {

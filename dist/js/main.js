@@ -44,7 +44,7 @@ var items = [{
   released: "Released November 22, 2019",
   anton: "Anton Goudsmit - Guitar",
   maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-  folkert: "Folkert Oosterbeek - Hammond organ & Mellotron",
+  folkert: "Folkert Oosterbeek - Hammond Organ",
   thomas: "Thomas Rolff - Double Bass",
   felix: "Felix Schlarmann - Drums",
   produced: "Produced by BRUUT!",
@@ -54,8 +54,8 @@ var items = [{
 }, {
   title: "V",
   released: "Released November 30, 2018",
-  maarten: "Maarten Hogenhuis - alto & tenor saxophone",
-  folkert: "Folkert Oosterbeek - hammond organ, farfisa compact, vox continental, korg polysix, mellotron, piano and harmonium",
+  maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
+  folkert: "Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium",
   thomas: "Thomas Rolff - Double Bass",
   felix: "Felix Schlarmann - Drums",
   produced: "Produced by BRUUT! & Paul Willemsen",
@@ -66,7 +66,7 @@ var items = [{
   title: "Superjazz",
   released: "Released February 3, 2017",
   maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-  folkert: "Folkert Oosterbeek - Hammond organ & Mellotron",
+  folkert: "Folkert Oosterbeek - Hammond Organ & Mellotron",
   thomas: "Thomas Rolff - Double Bass",
   felix: "Felix Schlarmann - Drums",
   produced: "Produced by BRUUT!",
@@ -87,10 +87,10 @@ var items = [{
 }, {
   title: "Fire",
   released: "Released November 8, 2013",
-  maarten: "Maarten Hogenhuis - alto & tenor saxophone",
-  folkert: "Folkert Oosterbeek - hammond organ",
-  thomas: "Thomas Rolff - double bass",
-  felix: "Felix Schlarmann - drums",
+  maarten: "Maarten Hogenhuis - Alto & Tenor Saxophone",
+  folkert: "Folkert Oosterbeek - Hammond Organ",
+  thomas: "Thomas Rolff - Double Bass",
+  felix: "Felix Schlarmann - Drums",
   produced: "Produced by BRUUT!",
   available: "Available on: VINYL | CD | DIGITAL",
   image: "./img/album-fire.jpg",
@@ -98,10 +98,10 @@ var items = [{
 }, {
   title: "BRUUT!",
   released: "Released January 10, 2012",
-  maarten: "Maarten Hogenhuis - alto & tenor saxophone",
-  folkert: "Folkert Oosterbeek - hammond organ, farfisa compact, vox continental, korg polysix, mellotron, piano and harmonium",
-  thomas: "Thomas Rolff - double bass",
-  felix: "Felix Schlarmann - drums",
+  maarten: "Maarten Hogenhuis - Alto & Tenor Saxophone",
+  folkert: "Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium",
+  thomas: "Thomas Rolff - Double Bass",
+  felix: "Felix Schlarmann - Drums",
   produced: "Produced by BRUUT!",
   available: "Available on: CD | DIGITAL",
   image: "./img/album-bruut.jpg",
@@ -190,7 +190,7 @@ function overlayOn(item) {
   topBarWrapper.appendChild(buttonContainer); // Add close button image
 
   var cross = document.createElement("img");
-  cross.setAttribute("src", "./../img/cross.svg");
+  cross.setAttribute("src", "./img/cross3.svg");
   buttonContainer.appendChild(cross); // Listen on close-button
 
   document.querySelector(".button-close").addEventListener("click", function () {
@@ -249,12 +249,14 @@ function createContent(item) {
   p1.appendChild(text1); // add .para-container    
 
   infoContainer.appendChild(paraContainer); // Check if Anton should be added to .para-container <------ TODO !! ------<< 
-  // if (item.anton) {
-  //     const pAnton = document.createElement("p");
-  //     pAnton.createTextNode(item.anton);
-  //     paraContainer.appendChild(pAnton);
-  // } 
-  // add p2-p5 to .para-container    
+
+  if (item.anton) {
+    var pAnton = document.createElement("p");
+    var antonText = document.createTextNode(item.anton);
+    paraContainer.appendChild(pAnton);
+    pAnton.appendChild(antonText);
+  } // add p2-p5 to .para-container    
+
 
   paraContainer.appendChild(p2);
   p2.appendChild(text2);
