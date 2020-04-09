@@ -26,7 +26,7 @@
             max-width: 30%;
             min-width: 30vw;
             position: absolute;
-            transition: left .5s .25s, transform 1.2s ease-out;
+            transition: left .8s .05s, transform 1.5s ease-out;
             left: 0; 
             will-change: left, transform;
             &.is-visible {
