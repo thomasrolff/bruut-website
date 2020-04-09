@@ -8,6 +8,24 @@
 //     videoContainer.innerHTML = video1 + video2;
 //     video.appendChild(videoContainer);
 // });
+var toggler = document.querySelector("input[name=checkbox]");
+var menu = document.querySelector(".menu-mobile");
+var menuOverlay = document.querySelector(".menu-overlay");
+toggler.addEventListener("change", function (e) {
+  // toggle menu visibility 
+  if (e.target.checked) {
+    menu.style.visibility = "visible";
+    menuOverlay.style.transform = "translateX(0%)";
+    menuOverlay.style.transition = "transform .15s ease";
+    document.body.setAttribute("class", "noscroll");
+  } else {
+    menu.style.visibility = "hidden";
+    menuOverlay.style.transform = "translateX(100%)";
+    menuOverlay.style.transition = "transform .15s ease";
+    document.body.removeAttribute("class", "noscroll");
+  }
+});
+
 var scroll = window.requestAnimationFrame || function (callback) {
   window.setTimeout(callback, 1000 / 60);
 };
