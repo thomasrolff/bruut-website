@@ -16,9 +16,16 @@
             display: flex;
             .logo {
                 display: flex;
+                z-index: 1;
             }
         }    
-        ul {
+        .toggler, .hamburger, .menu-mobile {
+            display: none;
+            @media screen and (max-width: 900px) {
+                display: block;
+            }
+        }
+        .menu-desktop {
             display: flex;
             justify-content: space-around;
             font-weight: 100;
@@ -65,9 +72,118 @@
             }
         }
     }
-    @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 900px) {
+    .navbar-container {
         .navbar {
             height: 51px;
+            .toggler {
+                position: absolute;
+                top: 0;
+                right: 2.5%;
+                height: 51px;
+                width: 51px;
+                cursor: pointer;
+                opacity: 0;
+                z-index: 200;
+                &:checked + .hamburger > div {
+                    transform: rotate(45deg);
+                    &:before, &:after {
+                        top: 0;
+                        transform: rotate(90deg);                    
+                    }
+                }
+                &:checked ~ .menu-mobile {
+                    visibility: visible;
+                    .menu-overlay {
+                        transform: translateX(0);
+                    }
+                }
+                // &:checked ~ .hamburger {
+                //     background: $white;
+                //     div {
+                //         background-color: $black;
+                //         &:before, &:after {
+                //             background-color: $black;
+                //         }
+                //     }
+                // }
+            } 
+            .hamburger {
+                position: absolute;
+                top: 0;
+                right: 2.5%;
+                height: 51px;
+                width: 51px;
+                padding: 1rem .5rem;
+                z-index: 100;
+                background: $black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                & > div {
+                    position: relative;
+                    width: 100%;
+                    height: 4px;
+                    background-color: $white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;             
+                    &:before, &:after {
+                        content: "";
+                        position: absolute;
+                        z-index: 100;
+                        top: -10px;
+                        width: 100%;
+                        height: 4px;
+                        background: $white;             
+                    }
+                    &:after {
+                        top: 10px;
+                    }
+                }
+                
+            }
+            .menu-mobile {
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                visibility: hidden;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .menu-overlay {
+                    background: $black;
+                    height: 100vh;
+                    width: 40vw;
+                    @media screen and (max-width: 600px) {
+                        width: 60vw;
+                    }
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    transform: translateX(100%);
+                    transition: all .2s ease-in-out;
+                    .menu-content {
+                        text-align: right;
+                        max-width: 100%;
+                        max-height: 100%;
+                        .nav-mobile li {
+                            padding: .5rem 0;
+                            a {
+                                padding-right: (100vw * 0.025);
+                                list-style: none;
+                                text-decoration: none;
+                                color: $white;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
