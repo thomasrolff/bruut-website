@@ -1,0 +1,13 @@
+@mixin black-bg {
+    background: $black;
+    color: $white;
+    padding: 5rem 0;
+}
+
+@mixin hover-white {
+    transition: all .15s linear;
+    &:hover {
+        background-color: $off-white;
+        color: $black;
+    }
+}
