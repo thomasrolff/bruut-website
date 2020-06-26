@@ -7,13 +7,24 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    filename: 'main.[hash:10].bundle.js',
+    filename: 'main.[hash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      minify: false,
+    }),
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css"
+    }),
+    new CleanWebpackPlugin(),
+  ],
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js$|.jsx)/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -22,7 +33,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader, // 3. inject styles into DOM
+          "style-loader", // 3. inject styles into DOM
           "css-loader", // 2. turns css into common js
           "sass-loader", // 1. turns sass into css
         ],
@@ -33,27 +44,14 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'img',
-            },
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'img',
           },
-        ],
+        },
       },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-      minify: false,
-    }),
-    new MiniCssExtractPlugin({
-      filename: "[name].[hash:10].css",
-      chunkFilename: "[id].css"
-    }),
-    new CleanWebpackPlugin(),
-  ],
 };

@@ -235,7 +235,7 @@ function createContent(item) {
     // add .para-container    
     infoContainer.appendChild(paraContainer);
 
-    // Check if Anton should be added to .para-container <------ TODO !! ------<< 
+    // Check if Anton should be added to .para-container 
     if (item.anton) {
         const pAnton = document.createElement("p");
         const antonText = document.createTextNode(item.anton);
