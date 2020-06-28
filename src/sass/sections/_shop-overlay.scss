@@ -6,6 +6,17 @@
     user-select: none;
 }
 
+.overlay-wrapper {
+    background-color: red;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 101;
+}
+
 // #overlay-shop {
 //     display: none;
 //     height: 100vh;
