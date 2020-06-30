@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import goSurfing from '../../img/album-go-surfing.jpg';
 import v from '../../img/album-v.jpg';
 import superjazz from '../../img/album-superjazz.jpg';
 import madpack from '../../img/album-madpack.jpg';
 import fire from '../../img/album-fire.jpg';
 import bruut from '../../img/album-bruut.jpg';
-// import ToggleOverlay from './ToggleOverlay';
-
+import Overlay from './Overlay';
 
 function Album(props) {
   const [overlayOn, toggleOverlay] = useState(false);
@@ -17,13 +17,7 @@ function Album(props) {
       <div className="overlay" onClick={() => toggleOverlay(!overlayOn)}>
         
         {overlayOn && (
-          <div className="overlay-wrapper">
-           {props.album.released}
-            {/* @ TODO: Overlay Component 
-                <Overlay album={props.album} />
-            */}
-
-          </div>
+          createPortal(<Overlay album={props}/>, document.getElementById('overlay-root'))
         )}
 
         <h3 className="albumTitle">{props.album.title}</h3>
