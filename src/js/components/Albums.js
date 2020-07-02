@@ -8,19 +8,20 @@ import fire from '../../img/album-fire.jpg';
 import bruut from '../../img/album-bruut.jpg';
 import Overlay from './Overlay';
 
-function Album(props) {
+
+function Album({ album, image }) {
   const [overlayOn, toggleOverlay] = useState(false);
 
   return (
     <div className="album">
-      <img src={props.image}></img>
+      <img src={image}></img>
       <div className="overlay" onClick={() => toggleOverlay(!overlayOn)}>
         
         {overlayOn && (
-          createPortal(<Overlay album={props}/>, document.getElementById('overlay-root'))
+          createPortal(<Overlay album={album} image={image} />, document.getElementById('overlay-root'))
         )}
 
-        <h3 className="albumTitle">{props.album.title}</h3>
+        <h3 className="albumTitle">{album.title}</h3>
         <p className="album-info"></p>
       </div>
     </div>
@@ -28,16 +29,19 @@ function Album(props) {
 }
 
 
-export default function Albums(props) {
+ function Albums({ albums }) {
+  console.log(albums)
+  
   return (
     <div className="albums-container">
-      <Album album={props.albums.goSurfing} image={goSurfing} />
-      <Album album={props.albums.v} image={v}/>
-      <Album album={props.albums.superjazz} image={superjazz}/>
-      <Album album={props.albums.madpack} image={madpack}/>
-      <Album album={props.albums.fire} image={fire}/>
-      <Album album={props.albums.bruut} image={bruut}/>
+      <Album album={albums[0]} image={goSurfing}/>
+      <Album album={albums[1]} image={v}/>
+      <Album album={albums[2]} image={superjazz}/>
+      <Album album={albums[3]} image={madpack}/>
+      <Album album={albums[4]} image={fire}/>
+      <Album album={albums[5]} image={bruut}/>
     </div>
   );
 }
 
+export default Albums;
