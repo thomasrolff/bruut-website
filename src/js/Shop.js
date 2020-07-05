@@ -7,7 +7,7 @@ function Shop() {
   return (
     <div className="margin-70">
       <h2>Shop</h2>
-      <Albums albums={data} />
+      <Albums data={data} />
     </div>
   );
 }
@@ -16,4 +16,3 @@ ReactDOM.render(
   <Shop />,
   document.getElementById('shop')
 );
-

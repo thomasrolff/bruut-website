@@ -29063,85 +29063,7 @@ module.exports = function (list, options) {
 /*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":6,\"title\":\"Go Surfing\",\"released\":\"Released November 22, 2019\",\"anton\":\"Anton Goudsmit - Guitar\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./img/album-go-surfing.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\"},{\"id\":5,\"title\":\"V\",\"released\":\"Released November 30, 2018\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT! & Paul Willemsen\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./img/album-v.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/v\"},{\"id\":4,\"title\":\"Superjazz\",\"released\":\"Released February 3, 2017\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ & Mellotron\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./img/album-superjazz.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\"},{\"id\":3,\"title\":\"Mad Pack\",\"released\":\"Released March 6, 2015\",\"maarten\":\"Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums & Tambourine\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./img/album-madpack.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/mad-pack\"},{\"id\":2,\"title\":\"Fire\",\"released\":\"Released November 8, 2013\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./img/album-fire.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/fire\"},{\"id\":1,\"title\":\"BRUUT!\",\"released\":\"Released January 10, 2012\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: CD | DIGITAL\",\"image\":\"./img/album-bruut.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/bruut-2\"}]");
-
-/***/ }),
-
-/***/ "./src/img/album-bruut.jpg":
-/*!*********************************!*\
-  !*** ./src/img/album-bruut.jpg ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/album-bruut.jpg");
-
-/***/ }),
-
-/***/ "./src/img/album-fire.jpg":
-/*!********************************!*\
-  !*** ./src/img/album-fire.jpg ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/album-fire.jpg");
-
-/***/ }),
-
-/***/ "./src/img/album-go-surfing.jpg":
-/*!**************************************!*\
-  !*** ./src/img/album-go-surfing.jpg ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/album-go-surfing.jpg");
-
-/***/ }),
-
-/***/ "./src/img/album-madpack.jpg":
-/*!***********************************!*\
-  !*** ./src/img/album-madpack.jpg ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/album-madpack.jpg");
-
-/***/ }),
-
-/***/ "./src/img/album-superjazz.jpg":
-/*!*************************************!*\
-  !*** ./src/img/album-superjazz.jpg ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/album-superjazz.jpg");
-
-/***/ }),
-
-/***/ "./src/img/album-v.jpg":
-/*!*****************************!*\
-  !*** ./src/img/album-v.jpg ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/album-v.jpg");
+module.exports = JSON.parse("[{\"id\":6,\"title\":\"Go Surfing\",\"released\":\"Released November 22, 2019\",\"anton\":\"Anton Goudsmit - Guitar\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-go-surfing.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\"},{\"id\":5,\"title\":\"V\",\"released\":\"Released November 30, 2018\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT! & Paul Willemsen\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-v.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/v\"},{\"id\":4,\"title\":\"Superjazz\",\"released\":\"Released February 3, 2017\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ & Mellotron\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-superjazz.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\"},{\"id\":3,\"title\":\"Mad Pack\",\"released\":\"Released March 6, 2015\",\"maarten\":\"Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums & Tambourine\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-madpack.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/mad-pack\"},{\"id\":2,\"title\":\"Fire\",\"released\":\"Released November 8, 2013\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-fire.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/fire\"},{\"id\":1,\"title\":\"BRUUT!\",\"released\":\"Released January 10, 2012\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: CD | DIGITAL\",\"image\":\"./../img/album-bruut.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/bruut-2\"}]");
 
 /***/ }),
 
@@ -29279,7 +29201,7 @@ function Shop() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "margin-70"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Shop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Albums__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    albums: _data_bruut_albums_array_json__WEBPACK_IMPORTED_MODULE_2__
+    data: _data_bruut_albums_array_json__WEBPACK_IMPORTED_MODULE_2__
   }));
 }
 
@@ -29287,10 +29209,10 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/js/components/Albums.js":
-/*!*************************************!*\
-  !*** ./src/js/components/Albums.js ***!
-  \*************************************/
+/***/ "./src/js/components/Album.js":
+/*!************************************!*\
+  !*** ./src/js/components/Album.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -29300,13 +29222,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _img_album_go_surfing_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/album-go-surfing.jpg */ "./src/img/album-go-surfing.jpg");
-/* harmony import */ var _img_album_v_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/album-v.jpg */ "./src/img/album-v.jpg");
-/* harmony import */ var _img_album_superjazz_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../img/album-superjazz.jpg */ "./src/img/album-superjazz.jpg");
-/* harmony import */ var _img_album_madpack_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../img/album-madpack.jpg */ "./src/img/album-madpack.jpg");
-/* harmony import */ var _img_album_fire_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../img/album-fire.jpg */ "./src/img/album-fire.jpg");
-/* harmony import */ var _img_album_bruut_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../img/album-bruut.jpg */ "./src/img/album-bruut.jpg");
-/* harmony import */ var _Overlay__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Overlay */ "./src/js/components/Overlay.js");
+/* harmony import */ var _Overlay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Overlay */ "./src/js/components/Overlay.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -29323,20 +29239,15 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-
-
-
-
-
-
 function Album(_ref) {
-  var album = _ref.album,
+  var data = _ref.data,
+      album = _ref.album,
       image = _ref.image;
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
       _useState2 = _slicedToArray(_useState, 2),
       overlayOn = _useState2[0],
-      toggleOverlay = _useState2[1];
+      setOverlay = _useState2[1];
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "album"
@@ -29345,11 +29256,11 @@ function Album(_ref) {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay",
     onClick: function onClick() {
-      return toggleOverlay(!overlayOn);
+      return setOverlay(true);
     }
-  }, overlayOn && /*#__PURE__*/Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["createPortal"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Overlay__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    album: album,
-    image: image
+  }, overlayOn && /*#__PURE__*/Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["createPortal"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Overlay__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    initialAlbum: album,
+    data: data
   }), document.getElementById('overlay-root')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "albumTitle"
   }, album.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -29357,29 +29268,36 @@ function Album(_ref) {
   })));
 }
 
-function Albums(_ref2) {
-  var albums = _ref2.albums;
-  console.log(albums);
+/* harmony default export */ __webpack_exports__["default"] = (Album);
+
+/***/ }),
+
+/***/ "./src/js/components/Albums.js":
+/*!*************************************!*\
+  !*** ./src/js/components/Albums.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Album__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Album */ "./src/js/components/Album.js");
+
+
+
+function Albums(_ref) {
+  var data = _ref.data;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "albums-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Album, {
-    album: albums[0],
-    image: _img_album_go_surfing_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Album, {
-    album: albums[1],
-    image: _img_album_v_jpg__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Album, {
-    album: albums[2],
-    image: _img_album_superjazz_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Album, {
-    album: albums[3],
-    image: _img_album_madpack_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Album, {
-    album: albums[4],
-    image: _img_album_fire_jpg__WEBPACK_IMPORTED_MODULE_6__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Album, {
-    album: albums[5],
-    image: _img_album_bruut_jpg__WEBPACK_IMPORTED_MODULE_7__["default"]
+  }, data.map(function (item) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Album__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      album: item,
+      image: item.image,
+      data: data,
+      key: item.id
+    });
   }));
 }
 
@@ -29401,15 +29319,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_arrow_previous_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/arrow-previous.svg */ "./src/img/arrow-previous.svg");
 /* harmony import */ var _img_arrow_next_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/arrow-next.svg */ "./src/img/arrow-next.svg");
 /* harmony import */ var _img_cross3_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/cross3.svg */ "./src/img/cross3.svg");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
 
 
 function Overlay(_ref) {
-  var album = _ref.album,
-      image = _ref.image;
-  console.log(album);
+  var data = _ref.data,
+      initialAlbum = _ref.initialAlbum;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(initialAlbum),
+      _useState2 = _slicedToArray(_useState, 2),
+      viewAlbum = _useState2[0],
+      setViewAlbum = _useState2[1];
+
+  var nextAlbum = function nextAlbum() {
+    data.map(function (item, i) {
+      if (item.id === viewAlbum.id) {
+        i++;
+        i === data.length ? i = i : setViewAlbum(data[i]);
+      }
+    });
+  };
+
+  var prevAlbum = function prevAlbum() {
+    data.map(function (item, i) {
+      if (item.id === viewAlbum.id) {
+        i === 0 ? i = i : i--;
+        setViewAlbum(data[i]);
+      }
+    });
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay-shop"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29423,7 +29376,8 @@ function Overlay(_ref) {
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "left-bar-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _img_arrow_previous_svg__WEBPACK_IMPORTED_MODULE_1__["default"]
+    src: _img_arrow_previous_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
+    onClick: prevAlbum
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29431,15 +29385,16 @@ function Overlay(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: image
+    src: viewAlbum.image
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "info-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, album.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.released), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, viewAlbum.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.released), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "para-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.maarten), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.folkert), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.thomas), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.felix)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.produced), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, album.available)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.maarten), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.folkert), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.thomas), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.felix)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.produced), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.available)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "right-bar-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _img_arrow_next_svg__WEBPACK_IMPORTED_MODULE_2__["default"]
+    src: _img_arrow_next_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    onClick: nextAlbum
   }))));
 }
 
@@ -29847,4 +29802,4 @@ module.exports = content.locals || {};
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.7facddee3f.bundle.js.map
+//# sourceMappingURL=main.6ee6da8b4a.bundle.js.map
