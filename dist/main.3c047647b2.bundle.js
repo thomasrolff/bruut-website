@@ -104,7 +104,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "*, *:before, *:after {\n  box-sizing: border-box;\n  margin: 0; }\n\nhtml {\n  background: #000; }\n\nbody {\n  overflow-x: hidden; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\na {\n  text-decoration: none; }\n\nbody {\n  font-family: futura, sans-serif; }\n\nh2 {\n  font-size: 2.7rem; }\n\n.button {\n  display: block;\n  width: 200px;\n  padding: 11px 0;\n  border: 2px solid #fbfbfb;\n  color: #fbfbfb;\n  font-size: 1rem;\n  font-weight: 600;\n  text-transform: uppercase; }\n\n.button__album {\n  width: 88%;\n  border: 1px solid #989898;\n  color: #989898;\n  padding: 10px;\n  font-weight: 100;\n  display: relative; }\n\n.button__buy {\n  position: relative;\n  padding-left: 90px;\n  transition: all .15s linear; }\n  .button__buy .shopping {\n    position: relative; }\n    .button__buy .shopping svg {\n      position: absolute;\n      left: -32px; }\n      .button__buy .shopping svg path {\n        transition: all .15s linear; }\n  .button__buy:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__buy:hover svg path {\n      fill: #000; }\n\n.button__spotify {\n  position: relative;\n  padding-left: 70px;\n  transition: all .15s linear; }\n  .button__spotify .spotify {\n    position: relative; }\n    .button__spotify .spotify svg {\n      position: absolute;\n      left: -32px; }\n      .button__spotify .spotify svg path {\n        transition: all .15s linear; }\n  .button__spotify:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__spotify:hover svg path {\n      fill: #000; }\n\n.button__apple {\n  position: relative;\n  padding-left: 90px; }\n  .button__apple::before {\n    position: absolute;\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    display: block;\n    left: 29%; }\n\n.button__flex {\n  width: 100%;\n  transition: all .15s linear; }\n  .button__flex:hover {\n    background-color: #fbfbfb;\n    color: #000; }\n\n.button__flex--buy .buy {\n  display: flex;\n  justify-content: center;\n  position: relative; }\n  .button__flex--buy .buy::before {\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    position: absolute;\n    right: 62%; }\n\n.button__buy--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__buy--borderless::before {\n    position: absolute;\n    display: block;\n    left: 0; }\n\n.button__spotify--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__spotify--borderless::before {\n    position: absolute;\n    display: block;\n    left: 3px; }\n\n.button__apple--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__apple--borderless::before {\n    position: absolute;\n    display: block;\n    left: 4px; }\n\n.button__shop--buy {\n  position: relative;\n  padding-left: 90px;\n  transition: all .15s linear; }\n  .button__shop--buy .shopping {\n    position: relative; }\n    .button__shop--buy .shopping svg {\n      position: absolute;\n      left: -32px; }\n      .button__shop--buy .shopping svg path {\n        transition: all .15s linear; }\n  .button__shop--buy:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__shop--buy:hover svg path {\n      fill: #000; }\n\n.button__shop--stream {\n  position: relative;\n  padding-left: 60px;\n  transition: all .15s linear;\n  position: relative; }\n  .button__shop--stream .stream svg {\n    position: absolute;\n    left: 160px;\n    top: 16px; }\n    .button__shop--stream .stream svg path {\n      transition: all .15s linear; }\n  .button__shop--stream:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__shop--stream:hover .stream svg path {\n      fill: #000; }\n\n.parallax {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  height: 70vh;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.grid-12-col {\n  display: grid;\n  grid-template-columns: repeat(12, 1fr);\n  grid-gap: 20px; }\n\n.margin-100 {\n  width: 100%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-95 {\n  width: 95%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-90 {\n  width: 90%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-85 {\n  width: 85%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-80 {\n  width: 80%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-75 {\n  width: 75%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-70 {\n  width: 70%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-65 {\n  width: 65%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-60 {\n  width: 60%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-55 {\n  width: 55%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-50 {\n  width: 50%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.navbar-container {\n  background: #000;\n  width: 100vw;\n  overflow: hidden;\n  position: fixed;\n  top: 0;\n  z-index: 3; }\n  .navbar-container .navbar {\n    height: 39px;\n    font-size: .86rem;\n    text-transform: uppercase;\n    display: flex;\n    justify-content: space-between;\n    align-items: center; }\n    .navbar-container .navbar .logo-container {\n      display: flex; }\n      .navbar-container .navbar .logo-container .logo {\n        display: flex;\n        z-index: 1; }\n    .navbar-container .navbar .toggler, .navbar-container .navbar .hamburger, .navbar-container .navbar .menu-mobile {\n      display: none; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .toggler, .navbar-container .navbar .hamburger, .navbar-container .navbar .menu-mobile {\n          display: block; } }\n    .navbar-container .navbar .menu-desktop {\n      display: flex;\n      justify-content: space-around;\n      font-weight: 100;\n      height: 100%;\n      width: 50%; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .menu-desktop {\n          display: none; } }\n      .navbar-container .navbar .menu-desktop a {\n        height: 100%;\n        color: #fff;\n        display: flex;\n        align-items: center;\n        padding: 0 10px;\n        transition: color .15s linear; }\n        .navbar-container .navbar .menu-desktop a:hover {\n          color: #000;\n          background-color: #fff; }\n    .navbar-container .navbar .socials-container {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      height: 100%;\n      min-width: 18vw; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .socials-container {\n          display: none; } }\n      .navbar-container .navbar .socials-container .socials {\n        display: flex;\n        align-items: center;\n        padding: 0 10px;\n        height: 100%; }\n        .navbar-container .navbar .socials-container .socials:hover {\n          background-color: #fff; }\n          .navbar-container .navbar .socials-container .socials:hover svg path {\n            transition: fill .15s linear;\n            fill: #000; }\n\n@media screen and (max-width: 900px) {\n  .navbar-container .navbar {\n    height: 51px; }\n    .navbar-container .navbar .toggler {\n      position: absolute;\n      top: 0;\n      right: 2.5%;\n      height: 51px;\n      width: 51px;\n      cursor: pointer;\n      opacity: 0;\n      z-index: 200; }\n      .navbar-container .navbar .toggler:checked + .hamburger > div {\n        transform: rotate(45deg); }\n        .navbar-container .navbar .toggler:checked + .hamburger > div:before, .navbar-container .navbar .toggler:checked + .hamburger > div:after {\n          top: 0;\n          transform: rotate(90deg); }\n    .navbar-container .navbar .hamburger {\n      position: absolute;\n      top: 0;\n      right: 2.5%;\n      height: 51px;\n      width: 51px;\n      padding: 1rem .5rem;\n      z-index: 100;\n      background: #000;\n      display: flex;\n      align-items: center;\n      justify-content: center; }\n      .navbar-container .navbar .hamburger > div {\n        position: relative;\n        width: 100%;\n        height: 4px;\n        background-color: #fff;\n        display: flex;\n        align-items: center;\n        justify-content: center; }\n        .navbar-container .navbar .hamburger > div:before, .navbar-container .navbar .hamburger > div:after {\n          content: \"\";\n          position: absolute;\n          z-index: 100;\n          top: -10px;\n          width: 100%;\n          height: 4px;\n          background: #fff; }\n        .navbar-container .navbar .hamburger > div:after {\n          top: 10px; }\n  .menu-mobile {\n    position: fixed;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    visibility: hidden;\n    overflow: hidden;\n    display: flex;\n    align-items: center;\n    justify-content: flex-end;\n    z-index: 2; }\n    .menu-mobile .menu-overlay {\n      background: #000;\n      height: 100vh;\n      width: 40vw;\n      display: flex;\n      justify-content: flex-end;\n      align-items: center;\n      position: absolute;\n      transform: translate(100%);\n      transition-property: transform;\n      transition-duration: .15s; } }\n    @media screen and (max-width: 900px) and (max-width: 600px) {\n      .menu-mobile .menu-overlay {\n        width: 60vw; } }\n\n@media screen and (max-width: 900px) {\n      .menu-mobile .menu-overlay .menu-content {\n        text-align: right;\n        max-width: 100%;\n        max-height: 100%; }\n        .menu-mobile .menu-overlay .menu-content .nav-mobile li {\n          padding: .25rem 0; }\n          .menu-mobile .menu-overlay .menu-content .nav-mobile li a {\n            padding-right: 2.5vw;\n            list-style: none;\n            text-decoration: none;\n            text-transform: uppercase;\n            color: #fff;\n            font-size: 1.6rem; } }\n\n.header {\n  position: relative;\n  overflow: hidden;\n  height: 100vh;\n  background-color: #000; }\n  .header video {\n    position: absolute;\n    top: 0;\n    left: 50%;\n    transform: translate(-50%);\n    height: 120vh;\n    width: auto; }\n\n.news {\n  background: #fbfbfb; }\n  .news .news-content {\n    height: 22vh;\n    text-transform: uppercase;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n    .news .news-content h2 {\n      font-size: 1.1rem;\n      font-weight: 600;\n      color: #262626;\n      padding: 0.1rem 1rem; }\n    .news .news-content a {\n      color: #262626;\n      text-decoration: underline;\n      font-weight: 600;\n      font-size: 2.2rem;\n      transition: all .15s linear; }\n      .news .news-content a:hover {\n        color: #000;\n        transform: scale(1.08); }\n    @media screen and (max-width: 600px) {\n      .news .news-content {\n        height: auto;\n        text-align: center; }\n        .news .news-content h2 {\n          font-size: 1rem;\n          margin-top: 2rem; }\n        .news .news-content a {\n          font-size: 2rem;\n          margin-bottom: 2rem; } }\n\n.banner {\n  height: 78vh;\n  background: #000;\n  display: flex;\n  overflow: hidden; }\n  .banner .ad-image {\n    display: flex;\n    align-items: center;\n    position: relative; }\n    .banner .ad-image .album-cover {\n      z-index: 1;\n      max-width: 30%;\n      min-width: 30vw;\n      opacity: 1;\n      will-change: opacity; }\n    .banner .ad-image .lp {\n      max-width: 30%;\n      min-width: 30vw;\n      position: absolute;\n      transition: left .8s .05s, transform 1.5s ease-out;\n      left: 0;\n      will-change: left, transform; }\n      .banner .ad-image .lp.is-visible {\n        opacity: 1;\n        left: 43%;\n        transform: rotate(720deg); }\n  .banner .ad-text {\n    width: 50vw;\n    color: #fff;\n    text-align: center;\n    margin-left: 8%;\n    margin-right: 8%; }\n    .banner .ad-text .go-surfing-logo {\n      width: 90%;\n      margin-top: 80px;\n      margin-bottom: 50px; }\n    .banner .ad-text .quote {\n      font-size: 1.1rem;\n      line-height: 1.65;\n      margin-bottom: 50px; }\n      .banner .ad-text .quote span {\n        font-style: italic; }\n    .banner .ad-text .button {\n      display: inline-block;\n      text-align: left;\n      margin: 5px; }\n    .banner .ad-text .footnote {\n      text-transform: uppercase;\n      font-size: .7rem;\n      margin-top: 40px; }\n  @media screen and (max-width: 900px) {\n    .banner .lp {\n      display: none; }\n    .banner .ad-image .album-cover {\n      max-width: 90%; }\n    .banner .ad-text .go-surfing-logo {\n      width: 100%; } }\n  @media screen and (max-width: 600px) {\n    .banner {\n      height: auto;\n      flex-direction: column;\n      align-items: center;\n      align-content: center; }\n      .banner .ad-image {\n        order: 2;\n        max-width: 80%;\n        margin: 3rem 0; }\n        .banner .ad-image .album-cover {\n          max-width: 100%; }\n      .banner .ad-text {\n        width: 90%; }\n        .banner .ad-text .go-surfing-logo {\n          margin-top: 3rem; }\n        .banner .ad-text .footnote {\n          margin-top: 1rem; } }\n\n.shows {\n  background: #fbfbfb;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .shows h2 {\n    color: #262626; }\n  .shows img {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n    height: 100%;\n    transform: scale(50%);\n    width: 100%; }\n    @media screen and (max-width: 600px) {\n      .shows img {\n        display: none; } }\n  .shows .button__flex--video {\n    border: 2px solid #262626;\n    color: #262626;\n    width: 200px;\n    margin: 0 auto;\n    text-align: center; }\n    .shows .button__flex--video:hover {\n      cursor: pointer;\n      background-color: #000;\n      border-color: #000;\n      color: #fbfbfb; }\n\n.shop {\n  background: #000;\n  color: #fff;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .shop .albums-container {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    margin-top: 2rem;\n    margin-bottom: 5rem; }\n    @media only screen and (max-width: 1000px) {\n      .shop .albums-container {\n        grid-template-columns: repeat(2, 1fr); } }\n    .shop .albums-container .album {\n      position: relative;\n      display: flex; }\n      .shop .albums-container .album img {\n        width: 100%;\n        height: 100%;\n        transition: all .25s;\n        opacity: 1; }\n      .shop .albums-container .album .overlay {\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        padding: 15%;\n        cursor: pointer;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        color: #fff;\n        opacity: 0;\n        transition: all .15s ease-in; }\n        .shop .albums-container .album .overlay .album-title {\n          font-size: 1.2em; }\n        .shop .albums-container .album .overlay .album-info {\n          text-transform: uppercase;\n          font-size: .8em;\n          margin-top: 5%; }\n        .shop .albums-container .album .overlay .album-info-sub {\n          font-size: .75rem;\n          margin-top: 3%; }\n      .shop .albums-container .album:hover img {\n        transform: scale(0.88);\n        opacity: 0.2; }\n      .shop .albums-container .album:hover .overlay {\n        opacity: 1;\n        z-index: 1; }\n  .shop .button__flex--webshop {\n    position: relative;\n    width: 220px;\n    margin: 0 auto;\n    line-height: 1;\n    padding: 15px 0 15px 30px;\n    transition: all .15s linear; }\n    .shop .button__flex--webshop .arrow {\n      display: inline-block;\n      position: absolute;\n      transition: right .15s linear;\n      right: 20px; }\n    .shop .button__flex--webshop svg path {\n      fill: #fbfbfb;\n      transition: all .15s linear; }\n    .shop .button__flex--webshop:hover .arrow {\n      right: 15px; }\n    .shop .button__flex--webshop:hover svg path {\n      fill: #000; }\n  @media only screen and (max-width: 600px) {\n    .shop .albums-container {\n      grid-template-columns: repeat(1, 1fr); } }\n\n.no-scroll {\n  overflow: hidden; }\n\n.no-selection {\n  user-select: none; }\n\n.overlay-shop {\n  color: white;\n  display: block;\n  position: fixed;\n  z-index: 99;\n  height: 100vh;\n  width: 100%;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.88); }\n  .overlay-shop .overlay-wrapper {\n    position: relative;\n    height: 100%;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    z-index: 101; }\n    .overlay-shop .overlay-wrapper .top-bar-wrapper {\n      position: absolute;\n      top: 0;\n      width: 100%; }\n      .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close {\n        top: 0;\n        left: 0;\n        background-color: #fff;\n        display: inline-block;\n        padding: .7rem; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close:hover {\n          cursor: pointer; }\n    .overlay-shop .overlay-wrapper .left-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-right: 4rem; }\n      .overlay-shop .overlay-wrapper .left-bar-wrapper svg path {\n        fill: #262626;\n        transition: all .2s linear; }\n      .overlay-shop .overlay-wrapper .left-bar-wrapper:hover {\n        cursor: pointer; }\n        .overlay-shop .overlay-wrapper .left-bar-wrapper:hover svg path {\n          fill: #4A4A4A; }\n    .overlay-shop .overlay-wrapper .right-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-left: 4rem; }\n      .overlay-shop .overlay-wrapper .right-bar-wrapper svg path {\n        fill: #262626;\n        transition: all .2s linear; }\n      .overlay-shop .overlay-wrapper .right-bar-wrapper:hover {\n        cursor: pointer; }\n        .overlay-shop .overlay-wrapper .right-bar-wrapper:hover svg path {\n          fill: #4A4A4A; }\n    .overlay-shop .overlay-wrapper .content-wrapper {\n      display: flex;\n      justify-content: center;\n      max-width: 65%; }\n      .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n        height: 100%;\n        width: 100%;\n        display: flex;\n        justify-content: center;\n        min-height: 400px; }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n          max-height: 100%;\n          min-width: 420px;\n          max-width: 50%;\n          padding-right: 2.5%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {\n            width: 100%; }\n          @media screen and (max-width: 600px) {\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n              display: none; } }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n          display: flex;\n          flex-direction: column;\n          justify-content: space-between;\n          min-width: 420px;\n          max-width: 50%;\n          margin-left: 2.5%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n            margin-top: 1.5rem; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n              display: inline-block;\n              margin-bottom: 3px; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {\n              margin-right: 1rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            font-size: 2.7rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p {\n            font-size: .9rem;\n            line-height: 1.4; }\n    @media screen and (max-width: 600px) {\n      .overlay-shop .overlay-wrapper {\n        flex-direction: column; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper {\n          position: relative; }\n        .overlay-shop .overlay-wrapper .right-bar-wrapper, .overlay-shop .overlay-wrapper .left-bar-wrapper {\n          display: none; }\n        .overlay-shop .overlay-wrapper .content-wrapper {\n          max-width: 100%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n            justify-content: left;\n            min-height: 80vh; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n              max-width: 90%; }\n              .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n                margin-top: 0;\n                margin-bottom: 1rem;\n                justify-self: flex-end; }\n                .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n                  display: flex;\n                  flex-direction: column;\n                  margin-bottom: .5rem;\n                  width: 90vw;\n                  padding: 15px 0;\n                  text-align: center; }\n                  .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button svg {\n                    display: none; } }\n\n.about {\n  background: #fbfbfb;\n  color: #262626;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .about .title {\n    grid-column: 2 / 5; }\n  .about .text {\n    grid-column: 2 / 5;\n    font-size: .98rem; }\n  .about .photo-container {\n    grid-column: 6 / 12;\n    display: grid;\n    grid-template-columns: repeat(3, auto);\n    grid-gap: 20px;\n    justify-items: start;\n    align-content: start; }\n    .about .photo-container img {\n      width: 100%; }\n      .about .photo-container img:hover {\n        cursor: pointer; }\n  @media screen and (max-width: 900px) {\n    .about .title, .about .text {\n      grid-column: 2 / 6; }\n    .about .photo-container {\n      grid-column: 7 / 12;\n      grid-template-columns: repeat(2, auto); }\n      .about .photo-container img:nth-child(8) {\n        display: none; } }\n  @media screen and (max-width: 600px) {\n    .about .title, .about .text {\n      grid-column: 2 / 12; }\n    .about .photo-container {\n      grid-column: 2 / 12;\n      grid-template-columns: repeat(1, auto); }\n      .about .photo-container img {\n        display: none; }\n        .about .photo-container img:nth-child(3) {\n          display: block; } }\n\n.video {\n  background: #000;\n  color: #fff;\n  padding-bottom: 7rem;\n  padding-top: 4rem; }\n  .video .title {\n    grid-column: 2 / 4; }\n  .video .video-container {\n    grid-column: 2 / 12;\n    display: grid;\n    grid-template-columns: repeat(2, auto);\n    grid-gap: 20px;\n    justify-items: start;\n    align-content: start;\n    margin-bottom: 2rem; }\n    .video .video-container iframe {\n      width: 100%; }\n  .video .button__flex--video {\n    width: 200px;\n    margin: 0 auto;\n    text-align: center; }\n    .video .button__flex--video:hover {\n      cursor: pointer; }\n  @media screen and (max-width: 900px) {\n    .video .video-container {\n      display: block; } }\n  @media screen and (max-width: 600px) {\n    .video {\n      padding-bottom: 2rem; }\n      .video .video-container .video-1, .video .video-container .video-2 {\n        max-height: 30vh; } }\n\n.contact {\n  min-height: 50vh;\n  background: #000;\n  color: #fff;\n  padding: 5rem 0; }\n  .contact h2 {\n    grid-column-start: 3;\n    margin-bottom: 1.5rem; }\n  @media screen and (max-width: 900px) {\n    .contact {\n      height: 100vh; } }\n  .contact .flex-wrapper {\n    grid-column: 3 / 11;\n    display: flex;\n    justify-content: space-between;\n    white-space: nowrap; }\n    .contact .flex-wrapper .label, .contact .flex-wrapper .bookings, .contact .flex-wrapper .management {\n      width: 200px; }\n    .contact .flex-wrapper p {\n      font-size: .9rem; }\n    .contact .flex-wrapper h3 {\n      font-size: .9rem; }\n  @media screen and (max-width: 900px) {\n    .contact h2 {\n      margin-bottom: .5rem; }\n    .contact .flex-wrapper {\n      flex-direction: column; }\n      .contact .flex-wrapper .label, .contact .flex-wrapper .bookings, .contact .flex-wrapper .management {\n        margin-bottom: 2.5em; }\n      .contact .flex-wrapper p, .contact .flex-wrapper h3 {\n        font-size: 1rem; } }\n\n.footer {\n  background: #000;\n  color: #fff;\n  padding: 5rem 0;\n  height: 100%;\n  padding: 1.5rem 0; }\n  .footer .flex-wrapper {\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end; }\n    .footer .flex-wrapper h3 {\n      text-transform: uppercase;\n      font-weight: 100;\n      font-size: .9rem; }\n    .footer .flex-wrapper .socials-container {\n      margin-top: 1rem;\n      width: 18vw;\n      min-width: 200px;\n      display: flex;\n      justify-content: space-between; }\n    .footer .flex-wrapper .socials {\n      padding: 10px; }\n      .footer .flex-wrapper .socials svg path {\n        fill: #989898;\n        transition: fill .15s linear; }\n      .footer .flex-wrapper .socials:hover svg path {\n        fill: #fff; }\n    .footer .flex-wrapper #mc_embed_signup {\n      background: #000;\n      color: #fff;\n      clear: left;\n      width: 60%;\n      height: 100%;\n      margin-bottom: 2rem;\n      margin-top: 1rem; }\n      @media screen and (max-width: 600px) {\n        .footer .flex-wrapper #mc_embed_signup {\n          width: 90%;\n          margin-bottom: 3rem; } }\n      .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll,\n      .footer .flex-wrapper #mc_embed_signup .clear {\n        padding: 0;\n        height: 100%; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email,\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email,\n        .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n        .footer .flex-wrapper #mc_embed_signup .clear .email,\n        .footer .flex-wrapper #mc_embed_signup .clear .button {\n          height: 44px;\n          font-family: futura, sans-serif;\n          font-size: .9rem;\n          border: none;\n          border-bottom: 2px solid #fff;\n          border-radius: 0;\n          background-color: #000; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email,\n        .footer .flex-wrapper #mc_embed_signup .clear .email {\n          margin-right: 5px; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email::placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email::placeholder,\n          .footer .flex-wrapper #mc_embed_signup .clear .email::placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus,\n          .footer .flex-wrapper #mc_embed_signup .clear .email:focus {\n            outline: none;\n            caret-color: #fff;\n            color: #fff;\n            font-size: 1.3rem; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus::placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus::placeholder,\n          .footer .flex-wrapper #mc_embed_signup .clear .email:focus::placeholder {\n            color: transparent; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n        .footer .flex-wrapper #mc_embed_signup .clear .button {\n          border: 2px solid #fff;\n          width: 80px;\n          transition: all .15s linear; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button:hover, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button:hover,\n          .footer .flex-wrapper #mc_embed_signup .clear .button:hover {\n            background-color: #fbfbfb;\n            color: #000; }\n          @media screen and (max-width: 768px) {\n            .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n            .footer .flex-wrapper #mc_embed_signup .clear .button {\n              width: 100%;\n              margin-top: .5rem; } }\n    .footer .flex-wrapper .logo-container {\n      margin-bottom: 1rem;\n      margin-left: 20px; }\n    .footer .flex-wrapper .copyright {\n      font-size: .85rem; }\n  @media screen and (max-width: 600px) {\n    .footer {\n      margin-top: 5rem; }\n      .footer .flex-wrapper {\n        text-align: center; }\n        .footer .flex-wrapper h3 {\n          font-size: 1rem;\n          margin-bottom: 1rem; } }\n", ""]);
+exports.push([module.i, "*, *:before, *:after {\n  box-sizing: border-box;\n  margin: 0; }\n\nhtml {\n  background: #000; }\n\nbody {\n  overflow-x: hidden; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\na {\n  text-decoration: none; }\n\nbody {\n  font-family: futura, sans-serif; }\n\nh2 {\n  font-size: 2.7rem; }\n\n.button {\n  display: block;\n  width: 200px;\n  padding: 11px 0;\n  border: 2px solid #fbfbfb;\n  color: #fbfbfb;\n  font-size: 1rem;\n  font-weight: 600;\n  text-transform: uppercase; }\n\n.button__album {\n  width: 88%;\n  border: 1px solid #989898;\n  color: #989898;\n  padding: 10px;\n  font-weight: 100;\n  display: relative; }\n\n.button__buy {\n  position: relative;\n  padding-left: 90px;\n  transition: all .15s linear; }\n  .button__buy .shopping {\n    position: relative; }\n    .button__buy .shopping svg {\n      position: absolute;\n      left: -32px; }\n      .button__buy .shopping svg path {\n        transition: all .15s linear; }\n  .button__buy:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__buy:hover svg path {\n      fill: #000; }\n\n.button__spotify {\n  position: relative;\n  padding-left: 70px;\n  transition: all .15s linear; }\n  .button__spotify .spotify {\n    position: relative; }\n    .button__spotify .spotify svg {\n      position: absolute;\n      left: -32px; }\n      .button__spotify .spotify svg path {\n        transition: all .15s linear; }\n  .button__spotify:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__spotify:hover svg path {\n      fill: #000; }\n\n.button__apple {\n  position: relative;\n  padding-left: 90px; }\n  .button__apple::before {\n    position: absolute;\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    display: block;\n    left: 29%; }\n\n.button__flex {\n  width: 100%;\n  transition: all .15s linear; }\n  .button__flex:hover {\n    background-color: #fbfbfb;\n    color: #000; }\n\n.button__flex--buy .buy {\n  display: flex;\n  justify-content: center;\n  position: relative; }\n  .button__flex--buy .buy::before {\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    position: absolute;\n    right: 62%; }\n\n.button__buy--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__buy--borderless::before {\n    position: absolute;\n    display: block;\n    left: 0; }\n\n.button__spotify--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__spotify--borderless::before {\n    position: absolute;\n    display: block;\n    left: 3px; }\n\n.button__apple--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__apple--borderless::before {\n    position: absolute;\n    display: block;\n    left: 4px; }\n\n.button__shop--buy {\n  position: relative;\n  padding-left: 90px;\n  transition: all .15s linear; }\n  .button__shop--buy .shopping {\n    position: relative; }\n    .button__shop--buy .shopping svg {\n      position: absolute;\n      left: -32px; }\n      .button__shop--buy .shopping svg path {\n        transition: all .15s linear; }\n  .button__shop--buy:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__shop--buy:hover svg path {\n      fill: #000; }\n\n.button__shop--stream {\n  position: relative;\n  padding-left: 60px;\n  transition: all .15s linear;\n  position: relative; }\n  .button__shop--stream .stream svg {\n    position: absolute;\n    left: 160px;\n    top: 16px; }\n    .button__shop--stream .stream svg path {\n      transition: all .15s linear; }\n  .button__shop--stream:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__shop--stream:hover .stream svg path {\n      fill: #000; }\n\n.parallax {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  height: 70vh;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.grid-12-col {\n  display: grid;\n  grid-template-columns: repeat(12, 1fr);\n  grid-gap: 20px; }\n\n.margin-100 {\n  width: 100%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-95 {\n  width: 95%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-90 {\n  width: 90%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-85 {\n  width: 85%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-80 {\n  width: 80%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-75 {\n  width: 75%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-70 {\n  width: 70%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-65 {\n  width: 65%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-60 {\n  width: 60%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-55 {\n  width: 55%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-50 {\n  width: 50%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.navbar-container {\n  background: #000;\n  width: 100vw;\n  overflow: hidden;\n  position: fixed;\n  top: 0;\n  z-index: 3; }\n  .navbar-container .navbar {\n    height: 39px;\n    font-size: .86rem;\n    text-transform: uppercase;\n    display: flex;\n    justify-content: space-between;\n    align-items: center; }\n    .navbar-container .navbar .logo-container {\n      display: flex; }\n      .navbar-container .navbar .logo-container .logo {\n        display: flex;\n        z-index: 1; }\n    .navbar-container .navbar .toggler, .navbar-container .navbar .hamburger, .navbar-container .navbar .menu-mobile {\n      display: none; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .toggler, .navbar-container .navbar .hamburger, .navbar-container .navbar .menu-mobile {\n          display: block; } }\n    .navbar-container .navbar .menu-desktop {\n      display: flex;\n      justify-content: space-around;\n      font-weight: 100;\n      height: 100%;\n      width: 50%; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .menu-desktop {\n          display: none; } }\n      .navbar-container .navbar .menu-desktop a {\n        height: 100%;\n        color: #fff;\n        display: flex;\n        align-items: center;\n        padding: 0 10px;\n        transition: color .15s linear; }\n        .navbar-container .navbar .menu-desktop a:hover {\n          color: #000;\n          background-color: #fff; }\n    .navbar-container .navbar .socials-container {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      height: 100%;\n      min-width: 18vw; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .socials-container {\n          display: none; } }\n      .navbar-container .navbar .socials-container .socials {\n        display: flex;\n        align-items: center;\n        padding: 0 10px;\n        height: 100%; }\n        .navbar-container .navbar .socials-container .socials:hover {\n          background-color: #fff; }\n          .navbar-container .navbar .socials-container .socials:hover svg path {\n            transition: fill .15s linear;\n            fill: #000; }\n\n@media screen and (max-width: 900px) {\n  .navbar-container .navbar {\n    height: 51px; }\n    .navbar-container .navbar .toggler {\n      position: absolute;\n      top: 0;\n      right: 2.5%;\n      height: 51px;\n      width: 51px;\n      cursor: pointer;\n      opacity: 0;\n      z-index: 200; }\n      .navbar-container .navbar .toggler:checked + .hamburger > div {\n        transform: rotate(45deg); }\n        .navbar-container .navbar .toggler:checked + .hamburger > div:before, .navbar-container .navbar .toggler:checked + .hamburger > div:after {\n          top: 0;\n          transform: rotate(90deg); }\n    .navbar-container .navbar .hamburger {\n      position: absolute;\n      top: 0;\n      right: 2.5%;\n      height: 51px;\n      width: 51px;\n      padding: 1rem .5rem;\n      z-index: 100;\n      background: #000;\n      display: flex;\n      align-items: center;\n      justify-content: center; }\n      .navbar-container .navbar .hamburger > div {\n        position: relative;\n        width: 100%;\n        height: 4px;\n        background-color: #fff;\n        display: flex;\n        align-items: center;\n        justify-content: center; }\n        .navbar-container .navbar .hamburger > div:before, .navbar-container .navbar .hamburger > div:after {\n          content: \"\";\n          position: absolute;\n          z-index: 100;\n          top: -10px;\n          width: 100%;\n          height: 4px;\n          background: #fff; }\n        .navbar-container .navbar .hamburger > div:after {\n          top: 10px; }\n  .menu-mobile {\n    position: fixed;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    visibility: hidden;\n    overflow: hidden;\n    display: flex;\n    align-items: center;\n    justify-content: flex-end;\n    z-index: 2; }\n    .menu-mobile .menu-overlay {\n      background: #000;\n      height: 100vh;\n      width: 40vw;\n      display: flex;\n      justify-content: flex-end;\n      align-items: center;\n      position: absolute;\n      transform: translate(100%);\n      transition-property: transform;\n      transition-duration: .15s; } }\n    @media screen and (max-width: 900px) and (max-width: 600px) {\n      .menu-mobile .menu-overlay {\n        width: 60vw; } }\n\n@media screen and (max-width: 900px) {\n      .menu-mobile .menu-overlay .menu-content {\n        text-align: right;\n        max-width: 100%;\n        max-height: 100%; }\n        .menu-mobile .menu-overlay .menu-content .nav-mobile li {\n          padding: .25rem 0; }\n          .menu-mobile .menu-overlay .menu-content .nav-mobile li a {\n            padding-right: 2.5vw;\n            list-style: none;\n            text-decoration: none;\n            text-transform: uppercase;\n            color: #fff;\n            font-size: 1.6rem; } }\n\n.header {\n  position: relative;\n  overflow: hidden;\n  height: 100vh;\n  background-color: #000; }\n  .header video {\n    position: absolute;\n    top: 0;\n    left: 50%;\n    transform: translate(-50%);\n    height: 120vh;\n    width: auto; }\n\n.news {\n  background: #fbfbfb; }\n  .news .news-content {\n    height: 22vh;\n    text-transform: uppercase;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center; }\n    .news .news-content h2 {\n      font-size: 1.1rem;\n      font-weight: 600;\n      color: #262626;\n      padding: 0.1rem 1rem; }\n    .news .news-content a {\n      color: #262626;\n      text-decoration: underline;\n      font-weight: 600;\n      font-size: 2.2rem;\n      transition: all .15s linear; }\n      .news .news-content a:hover {\n        color: #000;\n        transform: scale(1.08); }\n    @media screen and (max-width: 600px) {\n      .news .news-content {\n        height: auto;\n        text-align: center; }\n        .news .news-content h2 {\n          font-size: 1rem;\n          margin-top: 2rem; }\n        .news .news-content a {\n          font-size: 2rem;\n          margin-bottom: 2rem; } }\n\n.banner {\n  height: 78vh;\n  background: #000;\n  display: flex;\n  overflow: hidden; }\n  .banner .ad-image {\n    display: flex;\n    align-items: center;\n    position: relative; }\n    .banner .ad-image .album-cover {\n      z-index: 1;\n      max-width: 30%;\n      min-width: 30vw;\n      opacity: 1;\n      will-change: opacity; }\n    .banner .ad-image .lp {\n      max-width: 30%;\n      min-width: 30vw;\n      position: absolute;\n      transition: left .8s .05s, transform 1.5s ease-out;\n      left: 0;\n      will-change: left, transform; }\n      .banner .ad-image .lp.is-visible {\n        opacity: 1;\n        left: 43%;\n        transform: rotate(720deg); }\n  .banner .ad-text {\n    width: 50vw;\n    color: #fff;\n    text-align: center;\n    margin-left: 8%;\n    margin-right: 8%; }\n    .banner .ad-text .go-surfing-logo {\n      width: 90%;\n      margin-top: 80px;\n      margin-bottom: 50px; }\n    .banner .ad-text .quote {\n      font-size: 1.1rem;\n      line-height: 1.65;\n      margin-bottom: 50px; }\n      .banner .ad-text .quote span {\n        font-style: italic; }\n    .banner .ad-text .button {\n      display: inline-block;\n      text-align: left;\n      margin: 5px; }\n    .banner .ad-text .footnote {\n      text-transform: uppercase;\n      font-size: .7rem;\n      margin-top: 40px; }\n  @media screen and (max-width: 900px) {\n    .banner .lp {\n      display: none; }\n    .banner .ad-image .album-cover {\n      max-width: 90%; }\n    .banner .ad-text .go-surfing-logo {\n      width: 100%; } }\n  @media screen and (max-width: 600px) {\n    .banner {\n      height: auto;\n      flex-direction: column;\n      align-items: center;\n      align-content: center; }\n      .banner .ad-image {\n        order: 2;\n        max-width: 80%;\n        margin: 3rem 0; }\n        .banner .ad-image .album-cover {\n          max-width: 100%; }\n      .banner .ad-text {\n        width: 90%; }\n        .banner .ad-text .go-surfing-logo {\n          margin-top: 3rem; }\n        .banner .ad-text .footnote {\n          margin-top: 1rem; } }\n\n.shows {\n  background: #fbfbfb;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .shows h2 {\n    color: #262626; }\n  .shows img {\n    margin-top: 3rem;\n    margin-bottom: 3rem;\n    height: 100%;\n    transform: scale(50%);\n    width: 100%; }\n    @media screen and (max-width: 600px) {\n      .shows img {\n        display: none; } }\n  .shows .button__flex--video {\n    border: 2px solid #262626;\n    color: #262626;\n    width: 200px;\n    margin: 0 auto;\n    text-align: center; }\n    .shows .button__flex--video:hover {\n      cursor: pointer;\n      background-color: #000;\n      border-color: #000;\n      color: #fbfbfb; }\n\n.shop {\n  background: #000;\n  color: #fff;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .shop .albums-container {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    margin-top: 2rem;\n    margin-bottom: 5rem; }\n    @media only screen and (max-width: 1000px) {\n      .shop .albums-container {\n        grid-template-columns: repeat(2, 1fr); } }\n    .shop .albums-container .album {\n      position: relative;\n      display: flex; }\n      .shop .albums-container .album img {\n        width: 100%;\n        height: 100%;\n        transition: all .25s;\n        opacity: 1; }\n      .shop .albums-container .album .overlay {\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        padding: 15%;\n        cursor: pointer;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        align-items: center;\n        color: #fff;\n        opacity: 0;\n        transition: all .15s ease-in; }\n        .shop .albums-container .album .overlay .album-title {\n          font-size: 1.2em; }\n        .shop .albums-container .album .overlay .album-info {\n          text-transform: uppercase;\n          font-size: .8em;\n          margin-top: 5%; }\n        .shop .albums-container .album .overlay .album-info-sub {\n          font-size: .8rem;\n          margin-top: 3%; }\n      .shop .albums-container .album:hover img {\n        transform: scale(0.88);\n        opacity: 0.2; }\n      .shop .albums-container .album:hover .overlay {\n        opacity: 1;\n        z-index: 1; }\n  .shop .button__flex--webshop {\n    position: relative;\n    width: 220px;\n    margin: 0 auto;\n    line-height: 1;\n    padding: 15px 0 15px 30px;\n    transition: all .15s linear; }\n    .shop .button__flex--webshop .arrow {\n      display: inline-block;\n      position: absolute;\n      transition: right .15s linear;\n      right: 20px; }\n    .shop .button__flex--webshop svg path {\n      fill: #fbfbfb;\n      transition: all .15s linear; }\n    .shop .button__flex--webshop:hover .arrow {\n      right: 15px; }\n    .shop .button__flex--webshop:hover svg path {\n      fill: #000; }\n  @media only screen and (max-width: 668px) {\n    .shop .albums-container {\n      grid-template-columns: repeat(1, 1fr); } }\n\n.no-scroll {\n  overflow: hidden; }\n\n.no-selection {\n  user-select: none; }\n\n.overlay-shop {\n  color: white;\n  display: block;\n  position: fixed;\n  z-index: 99;\n  height: 100vh;\n  width: 100%;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.88); }\n  .overlay-shop .overlay-wrapper {\n    position: relative;\n    height: 100%;\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    z-index: 101; }\n    .overlay-shop .overlay-wrapper .top-bar-wrapper {\n      position: absolute;\n      top: 0;\n      width: 100%; }\n      .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close {\n        top: 0;\n        left: 0;\n        background-color: #fff;\n        display: inline-block;\n        padding: .7rem; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close:hover {\n          cursor: pointer; }\n    .overlay-shop .overlay-wrapper .left-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-right: 4rem; }\n      .overlay-shop .overlay-wrapper .left-bar-wrapper svg path {\n        fill: #262626;\n        transition: all .2s linear; }\n      .overlay-shop .overlay-wrapper .left-bar-wrapper:hover {\n        cursor: pointer; }\n        .overlay-shop .overlay-wrapper .left-bar-wrapper:hover svg path {\n          fill: #4A4A4A; }\n    .overlay-shop .overlay-wrapper .right-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-left: 4rem; }\n      .overlay-shop .overlay-wrapper .right-bar-wrapper svg path {\n        fill: #262626;\n        transition: all .2s linear; }\n      .overlay-shop .overlay-wrapper .right-bar-wrapper:hover {\n        cursor: pointer; }\n        .overlay-shop .overlay-wrapper .right-bar-wrapper:hover svg path {\n          fill: #4A4A4A; }\n    .overlay-shop .overlay-wrapper .content-wrapper {\n      display: flex;\n      justify-content: center;\n      max-width: 65%; }\n      .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n        height: 100%;\n        width: 100%;\n        display: flex;\n        justify-content: center;\n        min-height: 400px; }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n          max-height: 100%;\n          min-width: 420px;\n          max-width: 50%;\n          padding-right: 2.5%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {\n            width: 100%; }\n          @media screen and (max-width: 600px) {\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n              display: none; } }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n          display: flex;\n          flex-direction: column;\n          justify-content: space-between;\n          min-width: 420px;\n          max-width: 50%;\n          margin-left: 2.5%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n            margin-top: 1.5rem; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n              display: inline-block;\n              margin-bottom: 3px; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {\n              margin-right: 1rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            font-size: 2.7rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p {\n            font-size: .9rem;\n            line-height: 1.4; }\n    @media screen and (max-width: 600px) {\n      .overlay-shop .overlay-wrapper {\n        flex-direction: column; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper {\n          position: relative; }\n        .overlay-shop .overlay-wrapper .right-bar-wrapper, .overlay-shop .overlay-wrapper .left-bar-wrapper {\n          display: none; }\n        .overlay-shop .overlay-wrapper .content-wrapper {\n          max-width: 100%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n            justify-content: left;\n            min-height: 80vh; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n              max-width: 90%; }\n              .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n                margin-top: 0;\n                margin-bottom: 1rem;\n                justify-self: flex-end; }\n                .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n                  display: flex;\n                  flex-direction: column;\n                  margin-bottom: .5rem;\n                  width: 90vw;\n                  padding: 15px 0;\n                  text-align: center; }\n                  .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button svg {\n                    display: none; } }\n\n.about {\n  background: #fbfbfb;\n  color: #262626;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .about .title {\n    grid-column: 2 / 5; }\n  .about .text {\n    grid-column: 2 / 5;\n    font-size: .98rem; }\n  .about .photo-container {\n    grid-column: 6 / 12;\n    display: grid;\n    grid-template-columns: repeat(3, auto);\n    grid-gap: 20px;\n    justify-items: start;\n    align-content: start; }\n    .about .photo-container img {\n      width: 100%; }\n      .about .photo-container img:hover {\n        cursor: pointer; }\n  @media screen and (max-width: 900px) {\n    .about .title, .about .text {\n      grid-column: 2 / 6; }\n    .about .photo-container {\n      grid-column: 7 / 12;\n      grid-template-columns: repeat(2, auto); }\n      .about .photo-container img:nth-child(8) {\n        display: none; } }\n  @media screen and (max-width: 600px) {\n    .about .title, .about .text {\n      grid-column: 2 / 12; }\n    .about .photo-container {\n      grid-column: 2 / 12;\n      grid-template-columns: repeat(1, auto); }\n      .about .photo-container img {\n        display: none; }\n        .about .photo-container img:nth-child(3) {\n          display: block; } }\n\n.video {\n  background: #000;\n  color: #fff;\n  padding-bottom: 7rem;\n  padding-top: 4rem; }\n  .video .title {\n    grid-column: 2 / 4; }\n  .video .video-container {\n    grid-column: 2 / 12;\n    display: grid;\n    grid-template-columns: repeat(2, auto);\n    grid-gap: 20px;\n    justify-items: start;\n    align-content: start;\n    margin-bottom: 2rem; }\n    .video .video-container iframe {\n      width: 100%; }\n  .video .button__flex--video {\n    width: 200px;\n    margin: 0 auto;\n    text-align: center; }\n    .video .button__flex--video:hover {\n      cursor: pointer; }\n  @media screen and (max-width: 900px) {\n    .video .video-container {\n      display: block; } }\n  @media screen and (max-width: 600px) {\n    .video {\n      padding-bottom: 2rem; }\n      .video .video-container .video-1, .video .video-container .video-2 {\n        max-height: 30vh; } }\n\n.contact {\n  min-height: 50vh;\n  background: #000;\n  color: #fff;\n  padding: 5rem 0; }\n  .contact h2 {\n    grid-column-start: 3;\n    margin-bottom: 1.5rem; }\n  @media screen and (max-width: 900px) {\n    .contact {\n      height: 100vh; } }\n  .contact .flex-wrapper {\n    grid-column: 3 / 11;\n    display: flex;\n    justify-content: space-between;\n    white-space: nowrap; }\n    .contact .flex-wrapper .label, .contact .flex-wrapper .bookings, .contact .flex-wrapper .management {\n      width: 200px; }\n    .contact .flex-wrapper p {\n      font-size: .9rem; }\n    .contact .flex-wrapper h3 {\n      font-size: .9rem; }\n  @media screen and (max-width: 900px) {\n    .contact h2 {\n      margin-bottom: .5rem; }\n    .contact .flex-wrapper {\n      flex-direction: column; }\n      .contact .flex-wrapper .label, .contact .flex-wrapper .bookings, .contact .flex-wrapper .management {\n        margin-bottom: 2.5em; }\n      .contact .flex-wrapper p, .contact .flex-wrapper h3 {\n        font-size: 1rem; } }\n\n.footer {\n  background: #000;\n  color: #fff;\n  padding: 5rem 0;\n  height: 100%;\n  padding: 1.5rem 0; }\n  .footer .flex-wrapper {\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: flex-end; }\n    .footer .flex-wrapper h3 {\n      text-transform: uppercase;\n      font-weight: 100;\n      font-size: .9rem; }\n    .footer .flex-wrapper .socials-container {\n      margin-top: 1rem;\n      width: 18vw;\n      min-width: 200px;\n      display: flex;\n      justify-content: space-between; }\n    .footer .flex-wrapper .socials {\n      padding: 10px; }\n      .footer .flex-wrapper .socials svg path {\n        fill: #989898;\n        transition: fill .15s linear; }\n      .footer .flex-wrapper .socials:hover svg path {\n        fill: #fff; }\n    .footer .flex-wrapper #mc_embed_signup {\n      background: #000;\n      color: #fff;\n      clear: left;\n      width: 60%;\n      height: 100%;\n      margin-bottom: 2rem;\n      margin-top: 1rem; }\n      @media screen and (max-width: 600px) {\n        .footer .flex-wrapper #mc_embed_signup {\n          width: 90%;\n          margin-bottom: 3rem; } }\n      .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll,\n      .footer .flex-wrapper #mc_embed_signup .clear {\n        padding: 0;\n        height: 100%; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email,\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email,\n        .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n        .footer .flex-wrapper #mc_embed_signup .clear .email,\n        .footer .flex-wrapper #mc_embed_signup .clear .button {\n          height: 44px;\n          font-family: futura, sans-serif;\n          font-size: .9rem;\n          border: none;\n          border-bottom: 2px solid #fff;\n          border-radius: 0;\n          background-color: #000; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email,\n        .footer .flex-wrapper #mc_embed_signup .clear .email {\n          margin-right: 5px; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email::placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email::placeholder,\n          .footer .flex-wrapper #mc_embed_signup .clear .email::placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus,\n          .footer .flex-wrapper #mc_embed_signup .clear .email:focus {\n            outline: none;\n            caret-color: #fff;\n            color: #fff;\n            font-size: 1.3rem; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus::placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus::placeholder,\n          .footer .flex-wrapper #mc_embed_signup .clear .email:focus::placeholder {\n            color: transparent; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n        .footer .flex-wrapper #mc_embed_signup .clear .button {\n          border: 2px solid #fff;\n          width: 80px;\n          transition: all .15s linear; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button:hover, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button:hover,\n          .footer .flex-wrapper #mc_embed_signup .clear .button:hover {\n            background-color: #fbfbfb;\n            color: #000; }\n          @media screen and (max-width: 768px) {\n            .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n            .footer .flex-wrapper #mc_embed_signup .clear .button {\n              width: 100%;\n              margin-top: .5rem; } }\n    .footer .flex-wrapper .logo-container {\n      margin-bottom: 1rem;\n      margin-left: 20px; }\n    .footer .flex-wrapper .copyright {\n      font-size: .85rem; }\n  @media screen and (max-width: 600px) {\n    .footer {\n      margin-top: 5rem; }\n      .footer .flex-wrapper {\n        text-align: center; }\n        .footer .flex-wrapper h3 {\n          font-size: 1rem;\n          margin-bottom: 1rem; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -29063,7 +29063,7 @@ module.exports = function (list, options) {
 /*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":6,\"title\":\"Go Surfing\",\"released\":\"Released November 22, 2019\",\"anton\":\"Anton Goudsmit - Guitar\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-go-surfing.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\",\"info\":\"2019 | vinyl, cd, digital\",\"infoSub\":\"Feat. Anton Goudsmit\"},{\"id\":5,\"title\":\"V\",\"released\":\"Released November 30, 2018\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT! & Paul Willemsen\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-v.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/v\",\"info\":\"2017 | vinyl, cd, digital\"},{\"id\":4,\"title\":\"Superjazz\",\"released\":\"Released February 3, 2017\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ & Mellotron\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-superjazz.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\",\"info\":\"2016 | vinyl, cd, digital\"},{\"id\":3,\"title\":\"Mad Pack\",\"released\":\"Released March 6, 2015\",\"maarten\":\"Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums & Tambourine\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-madpack.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/mad-pack\",\"info\":\"2015 | vinyl, cd, digital\"},{\"id\":2,\"title\":\"Fire\",\"released\":\"Released November 8, 2013\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-fire.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/fire\",\"info\":\"2013 | vinyl, cd, digital\"},{\"id\":1,\"title\":\"BRUUT!\",\"released\":\"Released January 10, 2012\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: CD | DIGITAL\",\"image\":\"./../img/album-bruut.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/bruut-2\",\"info\":\"2012 | cd, digital\"}]");
+module.exports = JSON.parse("[{\"id\":6,\"title\":\"Go Surfing\",\"released\":\"Released November 22, 2019\",\"anton\":\"Anton Goudsmit - Guitar\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-go-surfing.jpg\",\"buyURL\":\"https://www.platomania.nl/album/7207144/go-surfing/bruut-anton-goudsmit\",\"info\":\"2019 | vinyl, cd, digital\",\"infoSub\":\"Feat. Anton Goudsmit\"},{\"id\":5,\"title\":\"V\",\"released\":\"Released November 30, 2018\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT! & Paul Willemsen\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-v.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/v\",\"info\":\"2017 | vinyl, cd, digital\"},{\"id\":4,\"title\":\"Superjazz\",\"released\":\"Released February 3, 2017\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ & Mellotron\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-superjazz.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\",\"info\":\"2016 | vinyl, cd, digital\"},{\"id\":3,\"title\":\"Mad Pack\",\"released\":\"Released March 6, 2015\",\"maarten\":\"Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums & Tambourine\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-madpack.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/mad-pack\",\"info\":\"2015 | vinyl, cd, digital\"},{\"id\":2,\"title\":\"Fire\",\"released\":\"Released November 8, 2013\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-fire.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/fire\",\"info\":\"2013 | vinyl, cd, digital\"},{\"id\":1,\"title\":\"BRUUT!\",\"released\":\"Released January 10, 2012\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: CD | DIGITAL\",\"image\":\"./../img/album-bruut.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/bruut-2\",\"info\":\"2012 | cd, digital\"}]");
 
 /***/ }),
 
@@ -29103,19 +29103,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/arrow-previous.svg");
-
-/***/ }),
-
-/***/ "./src/img/cross3.svg":
-/*!****************************!*\
-  !*** ./src/img/cross3.svg ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/cross3.svg");
 
 /***/ }),
 
@@ -29161,13 +29148,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/on-scroll */ "./src/js/on-scroll.js");
 /* harmony import */ var _js_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _js_Shop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/Shop */ "./src/js/Shop.js");
-/* harmony import */ var _js_shop_overlay__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/shop-overlay */ "./src/js/shop-overlay.js");
-/* harmony import */ var _js_shop_overlay__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_js_shop_overlay__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sass/main.scss */ "./src/sass/main.scss");
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _img_cross3_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/cross3.svg */ "./src/img/cross3.svg");
-
-
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sass/main.scss */ "./src/sass/main.scss");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
@@ -29314,6 +29296,78 @@ function Albums(_ref) {
 
 /***/ }),
 
+/***/ "./src/js/components/ButtonBuy.js":
+/*!****************************************!*\
+  !*** ./src/js/components/ButtonBuy.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ButtonBuy(_ref) {
+  var album = _ref.album;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: album.buyURL,
+    target: "_blank",
+    className: "button button__shop--buy"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "shopping"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "23",
+    height: "23"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    fill: "#FBFBFB",
+    d: "M16.036 16.148a2.47 2.47 0 00-2.471 2.471 2.47 2.47 0 002.471 2.471 2.47 2.47 0 002.471-2.471c-.024-1.354-1.116-2.471-2.471-2.471zm4.348-11.783c-.048 0-.119-.024-.19-.024H5.227L4.989 2.75A2.127 2.127 0 002.875.92H.95a.953.953 0 00-.95.95c0 .523.428.95.95.95h1.924c.119 0 .214.095.238.214L4.585 13.06a2.606 2.606 0 002.566 2.209h9.882a2.64 2.64 0 002.566-2.091l1.544-7.721a.938.938 0 00-.759-1.092zM9.978 18.5a2.456 2.456 0 00-2.447-2.352 2.485 2.485 0 00-2.376 2.565 2.436 2.436 0 002.423 2.353h.048c1.354-.072 2.423-1.212 2.352-2.566z"
+  }))), "BUY"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ButtonBuy);
+
+/***/ }),
+
+/***/ "./src/js/components/ButtonStream.js":
+/*!*******************************************!*\
+  !*** ./src/js/components/ButtonStream.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ButtonStream(_ref) {
+  var album = _ref.album;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: album.buyURL,
+    target: "_blank",
+    className: "button button__shop--stream"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "stream"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    width: "19",
+    height: "11",
+    viewBox: "0 0 19 11",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M5.26804 0L9.23399 4.53252L13.1999 0H18.468L9.23399 10.5531L0 0H5.26804Z",
+    fill: "white"
+  }))), "STREAM"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ButtonStream);
+
+/***/ }),
+
 /***/ "./src/js/components/Overlay.js":
 /*!**************************************!*\
   !*** ./src/js/components/Overlay.js ***!
@@ -29327,7 +29381,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _img_arrow_previous_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../img/arrow-previous.svg */ "./src/img/arrow-previous.svg");
 /* harmony import */ var _img_arrow_next_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/arrow-next.svg */ "./src/img/arrow-next.svg");
-/* harmony import */ var _img_cross3_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/cross3.svg */ "./src/img/cross3.svg");
+/* harmony import */ var _ButtonBuy__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ButtonBuy */ "./src/js/components/ButtonBuy.js");
+/* harmony import */ var _ButtonStream__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ButtonStream */ "./src/js/components/ButtonStream.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -29339,6 +29394,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -29384,9 +29440,19 @@ function Overlay(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "button-close",
     onClick: overlayOff
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _img_cross3_svg__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    width: "64",
+    height: "64",
+    viewBox: "0 0 64 64",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M6.08697 0.0139848L64 58.1832L58.2095 64L0.294848 5.83247L6.08697 0.0139848Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M0 58.1684L57.913 0L63.7052 5.81684L5.79212 63.986L0 58.1684Z",
+    fill: "black"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "left-bar-wrapper",
     onClick: prevAlbum
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -29403,7 +29469,13 @@ function Overlay(_ref) {
     className: "info-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, viewAlbum.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.released), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "para-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.maarten), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.folkert), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.thomas), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.felix)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.produced), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.available)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.maarten), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.folkert), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.thomas), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.felix)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.produced), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.available), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttons-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ButtonBuy__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    album: viewAlbum
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ButtonStream__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    album: viewAlbum
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "right-bar-wrapper",
     onClick: nextAlbum
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -29500,291 +29572,6 @@ function isElementInViewport(el) {
 
 /***/ }),
 
-/***/ "./src/js/shop-overlay.js":
-/*!********************************!*\
-  !*** ./src/js/shop-overlay.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// /* SHOP-ITEM CONTENT */
-// const items = [
-//     {
-//         title: "Go Surfing",
-//         released: "Released November 22, 2019",
-//         anton: "Anton Goudsmit - Guitar",
-//         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-//         folkert: "Folkert Oosterbeek - Hammond Organ",
-//         thomas: "Thomas Rolff - Double Bass",
-//         felix: "Felix Schlarmann - Drums",
-//         produced: "Produced by BRUUT!",
-//         available: "Available on: VINYL | CD | DIGITAL",
-//         image: "./img/album-go-surfing.jpg",
-//         buyURL: "https://bruut.bandcamp.com/album/superjazz"
-//     },
-//     {
-//         title: "V",
-//         released: "Released November 30, 2018",
-//         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-//         folkert: "Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium",
-//         thomas: "Thomas Rolff - Double Bass",
-//         felix: "Felix Schlarmann - Drums",
-//         produced: "Produced by BRUUT! & Paul Willemsen",
-//         available: "Available on: VINYL | CD | DIGITAL",
-//         image: "./img/album-v.jpg",
-//         buyURL: "https://bruut.bandcamp.com/album/v",
-//     },
-//     {
-//         title: "Superjazz",
-//         released: "Released February 3, 2017",
-//         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophones",
-//         folkert: "Folkert Oosterbeek - Hammond Organ & Mellotron",
-//         thomas: "Thomas Rolff - Double Bass",
-//         felix: "Felix Schlarmann - Drums",
-//         produced: "Produced by BRUUT!",
-//         available: "Available on: VINYL | CD | DIGITAL",
-//         image: "./img/album-superjazz.jpg",
-//         buyURL: "https://bruut.bandcamp.com/album/superjazz"
-//     },
-//     {
-//         title: "Mad Pack",
-//         released: "Released March 6, 2015",
-//         maarten: "Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine",
-//         folkert: "Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ",
-//         thomas: "Thomas Rolff - Double Bass",
-//         felix: "Felix Schlarmann - Drums & Tambourine",
-//         produced: "Produced by BRUUT!",
-//         available: "Available on: VINYL | CD | DIGITAL",
-//         image: "./img/album-madpack.jpg",
-//         buyURL: "https://bruut.bandcamp.com/album/mad-pack"
-//     },
-//     {
-//         title: "Fire",
-//         released: "Released November 8, 2013",
-//         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophone",
-//         folkert: "Folkert Oosterbeek - Hammond Organ",
-//         thomas: "Thomas Rolff - Double Bass",
-//         felix: "Felix Schlarmann - Drums",
-//         produced: "Produced by BRUUT!",
-//         available: "Available on: VINYL | CD | DIGITAL",
-//         image: "./img/album-fire.jpg",
-//         buyURL: "https://bruut.bandcamp.com/album/fire"
-//     },
-//     {
-//         title: "BRUUT!",
-//         released: "Released January 10, 2012",
-//         maarten: "Maarten Hogenhuis - Alto & Tenor Saxophone",
-//         folkert: "Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium",
-//         thomas: "Thomas Rolff - Double Bass",
-//         felix: "Felix Schlarmann - Drums",
-//         produced: "Produced by BRUUT!",
-//         available: "Available on: CD | DIGITAL",
-//         image: "./img/album-bruut.jpg",
-//         buyURL: "https://bruut.bandcamp.com/album/bruut-2"
-//     }
-// ]
-// /***** EVENT LISTENERS *****/
-// // On click -> toggle overlay ON
-// // const test = Array.from(document.querySelectorAll(".overlay"));
-// // test.forEach(item => item.addEventListener("click", () => overlayOn()));
-// // On click -> create initial content
-// // document.querySelector("#goSurfing").addEventListener("click", () => createContent(items[0]));
-// // document.querySelector("#v").addEventListener("click", () => createContent(items[1]));
-// // document.querySelector("#superjazz").addEventListener("click", () => createContent(items[2]));
-// // document.querySelector("#madpack").addEventListener("click", () => createContent(items[3]));
-// // document.querySelector("#fire").addEventListener("click", () => createContent(items[4]));
-// // document.querySelector("#bruut").addEventListener("click", () => createContent(items[5]));
-// //NEW: on click create overlay, then create item content
-// document.querySelector("#goSurfing").addEventListener("click", () => overlayOn(items[0]));
-// document.querySelector("#v").addEventListener("click", () => overlayOn(items[1]));
-// document.querySelector("#superjazz").addEventListener("click", () => overlayOn(items[2]));
-// document.querySelector("#madpack").addEventListener("click", () => overlayOn(items[3]));
-// document.querySelector("#fire").addEventListener("click", () => overlayOn(items[4]));
-// document.querySelector("#bruut").addEventListener("click", () => overlayOn(items[5]));
-// function overlayOn(item) {
-//     const container = document.querySelector("#overlay-shop");
-//     container.style.display = "block";
-//     // set body to .noscroll 
-//     document.body.setAttribute("class", "noscroll");
-//     // Create .overlay-wrapper
-//     const overlayWrapper = document.createElement("div");
-//     overlayWrapper.setAttribute("class", "overlay-wrapper");
-//     container.appendChild(overlayWrapper);
-//     // Create .top-bar-wrapper
-//     const topBarWrapper = document.createElement("div");
-//     topBarWrapper.setAttribute("class", "top-bar-wrapper");
-//     overlayWrapper.appendChild(topBarWrapper);
-//     // Create .left-bar-wrapper
-//     const leftBarWrapper = document.createElement("div");
-//     leftBarWrapper.setAttribute("class", "left-bar-wrapper no-selection");
-//     leftBarWrapper.setAttribute("id", "previous-item"); 
-//     overlayWrapper.appendChild(leftBarWrapper);
-//     // CREATE PREV ARROW SVG
-//     const prevSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-//     prevSvg.setAttribute("width", "44");
-//     prevSvg.setAttribute("height", "74");
-//     var prevPath = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-//     prevPath.setAttribute("d", "M1.181 39.885l32.93 32.929a4.018 4.018 0 002.861 1.182 4.02 4.02 0 002.863-1.182l2.425-2.424a4.053 4.053 0 000-5.725L14.608 37.013 42.291 9.331a4.021 4.021 0 001.182-2.861c0-1.085-.42-2.101-1.182-2.864l-2.425-2.424A4.019 4.019 0 0037.002 0c-1.084 0-2.1.42-2.862 1.182L1.18 34.141A4.024 4.024 0 000 37.011a4.023 4.023 0 001.18 2.874z");
-//     prevPath.setAttribute("fill", "#fff");
-//     leftBarWrapper.appendChild(prevSvg);
-//     prevSvg.appendChild(prevPath);
-//     // Create .content-wrapper
-//     const contentWrapper = document.createElement("div");
-//     contentWrapper.setAttribute("class", "content-wrapper");
-//     overlayWrapper.appendChild(contentWrapper);
-//     // Create .right-bar-wrapper
-//     const rightBarWrapper = document.createElement("div");
-//     rightBarWrapper.setAttribute("class", "right-bar-wrapper no-selection");
-//     rightBarWrapper.setAttribute("id", "next-item"); 
-//     overlayWrapper.appendChild(rightBarWrapper);
-//     // CREATE  NEXT ARROW SVG
-//     const nextSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-//     nextSvg.setAttribute("width", "44");
-//     nextSvg.setAttribute("height", "74");
-//     const nextPath = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-//     nextPath.setAttribute("d", "M42.292 34.11L9.362 1.183A4.018 4.018 0 006.5 0C5.416 0 4.4.42 3.638 1.182L1.213 3.607a4.053 4.053 0 000 5.724l27.651 27.652L1.182 64.665A4.021 4.021 0 000 67.526c0 1.085.42 2.101 1.182 2.864l2.425 2.424a4.02 4.02 0 002.862 1.182 4.02 4.02 0 002.863-1.182l32.96-32.959a4.024 4.024 0 001.18-2.87 4.023 4.023 0 00-1.18-2.874z");
-//     nextPath.setAttribute("fill", "#fff");
-//     rightBarWrapper.appendChild(nextSvg);
-//     nextSvg.appendChild(nextPath);
-//     // Create .button-close container
-//     const buttonContainer = document.createElement("div");
-//     buttonContainer.setAttribute("class", "button-close");
-//     topBarWrapper.appendChild(buttonContainer);
-//     // Add close button image
-//     const cross = document.createElement("img");
-//     cross.setAttribute("src", "./img/cross3.svg");
-//     buttonContainer.appendChild(cross);
-//     // Listen on close-button
-//     document.querySelector(".button-close").addEventListener("click", () => {
-//         container.style.display = "none";
-//         overlayWrapper.remove();
-//         document.body.removeAttribute("class");
-//     });
-//     createContent(item);
-// }
-// function createContent(item) {    
-//     // Get .content-wrapper
-//     const contentWrapper = document.querySelector(".content-wrapper"); 
-//     // Create .content-container inside content-wrapper
-//     let contentContainer = document.createElement("div");
-//     contentContainer.setAttribute("class", "content-container");
-//     contentWrapper.appendChild(contentContainer);
-//     // Create .image-container
-//     const imageContainer = document.createElement("div");
-//     imageContainer.setAttribute("class", "image-container");
-//     // Create item image
-//     const image = document.createElement("img");
-//     image.setAttribute("src", item.image);
-//     contentContainer.appendChild(imageContainer);
-//     imageContainer.appendChild(image);
-//     // Create .info-container
-//     const infoContainer = document.createElement("div");
-//     infoContainer.setAttribute("class", "info-container");
-//     contentContainer.appendChild(infoContainer);
-//     // Create header
-//     const heading = document.createElement("h2");
-//     const title = document.createTextNode(item.title);
-//     // Create paragraphs
-//     const p1 = document.createElement("p");
-//     const text1 = document.createTextNode(item.released);
-//     const p2 = document.createElement("p");
-//     const text2 = document.createTextNode(item.maarten);
-//     const p3 = document.createElement("p");
-//     const text3 = document.createTextNode(item.folkert);
-//     const p4 = document.createElement("p");
-//     const text4 = document.createTextNode(item.thomas);
-//     const p5 = document.createElement("p");
-//     const text5 = document.createTextNode(item.felix);
-//     const p6 = document.createElement("p");
-//     const text6 = document.createTextNode(item.produced);
-//     const p7 = document.createElement("p");
-//     const text7 = document.createTextNode(item.available);
-//     // Create .para-container for p2-p5
-//     const paraContainer = document.createElement("div");
-//     paraContainer.setAttribute("class", "para-container");
-//     // add header and paragraphs to the DOM 
-//     infoContainer.appendChild(heading);
-//     heading.appendChild(title);
-//     // add first paragraph
-//     infoContainer.appendChild(p1);
-//     p1.appendChild(text1);
-//     // add .para-container    
-//     infoContainer.appendChild(paraContainer);
-//     // Check if Anton should be added to .para-container 
-//     if (item.anton) {
-//         const pAnton = document.createElement("p");
-//         const antonText = document.createTextNode(item.anton);
-//         paraContainer.appendChild(pAnton);
-//         pAnton.appendChild(antonText);
-//     } 
-//     // add p2-p5 to .para-container    
-//     paraContainer.appendChild(p2);
-//     p2.appendChild(text2);
-//     paraContainer.appendChild(p3);
-//     p3.appendChild(text3);
-//     paraContainer.appendChild(p4);
-//     p4.appendChild(text4);
-//     paraContainer.appendChild(p5);
-//     p5.appendChild(text5);
-//     // add last 2 paragraphs to .info-container    
-//     infoContainer.appendChild(p6);
-//     p6.appendChild(text6);
-//     infoContainer.appendChild(p7);
-//     p7.appendChild(text7);
-//     // .buttons-container     
-//     const buttonsContainer = document.createElement("div");
-//     buttonsContainer.setAttribute("class", "buttons-container");
-//     infoContainer.appendChild(buttonsContainer);
-//     // a tags with .button
-//     const buttonShopBuy = document.createElement("a");
-//     buttonShopBuy.setAttribute("href", item.buyURL);
-//     buttonShopBuy.setAttribute("target", "_blank");
-//     buttonShopBuy.setAttribute("class", "button button__shop--buy"); 
-//     const buy = document.createTextNode("BUY");
-//     const shopSpan = document.createElement("span");
-//     shopSpan.setAttribute("class", "shopping");
-//     const shopSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"><path fill="#FBFBFB" d="M16.036 16.148a2.47 2.47 0 00-2.471 2.471 2.47 2.47 0 002.471 2.471 2.47 2.47 0 002.471-2.471c-.024-1.354-1.116-2.471-2.471-2.471zm4.348-11.783c-.048 0-.119-.024-.19-.024H5.227L4.989 2.75A2.127 2.127 0 002.875.92H.95a.953.953 0 00-.95.95c0 .523.428.95.95.95h1.924c.119 0 .214.095.238.214L4.585 13.06a2.606 2.606 0 002.566 2.209h9.882a2.64 2.64 0 002.566-2.091l1.544-7.721a.938.938 0 00-.759-1.092zM9.978 18.5a2.456 2.456 0 00-2.447-2.352 2.485 2.485 0 00-2.376 2.565 2.436 2.436 0 002.423 2.353h.048c1.354-.072 2.423-1.212 2.352-2.566z"/></svg>';
-//     const buttonShopStream = document.createElement("a");
-//     buttonShopStream.setAttribute("href", item.buyURL);
-//     buttonShopStream.setAttribute("target", "_blank");
-//     buttonShopStream.setAttribute("class", "button button__shop--stream"); 
-//     const stream = document.createTextNode("STREAM");
-//     const streamSpan = document.createElement("span");
-//     streamSpan.setAttribute("class", "stream");
-//     const streamSvg = '<svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.26804 0L9.23399 4.53252L13.1999 0H18.468L9.23399 10.5531L0 0H5.26804Z" fill="white"/></svg>';
-//     // add buttons to the DOM 
-//     shopSpan.innerHTML = shopSvg;
-//     streamSpan.innerHTML = streamSvg;
-//     buttonsContainer.appendChild(buttonShopBuy);
-//     buttonShopBuy.appendChild(shopSpan);
-//     buttonShopBuy.appendChild(buy);
-//     buttonsContainer.appendChild(buttonShopStream);
-//     buttonShopStream.appendChild(streamSpan);
-//     buttonShopStream.appendChild(stream);
-//     // Listen on #previous-item, on click -> create new content
-//     document.querySelector("#previous-item").addEventListener("click", () => {
-//         let prevItem = items[items.indexOf(item) -1];
-//         if (prevItem) {
-//             contentWrapper.removeChild(contentContainer);
-//             createContent(prevItem);
-//         } else {
-//             return null;
-//         }
-//     });
-//     // Listen on #next-item, on click -> create new content
-//     document.querySelector("#next-item").addEventListener("click", () => {
-//         let nextItem = items[items.indexOf(item) +1];
-//         if (nextItem) {
-//             contentWrapper.removeChild(contentContainer);
-//             createContent(nextItem);
-//         } else {
-//             return null;
-//         }
-//     });
-// }
-
-/***/ }),
-
 /***/ "./src/sass/main.scss":
 /*!****************************!*\
   !*** ./src/sass/main.scss ***!
@@ -29815,4 +29602,4 @@ module.exports = content.locals || {};
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.09e8b3a527.bundle.js.map
+//# sourceMappingURL=main.3c047647b2.bundle.js.map

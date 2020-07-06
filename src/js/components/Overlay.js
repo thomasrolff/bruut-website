@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import arrowPrevious from '../../img/arrow-previous.svg';
 import arrowNext from '../../img/arrow-next.svg';
-import closeButton from '../../img/cross3.svg';
+import ButtonBuy from './ButtonBuy';
+import ButtonStream from './ButtonStream';
 
 
 function Overlay({ data, initialAlbum, overlayOff }) {
@@ -32,7 +33,10 @@ function Overlay({ data, initialAlbum, overlayOff }) {
       <div className="overlay-wrapper">
         <div className="top-bar-wrapper">
           <div className="button-close" onClick={overlayOff}>
-            <img src={closeButton}></img>
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.08697 0.0139848L64 58.1832L58.2095 64L0.294848 5.83247L6.08697 0.0139848Z" fill="black"/>
+              <path d="M0 58.1684L57.913 0L63.7052 5.81684L5.79212 63.986L0 58.1684Z" fill="black"/>
+            </svg>
           </div>
         </div>
         <div className="left-bar-wrapper" onClick={prevAlbum}>
@@ -54,6 +58,10 @@ function Overlay({ data, initialAlbum, overlayOff }) {
               </div>
               <p>{viewAlbum.produced}</p>
               <p>{viewAlbum.available}</p>
+              <div className="buttons-container">
+                <ButtonBuy album={viewAlbum} />
+                <ButtonStream album={viewAlbum} />
+              </div>
             </div>
           </div> 
         </div>
