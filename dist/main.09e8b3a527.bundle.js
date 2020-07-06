@@ -29063,7 +29063,7 @@ module.exports = function (list, options) {
 /*! exports provided: 0, 1, 2, 3, 4, 5, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":6,\"title\":\"Go Surfing\",\"released\":\"Released November 22, 2019\",\"anton\":\"Anton Goudsmit - Guitar\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-go-surfing.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\"},{\"id\":5,\"title\":\"V\",\"released\":\"Released November 30, 2018\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT! & Paul Willemsen\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-v.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/v\"},{\"id\":4,\"title\":\"Superjazz\",\"released\":\"Released February 3, 2017\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ & Mellotron\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-superjazz.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\"},{\"id\":3,\"title\":\"Mad Pack\",\"released\":\"Released March 6, 2015\",\"maarten\":\"Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums & Tambourine\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-madpack.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/mad-pack\"},{\"id\":2,\"title\":\"Fire\",\"released\":\"Released November 8, 2013\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-fire.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/fire\"},{\"id\":1,\"title\":\"BRUUT!\",\"released\":\"Released January 10, 2012\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: CD | DIGITAL\",\"image\":\"./../img/album-bruut.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/bruut-2\"}]");
+module.exports = JSON.parse("[{\"id\":6,\"title\":\"Go Surfing\",\"released\":\"Released November 22, 2019\",\"anton\":\"Anton Goudsmit - Guitar\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-go-surfing.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\",\"info\":\"2019 | vinyl, cd, digital\",\"infoSub\":\"Feat. Anton Goudsmit\"},{\"id\":5,\"title\":\"V\",\"released\":\"Released November 30, 2018\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT! & Paul Willemsen\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-v.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/v\",\"info\":\"2017 | vinyl, cd, digital\"},{\"id\":4,\"title\":\"Superjazz\",\"released\":\"Released February 3, 2017\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophones\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ & Mellotron\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-superjazz.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/superjazz\",\"info\":\"2016 | vinyl, cd, digital\"},{\"id\":3,\"title\":\"Mad Pack\",\"released\":\"Released March 6, 2015\",\"maarten\":\"Maarten Hogenhuis - Alto Saxophone, Tenor Saxophone & Tambourine\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Mannborg Suitcase Harmonium & Vox Continental Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums & Tambourine\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-madpack.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/mad-pack\",\"info\":\"2015 | vinyl, cd, digital\"},{\"id\":2,\"title\":\"Fire\",\"released\":\"Released November 8, 2013\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: VINYL | CD | DIGITAL\",\"image\":\"./../img/album-fire.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/fire\",\"info\":\"2013 | vinyl, cd, digital\"},{\"id\":1,\"title\":\"BRUUT!\",\"released\":\"Released January 10, 2012\",\"maarten\":\"Maarten Hogenhuis - Alto & Tenor Saxophone\",\"folkert\":\"Folkert Oosterbeek - Hammond Organ, Farfisa Compact, Vox Continental, Korg Polysix, Mellotron, Piano and Harmonium\",\"thomas\":\"Thomas Rolff - Double Bass\",\"felix\":\"Felix Schlarmann - Drums\",\"produced\":\"Produced by BRUUT!\",\"available\":\"Available on: CD | DIGITAL\",\"image\":\"./../img/album-bruut.jpg\",\"buyURL\":\"https://bruut.bandcamp.com/album/bruut-2\",\"info\":\"2012 | cd, digital\"}]");
 
 /***/ }),
 
@@ -29249,6 +29249,12 @@ function Album(_ref) {
       overlayOn = _useState2[0],
       setOverlay = _useState2[1];
 
+  var overlayOff = function overlayOff(e) {
+    // Prevent onClick event from bubbling up to parent
+    e.stopPropagation();
+    setOverlay(false);
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "album"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -29258,14 +29264,17 @@ function Album(_ref) {
     onClick: function onClick() {
       return setOverlay(true);
     }
-  }, overlayOn && /*#__PURE__*/Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["createPortal"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Overlay__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    initialAlbum: album,
-    data: data
-  }), document.getElementById('overlay-root')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "albumTitle"
   }, album.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "album-info"
-  })));
+  }, album.info), album.infoSub && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "album-info-sub"
+  }, album.infoSub), overlayOn && /*#__PURE__*/Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["createPortal"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Overlay__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    initialAlbum: album,
+    data: data,
+    overlayOff: overlayOff
+  }), document.getElementById('overlay-root'))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Album);
@@ -29338,26 +29347,29 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function Overlay(_ref) {
   var data = _ref.data,
-      initialAlbum = _ref.initialAlbum;
+      initialAlbum = _ref.initialAlbum,
+      overlayOff = _ref.overlayOff;
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(initialAlbum),
       _useState2 = _slicedToArray(_useState, 2),
       viewAlbum = _useState2[0],
       setViewAlbum = _useState2[1];
 
-  var nextAlbum = function nextAlbum() {
+  var nextAlbum = function nextAlbum(e) {
+    e.stopPropagation();
     data.map(function (item, i) {
       if (item.id === viewAlbum.id) {
-        i++;
-        i === data.length ? i = i : setViewAlbum(data[i]);
+        i === data.length - 1 ? i : i++;
+        setViewAlbum(data[i]);
       }
     });
   };
 
-  var prevAlbum = function prevAlbum() {
+  var prevAlbum = function prevAlbum(e) {
+    e.stopPropagation();
     data.map(function (item, i) {
       if (item.id === viewAlbum.id) {
-        i === 0 ? i = i : i--;
+        i === 0 ? i : i--;
         setViewAlbum(data[i]);
       }
     });
@@ -29370,14 +29382,15 @@ function Overlay(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "top-bar-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "button-close"
+    className: "button-close",
+    onClick: overlayOff
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _img_cross3_svg__WEBPACK_IMPORTED_MODULE_3__["default"]
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "left-bar-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _img_arrow_previous_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
+    className: "left-bar-wrapper",
     onClick: prevAlbum
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _img_arrow_previous_svg__WEBPACK_IMPORTED_MODULE_1__["default"]
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29391,10 +29404,10 @@ function Overlay(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, viewAlbum.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.released), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "para-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.maarten), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.folkert), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.thomas), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.felix)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.produced), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, viewAlbum.available)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "right-bar-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _img_arrow_next_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    className: "right-bar-wrapper",
     onClick: nextAlbum
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _img_arrow_next_svg__WEBPACK_IMPORTED_MODULE_2__["default"]
   }))));
 }
 
@@ -29802,4 +29815,4 @@ module.exports = content.locals || {};
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.6ee6da8b4a.bundle.js.map
+//# sourceMappingURL=main.09e8b3a527.bundle.js.map

@@ -4,22 +4,24 @@ import arrowNext from '../../img/arrow-next.svg';
 import closeButton from '../../img/cross3.svg';
 
 
-function Overlay({ data, initialAlbum }) {
+function Overlay({ data, initialAlbum, overlayOff }) {
   const [viewAlbum, setViewAlbum] = useState(initialAlbum);
 
-  const nextAlbum = () => { 
+  const nextAlbum = (e) => { 
+    e.stopPropagation();
     data.map((item, i) => {
       if (item.id === viewAlbum.id) {
-        i++;
-        (i === data.length) ? i = i : setViewAlbum(data[i]);
+        (i === (data.length -1)) ? i : i++;
+        setViewAlbum(data[i]);
       } 
     }
   )};
 
-  const prevAlbum = () => { 
+  const prevAlbum = (e) => { 
+    e.stopPropagation();
     data.map((item, i) => {
       if (item.id === viewAlbum.id) {
-        (i === 0) ? i = i : i--;
+        (i === 0) ? i : i--;
         setViewAlbum(data[i]);
       } 
     }
@@ -29,12 +31,12 @@ function Overlay({ data, initialAlbum }) {
     <div className="overlay-shop">
       <div className="overlay-wrapper">
         <div className="top-bar-wrapper">
-          <div className="button-close">
+          <div className="button-close" onClick={overlayOff}>
             <img src={closeButton}></img>
           </div>
         </div>
-        <div className="left-bar-wrapper">
-          <img src={arrowPrevious} onClick={prevAlbum}></img>
+        <div className="left-bar-wrapper" onClick={prevAlbum}>
+          <img src={arrowPrevious}></img>
         </div>
         <div className="content-wrapper">
           <div className="content-container">
@@ -55,8 +57,8 @@ function Overlay({ data, initialAlbum }) {
             </div>
           </div> 
         </div>
-        <div className="right-bar-wrapper">
-          <img src={arrowNext} onClick={nextAlbum}></img>
+        <div className="right-bar-wrapper" onClick={nextAlbum}>
+          <img src={arrowNext}></img>
         </div>
       </div>
     </div>

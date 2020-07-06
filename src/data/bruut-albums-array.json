@@ -11,7 +11,9 @@
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
       "image": "./../img/album-go-surfing.jpg",
-      "buyURL": "https://bruut.bandcamp.com/album/superjazz"
+      "buyURL": "https://bruut.bandcamp.com/album/superjazz",
+      "info": "2019 | vinyl, cd, digital",
+      "infoSub": "Feat. Anton Goudsmit"
   },
   { 
       "id": 5,
@@ -24,7 +26,8 @@
       "produced": "Produced by BRUUT! & Paul Willemsen",
       "available": "Available on: VINYL | CD | DIGITAL",
       "image": "./../img/album-v.jpg",
-      "buyURL": "https://bruut.bandcamp.com/album/v"
+      "buyURL": "https://bruut.bandcamp.com/album/v",
+      "info": "2017 | vinyl, cd, digital"
   },
   {
       "id": 4,
@@ -37,7 +40,8 @@
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
       "image": "./../img/album-superjazz.jpg",
-      "buyURL": "https://bruut.bandcamp.com/album/superjazz"
+      "buyURL": "https://bruut.bandcamp.com/album/superjazz",
+      "info": "2016 | vinyl, cd, digital"
   },
   {
       "id": 3,
@@ -50,7 +54,8 @@
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
       "image": "./../img/album-madpack.jpg",
-      "buyURL": "https://bruut.bandcamp.com/album/mad-pack"
+      "buyURL": "https://bruut.bandcamp.com/album/mad-pack",
+      "info": "2015 | vinyl, cd, digital"
   },
   { 
       "id": 2,
@@ -63,7 +68,8 @@
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
       "image": "./../img/album-fire.jpg",
-      "buyURL": "https://bruut.bandcamp.com/album/fire"
+      "buyURL": "https://bruut.bandcamp.com/album/fire",
+      "info": "2013 | vinyl, cd, digital"
   },
   {
       "id": 1,
@@ -76,6 +82,7 @@
       "produced": "Produced by BRUUT!",
       "available": "Available on: CD | DIGITAL",
       "image": "./../img/album-bruut.jpg",
-      "buyURL": "https://bruut.bandcamp.com/album/bruut-2"
+      "buyURL": "https://bruut.bandcamp.com/album/bruut-2",
+      "info": "2012 | cd, digital"
   }
 ]
