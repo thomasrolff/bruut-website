@@ -15,8 +15,8 @@
             min-width: 30vw; 
             // transition-property: transform, left;
             // transition-duration: .8s;
-            opacity: 1;
-            will-change: opacity;
+            // opacity: 1;
+            // will-change: opacity;
             // left: 1rem;
             // .is-visible {
             //     opacity: 1;
@@ -26,14 +26,14 @@
             max-width: 30%;
             min-width: 30vw;
             position: absolute;
-            transition: left .8s .05s, transform 1.5s ease-out;
+            // transition: left .8s .05s, transform 1.5s ease-out;
             left: 0; 
-            will-change: left, transform;
-            &.is-visible {
-                opacity: 1;
-                left: 43%;
-                transform: rotate(720deg); 
-            }
+            // will-change: left, transform;
+            // &.is-visible {
+            //     opacity: 1;
+            //     left: 43%;
+            //     transform: rotate(720deg); 
+            // }
         }
     }
     .ad-text {

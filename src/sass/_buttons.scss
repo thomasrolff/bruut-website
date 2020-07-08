@@ -175,11 +175,11 @@
             }
         }
     }
-    &:hover {
-        background-color: $white;
-        color: $black;
-        .stream svg path {
-            fill: $black;
-        }
-    }
+    // &:hover {
+    //     background-color: $white;
+    //     color: $black;
+    //     .stream svg path {
+    //         fill: $black;
+    //     }
+    // }
 }
