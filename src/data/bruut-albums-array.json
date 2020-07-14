@@ -10,8 +10,9 @@
       "felix": "Felix Schlarmann - Drums",
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
-      "image": "./../img/album-go-surfing.jpg",
+      "image": "img/album-go-surfing.jpg",
       "buyURL": "https://www.platomania.nl/album/7207144/go-surfing/bruut-anton-goudsmit",
+      "spotifyURL": "https://open.spotify.com/album/4JAZLSX5O3Ls78FQF88vqs",
       "info": "2019 | vinyl, cd, digital",
       "infoSub": "Feat. Anton Goudsmit"
   },
@@ -25,8 +26,9 @@
       "felix": "Felix Schlarmann - Drums",
       "produced": "Produced by BRUUT! & Paul Willemsen",
       "available": "Available on: VINYL | CD | DIGITAL",
-      "image": "./../img/album-v.jpg",
+      "image": "img/album-v.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/v",
+      "spotifyURL": "https://open.spotify.com/album/63IC8S5kciU4LZOtBIOoT8",
       "info": "2017 | vinyl, cd, digital"
   },
   {
@@ -39,8 +41,9 @@
       "felix": "Felix Schlarmann - Drums",
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
-      "image": "./../img/album-superjazz.jpg",
+      "image": "img/album-superjazz.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/superjazz",
+      "spotifyURL": "https://open.spotify.com/album/7xfUhNsWnbCUZql4FCrX21",
       "info": "2016 | vinyl, cd, digital"
   },
   {
@@ -53,8 +56,9 @@
       "felix": "Felix Schlarmann - Drums & Tambourine",
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
-      "image": "./../img/album-madpack.jpg",
+      "image": "img/album-madpack.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/mad-pack",
+      "spotifyURL": "https://open.spotify.com/album/6oy4Q1z9nvjzv0lCuHyJJA",
       "info": "2015 | vinyl, cd, digital"
   },
   { 
@@ -67,8 +71,9 @@
       "felix": "Felix Schlarmann - Drums",
       "produced": "Produced by BRUUT!",
       "available": "Available on: VINYL | CD | DIGITAL",
-      "image": "./../img/album-fire.jpg",
+      "image": "img/album-fire.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/fire",
+      "spotifyURL": "https://open.spotify.com/album/4xOvYzf7dXZlrUetjDUS4i",
       "info": "2013 | vinyl, cd, digital"
   },
   {
@@ -81,8 +86,9 @@
       "felix": "Felix Schlarmann - Drums",
       "produced": "Produced by BRUUT!",
       "available": "Available on: CD | DIGITAL",
-      "image": "./../img/album-bruut.jpg",
+      "image": "img/album-bruut.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/bruut-2",
+      "spotifyURL": "https://open.spotify.com/album/0AbW7sIaO5G8IIjxm1J84a",      
       "info": "2012 | cd, digital"
   }
 ]

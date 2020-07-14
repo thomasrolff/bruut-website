@@ -12,12 +12,11 @@ function ButtonStream({ album }) {
     <>
       <div 
         className="button button__shop--stream"
-        onMouseEnter={toggleDropdown}
-        onMouseLeave={toggleDropdown}
+        onClick={toggleDropdown}
       >
         {dropdownOn && (
           <ul className="dropdown">
-            <li><a href="#">Test</a></li>
+            <li><a href={album.spotifyURL} target="_blank">Spotify</a></li>
             <li><a href="#">Test</a></li>
             <li><a href="#">Test</a></li>
             <li><a href="#">Test</a></li>
