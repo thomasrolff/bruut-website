@@ -4,7 +4,6 @@ import arrowNext from '../../img/arrow-next.svg';
 import ButtonBuy from './ButtonBuy';
 import ButtonStream from './ButtonStream';
 
-
 function Overlay({ data, initialAlbum, overlayOff }) {
   const [viewAlbum, setViewAlbum] = useState(initialAlbum);
 
@@ -69,6 +68,7 @@ function Overlay({ data, initialAlbum, overlayOff }) {
           <img src={arrowNext}></img>
         </div>
       </div>
+      <div id="stream-modal-root"></div>
     </div>
   );
 }

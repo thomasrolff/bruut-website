@@ -1,32 +1,29 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
+import StreamModal from './StreamModal';
 
 function ButtonStream({ album }) {
-  const [dropdownOn, setDropdown] = useState(false);
+  const [viewModal, setViewModal] = useState(false);
 
-  function toggleDropdown() {
-    setDropdown(!dropdownOn);
-    console.log('This is toggle dropdown!');
+  function toggleModal(e) {
+    e.stopPropagation();
+    setViewModal(!viewModal);
+    console.log('This is toggle modal!');
   }
 
   return (
     <>
       <div 
         className="button button__shop--stream"
-        onClick={toggleDropdown}
+        onClick={toggleModal}
       >
-        {dropdownOn && (
-          <ul className="dropdown">
-            <li><a href={album.spotifyURL} target="_blank">Spotify</a></li>
-            <li><a href="#">Test</a></li>
-            <li><a href="#">Test</a></li>
-            <li><a href="#">Test</a></li>
-          </ul>
+        {viewModal && createPortal(
+          <StreamModal 
+            album={album} 
+            toggleModal={toggleModal}
+          />, 
+          document.getElementById('stream-modal-root')
         )}
-        <span className="stream">
-          <svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-           <path d="M5.26804 0L9.23399 4.53252L13.1999 0H18.468L9.23399 10.5531L0 0H5.26804Z" fill="white"/>
-          </svg>
-        </span>
         STREAM
       </div>
     </>
@@ -36,23 +33,3 @@ function ButtonStream({ album }) {
 export default ButtonStream;
 
 
-
-
-
-
-// OLD COMPONENT:
-// <>
-//   <a 
-//     href={album.buyURL}
-//     target="_blank"
-//     className="button button__shop--stream"
-//     onClick={toggleDropdown}
-//   >
-//     <span className="stream">
-//       <svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-//         <path d="M5.26804 0L9.23399 4.53252L13.1999 0H18.468L9.23399 10.5531L0 0H5.26804Z" fill="white"/>
-//       </svg>
-//     </span>
-//     STREAM
-//   </a>
-// </>

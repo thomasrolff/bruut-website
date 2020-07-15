@@ -13,6 +13,9 @@
       "image": "img/album-go-surfing.jpg",
       "buyURL": "https://www.platomania.nl/album/7207144/go-surfing/bruut-anton-goudsmit",
       "spotifyURL": "https://open.spotify.com/album/4JAZLSX5O3Ls78FQF88vqs",
+      "deezerURL": "https://www.deezer.com/nl/album/156126752",
+      "appleMusicURL": "https://music.apple.com/nl/album/go-surfing/1519718483",
+      "tidalURL": "https://listen.tidal.com/album/146012880",
       "info": "2019 | vinyl, cd, digital",
       "infoSub": "Feat. Anton Goudsmit"
   },
@@ -29,6 +32,9 @@
       "image": "img/album-v.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/v",
       "spotifyURL": "https://open.spotify.com/album/63IC8S5kciU4LZOtBIOoT8",
+      "deezerURL": "https://www.deezer.com/nl/album/75396712",
+      "appleMusicURL": "https://music.apple.com/nl/album/v/1438794692",
+      "tidalURL": "https://listen.tidal.com/album/96538241",
       "info": "2017 | vinyl, cd, digital"
   },
   {
@@ -44,6 +50,9 @@
       "image": "img/album-superjazz.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/superjazz",
       "spotifyURL": "https://open.spotify.com/album/7xfUhNsWnbCUZql4FCrX21",
+      "deezerURL": "https://www.deezer.com/nl/album/15260829",
+      "appleMusicURL": "https://music.apple.com/nl/album/superjazz/1192739707?uo=4&app=music&at=1010l8J",
+      "tidalURL": "https://listen.tidal.com/album/69359339",
       "info": "2016 | vinyl, cd, digital"
   },
   {
@@ -59,6 +68,9 @@
       "image": "img/album-madpack.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/mad-pack",
       "spotifyURL": "https://open.spotify.com/album/6oy4Q1z9nvjzv0lCuHyJJA",
+      "deezerURL": "https://www.deezer.com/nl/album/9574630",
+      "appleMusicURL": "https://music.apple.com/nl/album/mad-pack/961666565",
+      "tidalURL": "https://listen.tidal.com/album/69359339",
       "info": "2015 | vinyl, cd, digital"
   },
   { 
@@ -74,6 +86,9 @@
       "image": "img/album-fire.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/fire",
       "spotifyURL": "https://open.spotify.com/album/4xOvYzf7dXZlrUetjDUS4i",
+      "deezerURL": "https://www.deezer.com/nl/album/7087177",
+      "appleMusicURL": "https://music.apple.com/nl/album/fire/736020969",
+      "tidalURL": "https://listen.tidal.com/album/23369061",
       "info": "2013 | vinyl, cd, digital"
   },
   {
@@ -88,7 +103,10 @@
       "available": "Available on: CD | DIGITAL",
       "image": "img/album-bruut.jpg",
       "buyURL": "https://bruut.bandcamp.com/album/bruut-2",
-      "spotifyURL": "https://open.spotify.com/album/0AbW7sIaO5G8IIjxm1J84a",      
+      "spotifyURL": "https://open.spotify.com/album/0AbW7sIaO5G8IIjxm1J84a",     
+      "deezerURL": "https://www.deezer.com/nl/album/6796215",
+      "appleMusicURL": "https://music.apple.com/nl/album/bruut/678259594",
+      "tidalURL": "https://listen.tidal.com/album/21535534",
       "info": "2012 | cd, digital"
   }
 ]
