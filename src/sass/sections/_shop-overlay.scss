@@ -43,13 +43,13 @@
             padding: 8rem 3rem;
             padding-right: 4rem;
             svg path {
-                fill: #262626;
+                fill: #5a5959;
                 transition: all .2s linear;
             }
             &:hover {
                 cursor: pointer;
                 svg path {
-                    fill: #4A4A4A;
+                    fill: $off-white;
                 }
             }
         }
@@ -57,13 +57,13 @@
             padding: 8rem 3rem;
             padding-left: 4rem;
             svg path {
-                fill: #262626;
+                fill: #5a5959;
                 transition: all .2s linear;
             }
             &:hover {
                 cursor: pointer;
                 svg path {
-                    fill: #4A4A4A;
+                    fill: $off-white;
                 }
             }
         }
