@@ -50,15 +50,15 @@ function Overlay({ data, initialAlbum, overlayOff }) {
             </div>
             <div className="info-container">
               <h2>{viewAlbum.title}</h2>
-              <p>{viewAlbum.released}</p>
+              <p className="released">{viewAlbum.released}</p>
               <div className="para-container">
                 <p>{viewAlbum.maarten}</p>
                 <p>{viewAlbum.folkert}</p>
                 <p>{viewAlbum.thomas}</p>
                 <p>{viewAlbum.felix}</p>
               </div>
-              <p>{viewAlbum.produced}</p>
-              <p>{viewAlbum.available}</p>
+              <p className="produced">{viewAlbum.produced}</p>
+              <p className="available">{viewAlbum.available}</p>
               <div className="buttons-container">
                 <ButtonBuy album={viewAlbum} />
                 <ButtonStream album={viewAlbum} />

@@ -5,8 +5,8 @@
   height: 100vh;
   width: 100vw;
   z-index: 999;
-  background: $off-black;
-  opacity: .9;
+  background: black;
+  opacity: .85;
 }
 
 .stream-modal {
@@ -44,6 +44,17 @@
           border-bottom: 2px $off-white solid;
         }
       }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    .close-button {
+      bottom: 26px;
+      left: 50%;
+      transform: translate(-50%);
+      border: 3px solid $off-white;
     }
   }
 }
