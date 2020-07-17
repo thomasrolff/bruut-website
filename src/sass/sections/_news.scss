@@ -21,10 +21,12 @@
             // transition-property: color, font-size;
             // transition-duration: .2s, .2s;
             transition: all .15s linear;
-            &:hover {
-                color: $black;
-                // font-size: 2.3rem;
-                transform: scale(1.08);
+            @media (hover: hover) {
+                &:hover {
+                    color: $black;
+                    // font-size: 2.3rem;
+                    transform: scale(1.08);
+                }
             }
         }
         @media screen and (max-width: 600px) {
