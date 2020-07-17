@@ -4,7 +4,6 @@ function StreamModal({ album, toggleModal }) {
   
   const stopPropagation = (e) => {
     e.stopPropagation();
-    console.log('function runs');
     return null;
   }
   

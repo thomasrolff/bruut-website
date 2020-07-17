@@ -14,10 +14,7 @@ function Album({ data, album, image }) {
   return (
     <div className="album">
       <img src={image}></img>
-      <div 
-        className="overlay" 
-        onClick={() => setOverlay(true)}
-      >
+      <div className="overlay" onClick={() => setOverlay(true)}>
         <h3 className="albumTitle">{album.title}</h3>
         <p className="album-info">{album.info}</p>
         {album.infoSub && (
@@ -31,9 +28,14 @@ function Album({ data, album, image }) {
           />, 
             document.getElementById('overlay-root'))
         )}
+        {overlayOn? 
+          document.body.setAttribute("class", "no-scroll") : 
+          document.body.removeAttribute("class", "noscroll")
+        }
       </div>
     </div>
   );
 }
 
 export default Album;
+

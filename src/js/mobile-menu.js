@@ -8,7 +8,7 @@ toggler.addEventListener("change", (e) => {
         menu.style.visibility = "visible";
         menuOverlay.style.transform = "translateX(0%)";
         menuOverlay.style.transition = "transform .15s ease";
-        document.body.setAttribute("class", "noscroll");
+        document.body.setAttribute("class", "no-scroll");
 
     } else {
         menu.style.visibility = "hidden";
