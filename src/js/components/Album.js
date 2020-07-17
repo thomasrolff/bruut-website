@@ -11,9 +11,23 @@ function Album({ data, album, image }) {
     setOverlay(false);
   }
 
+  const noScroll = () => {
+    const overlay = document.getElementById('overlay-root');
+   
+    document.body.setAttribute("class", "no-scroll");
+    overlay.ontouchmove = (e) => { 
+      e.preventDefault(); 
+      return false; 
+    };
+  }
+
+  function onTouch(e) {
+    e.preventDefault();
+  }
+
   return (
-    <div className="album">
-      <img src={image}></img>
+    <div className="album" onTouchStart={onTouch}>
+      <img src={image} onTouchStart={onTouch}></img>
       <div className="overlay" onClick={() => setOverlay(true)}>
         <h3 className="albumTitle">{album.title}</h3>
         <p className="album-info">{album.info}</p>
@@ -29,8 +43,8 @@ function Album({ data, album, image }) {
             document.getElementById('overlay-root'))
         )}
         {overlayOn? 
-          document.body.setAttribute("class", "no-scroll") : 
-          document.body.removeAttribute("class", "noscroll")
+          noScroll() : 
+          document.body.removeAttribute("class", "no-scroll")
         }
       </div>
     </div>
@@ -38,4 +52,3 @@ function Album({ data, album, image }) {
 }
 
 export default Album;
-

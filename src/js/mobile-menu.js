@@ -9,7 +9,6 @@ toggler.addEventListener("change", (e) => {
         menuOverlay.style.transform = "translateX(0%)";
         menuOverlay.style.transition = "transform .15s ease";
         document.body.setAttribute("class", "no-scroll");
-
     } else {
         menu.style.visibility = "hidden";
         menuOverlay.style.transform = "translateX(100%)";

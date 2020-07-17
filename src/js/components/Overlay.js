@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-// import arrowPrevious from '../../img/arrow-left.svg';
-// import arrowNext from '../../img/arrow-right.svg';
 import ButtonBuy from './ButtonBuy';
 import ButtonStream from './ButtonStream';
 
