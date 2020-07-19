@@ -986,8 +986,8 @@ h2 {
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {
             margin-top: 10%;
             padding: 0;
-            width: 40vw;
-            height: 40vw; }
+            width: 48vw;
+            height: 48vw; }
         .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {
           max-width: 90%;
           min-width: 100vw;
@@ -996,7 +996,7 @@ h2 {
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p, .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {
             margin: 5px 15px; }
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {
-            margin-top: 10px; }
+            margin-top: 3vh; }
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p {
             font-size: 1rem; }
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .produced {
@@ -1004,7 +1004,7 @@ h2 {
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .para-container {
             display: none; }
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .available {
-            margin-bottom: 40px; }
+            margin-bottom: 4vh; }
           .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {
             display: -webkit-box;
             display: -webkit-flex;
@@ -1020,7 +1020,7 @@ h2 {
                 -ms-flex-align: center;
                     align-items: center;
             margin-top: 0;
-            margin-bottom: 1rem; }
+            margin-bottom: .5rem; }
             .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {
               display: -webkit-box;
               display: -webkit-flex;
@@ -1031,7 +1031,6 @@ h2 {
               -webkit-flex-direction: column;
                   -ms-flex-direction: column;
                       flex-direction: column;
-              margin-bottom: .5rem;
               width: 90vw;
               padding: 15px 0;
               text-align: center; }
@@ -1102,7 +1101,7 @@ h2 {
       height: 100vh;
       border: none; }
       .stream-modal .close-button {
-        bottom: 26px;
+        bottom: 24px;
         left: 50%;
         -webkit-transform: translate(-50%);
                 transform: translate(-50%);
@@ -1369,4 +1368,4 @@ h2 {
           margin-bottom: 1rem; } }
 
 
-/*# sourceMappingURL=main.200d184f5a.css.map*/
+/*# sourceMappingURL=main.1c84d93ad2.css.map*/

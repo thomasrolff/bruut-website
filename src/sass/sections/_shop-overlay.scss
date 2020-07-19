@@ -214,8 +214,8 @@
                         img {
                             margin-top: 10%;
                             padding: 0;
-                            width: 40vw;
-                            height: 40vw;
+                            width: 48vw;
+                            height: 48vw;
                         }
                     }
                     .info-container {
@@ -227,7 +227,7 @@
                             margin: 5px 15px;
                         }
                         h2 {
-                            margin-top: 10px;
+                            margin-top: 3vh;
                         }
                         p {
                             font-size: 1rem;
@@ -239,18 +239,17 @@
                             display: none;
                         }
                         .available {
-                            margin-bottom: 40px;
+                            margin-bottom: 4vh;
                         }
                         .buttons-container {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
                             margin-top: 0;
-                            margin-bottom: 1rem;
+                            margin-bottom: .5rem;
                             .button {
                                 display: flex;
                                 flex-direction: column;
-                                margin-bottom: .5rem;
                                 width: 90vw;
                                 padding: 15px 0;
                                 text-align: center;
