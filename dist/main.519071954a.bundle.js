@@ -86,6 +86,181 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./../img/apple.svg */ "./src/img/apple.svg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./../img/shopping.svg */ "./src/img/shopping.svg");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../img/parallax.jpg */ "./src/img/parallax.jpg");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+// Module
+exports.push([module.i, "*, *:before, *:after {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  margin: 0; }\n\nhtml {\n  background: #000; }\n\nbody {\n  overflow-x: hidden; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\na {\n  text-decoration: none; }\n\nbody {\n  font-family: futura, sans-serif; }\n\nh2 {\n  font-size: 2.7rem; }\n\n.button {\n  display: block;\n  width: 200px;\n  padding: 11px 0;\n  border: 2px solid #f3eee9;\n  color: #f3eee9;\n  font-size: 1rem;\n  font-weight: 600;\n  text-transform: uppercase; }\n\n.button__album {\n  width: 88%;\n  border: 1px solid #989898;\n  color: #989898;\n  padding: 10px;\n  font-weight: 100;\n  display: relative; }\n\n.button__buy {\n  position: relative;\n  padding-left: 90px;\n  -webkit-transition: all .15s linear;\n  transition: all .15s linear; }\n  .button__buy .shopping {\n    position: relative; }\n    .button__buy .shopping svg {\n      position: absolute;\n      left: -32px; }\n      .button__buy .shopping svg path {\n        -webkit-transition: all .15s linear;\n        transition: all .15s linear; }\n  .button__buy:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__buy:hover svg path {\n      fill: #000; }\n\n.button__spotify {\n  position: relative;\n  padding-left: 70px;\n  -webkit-transition: all .15s linear;\n  transition: all .15s linear; }\n  .button__spotify .spotify {\n    position: relative; }\n    .button__spotify .spotify svg {\n      position: absolute;\n      left: -32px; }\n      .button__spotify .spotify svg path {\n        -webkit-transition: all .15s linear;\n        transition: all .15s linear; }\n  .button__spotify:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__spotify:hover svg path {\n      fill: #000; }\n\n.button__apple {\n  position: relative;\n  padding-left: 90px; }\n  .button__apple::before {\n    position: absolute;\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    display: block;\n    left: 29%; }\n\n.button__flex {\n  width: 100%;\n  -webkit-transition: all .15s linear;\n  transition: all .15s linear; }\n  .button__flex:hover {\n    background-color: #f3eee9;\n    color: #000; }\n\n.button__flex--buy .buy {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative; }\n  .button__flex--buy .buy::before {\n    content: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    position: absolute;\n    right: 62%; }\n\n.button__buy--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__buy--borderless::before {\n    position: absolute;\n    display: block;\n    left: 0; }\n\n.button__spotify--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__spotify--borderless::before {\n    position: absolute;\n    display: block;\n    left: 3px; }\n\n.button__apple--borderless {\n  border: none;\n  padding: 0;\n  margin: 5px 0;\n  padding-left: 32px; }\n  .button__apple--borderless::before {\n    position: absolute;\n    display: block;\n    left: 4px; }\n\n.button__shop--buy {\n  position: relative;\n  padding-left: 90px;\n  -webkit-transition: all .15s linear;\n  transition: all .15s linear; }\n  .button__shop--buy .shopping {\n    position: relative; }\n    .button__shop--buy .shopping svg {\n      position: absolute;\n      left: -32px; }\n      .button__shop--buy .shopping svg path {\n        -webkit-transition: all .15s linear;\n        transition: all .15s linear; }\n  .button__shop--buy:hover {\n    background-color: #fff;\n    color: #000; }\n    .button__shop--buy:hover svg path {\n      fill: #000; }\n\n.button__shop--stream {\n  position: relative;\n  padding-left: 60px;\n  -webkit-transition: all .15s linear;\n  transition: all .15s linear;\n  position: relative; }\n  .button__shop--stream .stream svg {\n    position: absolute;\n    left: 160px;\n    top: 16px; }\n    .button__shop--stream .stream svg path {\n      -webkit-transition: all .15s linear;\n      transition: all .15s linear; }\n  .button__shop--stream:hover {\n    background-color: #f3eee9;\n    color: #000; }\n    .button__shop--stream:hover .stream svg path {\n      fill: #000; }\n\n.parallax {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  height: 70vh;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.grid-12-col {\n  display: grid;\n  grid-template-columns: repeat(12, 1fr);\n  grid-gap: 20px; }\n\n.margin-100 {\n  width: 100%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-95 {\n  width: 95%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-90 {\n  width: 90%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-85 {\n  width: 85%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-80 {\n  width: 80%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-75 {\n  width: 75%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-70 {\n  width: 70%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-65 {\n  width: 65%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-60 {\n  width: 60%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-55 {\n  width: 55%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.margin-50 {\n  width: 50%;\n  margin: 0 auto;\n  max-width: 1140px; }\n\n.navbar-container {\n  background: #000;\n  width: 100vw;\n  overflow: hidden;\n  position: fixed;\n  top: 0;\n  z-index: 3; }\n  .navbar-container .navbar {\n    height: 39px;\n    font-size: .86rem;\n    text-transform: uppercase;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center; }\n    .navbar-container .navbar .logo-container {\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex; }\n      .navbar-container .navbar .logo-container .logo {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        z-index: 1; }\n    .navbar-container .navbar .toggler, .navbar-container .navbar .hamburger, .navbar-container .navbar .menu-mobile {\n      display: none; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .toggler, .navbar-container .navbar .hamburger, .navbar-container .navbar .menu-mobile {\n          display: block; } }\n    .navbar-container .navbar .menu-desktop {\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-justify-content: space-around;\n          -ms-flex-pack: distribute;\n              justify-content: space-around;\n      font-weight: 100;\n      height: 100%;\n      width: 50%; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .menu-desktop {\n          display: none; } }\n      .navbar-container .navbar .menu-desktop a {\n        height: 100%;\n        color: #fff;\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n        -webkit-align-items: center;\n            -ms-flex-align: center;\n                align-items: center;\n        padding: 0 10px;\n        -webkit-transition: color .15s linear;\n        transition: color .15s linear; }\n        .navbar-container .navbar .menu-desktop a:hover {\n          color: #000;\n          background-color: #fff; }\n    .navbar-container .navbar .socials-container {\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: justify;\n      -webkit-justify-content: space-between;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n      -webkit-align-items: center;\n          -ms-flex-align: center;\n              align-items: center;\n      height: 100%;\n      min-width: 18vw; }\n      @media screen and (max-width: 900px) {\n        .navbar-container .navbar .socials-container {\n          display: none; } }\n      .navbar-container .navbar .socials-container .socials {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n        -webkit-align-items: center;\n            -ms-flex-align: center;\n                align-items: center;\n        padding: 0 10px;\n        height: 100%; }\n        .navbar-container .navbar .socials-container .socials:hover {\n          background-color: #fff; }\n          .navbar-container .navbar .socials-container .socials:hover svg path {\n            -webkit-transition: fill .15s linear;\n            transition: fill .15s linear;\n            fill: #000; }\n\n@media screen and (max-width: 900px) {\n  .navbar-container .navbar {\n    height: 51px; }\n    .navbar-container .navbar .toggler {\n      position: absolute;\n      top: 0;\n      right: 2.5%;\n      height: 51px;\n      width: 51px;\n      cursor: pointer;\n      opacity: 0;\n      z-index: 200; }\n      .navbar-container .navbar .toggler:checked + .hamburger > div {\n        -webkit-transform: rotate(45deg);\n                transform: rotate(45deg); }\n        .navbar-container .navbar .toggler:checked + .hamburger > div:before, .navbar-container .navbar .toggler:checked + .hamburger > div:after {\n          top: 0;\n          -webkit-transform: rotate(90deg);\n                  transform: rotate(90deg); }\n    .navbar-container .navbar .hamburger {\n      position: absolute;\n      top: 0;\n      right: 2.5%;\n      height: 51px;\n      width: 51px;\n      padding: 1rem .5rem;\n      z-index: 100;\n      background: #000;\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n      -webkit-align-items: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n      -webkit-justify-content: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .navbar-container .navbar .hamburger > div {\n        position: relative;\n        width: 100%;\n        height: 4px;\n        background-color: #fff;\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n        -webkit-align-items: center;\n            -ms-flex-align: center;\n                align-items: center;\n        -webkit-box-pack: center;\n        -webkit-justify-content: center;\n            -ms-flex-pack: center;\n                justify-content: center; }\n        .navbar-container .navbar .hamburger > div:before, .navbar-container .navbar .hamburger > div:after {\n          content: \"\";\n          position: absolute;\n          z-index: 100;\n          top: -10px;\n          width: 100%;\n          height: 4px;\n          background: #fff; }\n        .navbar-container .navbar .hamburger > div:after {\n          top: 10px; }\n  .menu-mobile {\n    position: fixed;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    visibility: hidden;\n    overflow: hidden;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n    -webkit-justify-content: flex-end;\n        -ms-flex-pack: end;\n            justify-content: flex-end;\n    z-index: 2; }\n    .menu-mobile .menu-overlay {\n      background: #000;\n      height: 100vh;\n      width: 40vw;\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: end;\n      -webkit-justify-content: flex-end;\n          -ms-flex-pack: end;\n              justify-content: flex-end;\n      -webkit-box-align: center;\n      -webkit-align-items: center;\n          -ms-flex-align: center;\n              align-items: center;\n      position: absolute;\n      -webkit-transform: translate(100%);\n              transform: translate(100%);\n      -webkit-transition-property: -webkit-transform;\n      transition-property: -webkit-transform;\n      transition-property: transform;\n      transition-property: transform, -webkit-transform;\n      -webkit-transition-duration: .15s;\n              transition-duration: .15s; } }\n    @media screen and (max-width: 900px) and (max-width: 600px) {\n      .menu-mobile .menu-overlay {\n        width: 60vw; } }\n\n@media screen and (max-width: 900px) {\n      .menu-mobile .menu-overlay .menu-content {\n        text-align: right;\n        max-width: 100%;\n        max-height: 100%; }\n        .menu-mobile .menu-overlay .menu-content .nav-mobile li {\n          padding: .25rem 0; }\n          .menu-mobile .menu-overlay .menu-content .nav-mobile li a {\n            padding-right: 2.5vw;\n            list-style: none;\n            text-decoration: none;\n            text-transform: uppercase;\n            color: #fff;\n            font-size: 1.6rem; } }\n\n.header {\n  position: relative;\n  overflow: hidden;\n  height: 100vh;\n  background-color: #000; }\n  .header video {\n    position: absolute;\n    top: 0;\n    left: 50%;\n    -webkit-transform: translate(-50%);\n            transform: translate(-50%);\n    height: 120vh;\n    width: auto; }\n\n.news {\n  background: #f3eee9; }\n  .news .news-content {\n    height: 22vh;\n    text-transform: uppercase;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center; }\n    .news .news-content h2 {\n      font-size: 1.1rem;\n      font-weight: 600;\n      color: #262626;\n      padding: 0.1rem 1rem; }\n    .news .news-content a {\n      color: #262626;\n      text-decoration: underline;\n      font-weight: 600;\n      font-size: 2.2rem;\n      -webkit-transition: all .15s linear;\n      transition: all .15s linear; }\n      @media (hover: hover) {\n        .news .news-content a:hover {\n          color: #000;\n          -webkit-transform: scale(1.08);\n                  transform: scale(1.08); } }\n    @media screen and (max-width: 600px) {\n      .news .news-content {\n        height: auto;\n        text-align: center; }\n        .news .news-content h2 {\n          font-size: 1rem;\n          margin-top: 2rem; }\n        .news .news-content a {\n          font-size: 2rem;\n          margin-bottom: 2rem; } }\n\n.banner {\n  height: 78vh;\n  background: #000;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  overflow: hidden; }\n  .banner .ad-image {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    position: relative; }\n    .banner .ad-image .album-cover {\n      z-index: 1;\n      max-width: 30%;\n      min-width: 30vw; }\n    .banner .ad-image .lp {\n      max-width: 30%;\n      min-width: 30vw;\n      position: absolute;\n      left: 0; }\n  .banner .ad-text {\n    width: 50vw;\n    color: #fff;\n    text-align: center;\n    margin-left: 8%;\n    margin-right: 8%; }\n    .banner .ad-text .go-surfing-logo {\n      width: 90%;\n      margin-top: 80px;\n      margin-bottom: 50px; }\n    .banner .ad-text .quote {\n      font-size: 1.1rem;\n      line-height: 1.65;\n      margin-bottom: 50px; }\n      .banner .ad-text .quote span {\n        font-style: italic; }\n    .banner .ad-text .button {\n      display: inline-block;\n      text-align: left;\n      margin: 5px; }\n    .banner .ad-text .footnote {\n      text-transform: uppercase;\n      font-size: .7rem;\n      margin-top: 40px; }\n  @media screen and (max-width: 900px) {\n    .banner .lp {\n      display: none; }\n    .banner .ad-image .album-cover {\n      max-width: 90%; }\n    .banner .ad-text .go-surfing-logo {\n      width: 100%; } }\n  @media screen and (max-width: 600px) {\n    .banner {\n      height: auto;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -webkit-flex-direction: column;\n          -ms-flex-direction: column;\n              flex-direction: column;\n      -webkit-box-align: center;\n      -webkit-align-items: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-align-content: center;\n          -ms-flex-line-pack: center;\n              align-content: center; }\n      .banner .ad-image {\n        -webkit-box-ordinal-group: 3;\n        -webkit-order: 2;\n            -ms-flex-order: 2;\n                order: 2;\n        max-width: 80%;\n        margin: 3rem 0; }\n        .banner .ad-image .album-cover {\n          max-width: 100%; }\n      .banner .ad-text {\n        width: 90%; }\n        .banner .ad-text .go-surfing-logo {\n          margin-top: 3rem; }\n        .banner .ad-text .footnote {\n          margin-top: 1rem; } }\n\n.shows {\n  background: #f3eee9;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .shows h2 {\n    color: #262626;\n    margin-bottom: 1rem; }\n  .shows .dates .songkick-widget .event .ok {\n    display: none; }\n  .shows .button__flex--video {\n    display: none;\n    border: 2px solid #262626;\n    color: #262626;\n    width: 200px;\n    margin: 0 auto;\n    margin-top: 2rem;\n    text-align: center; }\n    .shows .button__flex--video:hover {\n      cursor: pointer;\n      background-color: #000;\n      border-color: #000;\n      color: #f3eee9; }\n\n.shop {\n  background: #000;\n  color: #fff;\n  padding-bottom: 5rem;\n  padding-top: 4rem; }\n  .shop .albums-container {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    margin-top: 2rem;\n    margin-bottom: 5rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none; }\n    @media only screen and (max-width: 1000px) {\n      .shop .albums-container {\n        grid-template-columns: repeat(2, 1fr); } }\n    .shop .albums-container .album {\n      position: relative;\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex; }\n      .shop .albums-container .album img {\n        width: 100%;\n        height: 100%;\n        -webkit-transition: all .25s;\n        transition: all .25s;\n        opacity: 1; }\n      .shop .albums-container .album .overlay {\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        padding: 15%;\n        cursor: pointer;\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: center;\n        -webkit-justify-content: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        -webkit-box-align: center;\n        -webkit-align-items: center;\n            -ms-flex-align: center;\n                align-items: center;\n        color: #fff;\n        opacity: 0;\n        -webkit-transition: all .15s ease-in;\n        transition: all .15s ease-in; }\n        .shop .albums-container .album .overlay .album-title {\n          font-size: 1.2em; }\n        .shop .albums-container .album .overlay .album-info {\n          text-transform: uppercase;\n          font-size: .8em;\n          margin-top: 5%; }\n        .shop .albums-container .album .overlay .album-info-sub {\n          font-size: .8rem;\n          margin-top: 3%; }\n      @media (hover: hover) {\n        .shop .albums-container .album:hover img {\n          -webkit-transform: scale(0.88);\n                  transform: scale(0.88);\n          opacity: 0.2; }\n        .shop .albums-container .album:hover .overlay {\n          opacity: 1;\n          z-index: 1; } }\n  .shop .button__flex--webshop {\n    position: relative;\n    width: 220px;\n    margin: 0 auto;\n    line-height: 1;\n    padding: 15px 0 15px 30px;\n    -webkit-transition: all .15s linear;\n    transition: all .15s linear; }\n    .shop .button__flex--webshop .arrow {\n      display: inline-block;\n      position: absolute;\n      -webkit-transition: right .15s linear;\n      transition: right .15s linear;\n      right: 20px; }\n    .shop .button__flex--webshop svg path {\n      fill: #f3eee9;\n      -webkit-transition: all .15s linear;\n      transition: all .15s linear; }\n    .shop .button__flex--webshop:hover .arrow {\n      right: 15px; }\n    .shop .button__flex--webshop:hover svg path {\n      fill: #000; }\n  @media only screen and (max-width: 668px) {\n    .shop .albums-container {\n      grid-template-columns: repeat(1, 1fr); } }\n\n.no-scroll {\n  overflow: hidden;\n  -webkit-overflow-scrolling: touch; }\n\n.no-selection {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\n\n.overlay-shop {\n  color: white;\n  display: block;\n  position: fixed;\n  z-index: 99;\n  height: 100vh;\n  width: 100%;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.88);\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\n  .overlay-shop .overlay-wrapper {\n    position: relative;\n    height: 100vh;\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    z-index: 101; }\n    .overlay-shop .overlay-wrapper .top-bar-wrapper {\n      position: absolute;\n      top: 0;\n      width: 100%; }\n      .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close {\n        top: 0;\n        left: 0;\n        background-color: #fff;\n        display: inline-block;\n        padding: .7rem; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close:hover {\n          cursor: pointer; }\n    .overlay-shop .overlay-wrapper .left-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-right: 4rem; }\n      @media screen and (max-width: 1011px) {\n        .overlay-shop .overlay-wrapper .left-bar-wrapper {\n          padding: 0px; }\n          .overlay-shop .overlay-wrapper .left-bar-wrapper svg path {\n            display: none; } }\n      .overlay-shop .overlay-wrapper .left-bar-wrapper svg path {\n        fill: #5a5959;\n        -webkit-transition: all .2s linear;\n        transition: all .2s linear; }\n      .overlay-shop .overlay-wrapper .left-bar-wrapper:hover {\n        cursor: pointer; }\n        .overlay-shop .overlay-wrapper .left-bar-wrapper:hover svg path {\n          fill: #f3eee9; }\n        @media screen and (max-width: 1011px) {\n          .overlay-shop .overlay-wrapper .left-bar-wrapper:hover {\n            cursor: default; } }\n    .overlay-shop .overlay-wrapper .right-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-left: 4rem; }\n      @media screen and (max-width: 1011px) {\n        .overlay-shop .overlay-wrapper .right-bar-wrapper {\n          padding: 0px; }\n          .overlay-shop .overlay-wrapper .right-bar-wrapper svg path {\n            display: none; } }\n      .overlay-shop .overlay-wrapper .right-bar-wrapper svg path {\n        fill: #5a5959;\n        -webkit-transition: all .2s linear;\n        transition: all .2s linear; }\n      .overlay-shop .overlay-wrapper .right-bar-wrapper:hover {\n        cursor: pointer; }\n        .overlay-shop .overlay-wrapper .right-bar-wrapper:hover svg path {\n          fill: #f3eee9; }\n        @media screen and (max-width: 1011px) {\n          .overlay-shop .overlay-wrapper .right-bar-wrapper:hover {\n            cursor: default; } }\n    .overlay-shop .overlay-wrapper .content-wrapper {\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n      -webkit-justify-content: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      width: 65%; }\n      .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n        height: 100%;\n        width: 100%;\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-pack: center;\n        -webkit-justify-content: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        min-height: 400px; }\n        @media screen and (max-width: 860px) {\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n            min-height: 100%; } }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n          max-height: 100%;\n          min-width: 420px;\n          max-width: 50%;\n          padding-right: 2.5%; }\n          @media screen and (max-width: 860px) {\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n              display: -webkit-box;\n              display: -webkit-flex;\n              display: -ms-flexbox;\n              display: flex;\n              -webkit-box-pack: end;\n              -webkit-justify-content: flex-end;\n                  -ms-flex-pack: end;\n                      justify-content: flex-end; } }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {\n            width: 100%; }\n            @media screen and (max-width: 860px) {\n              .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {\n                padding-left: 10px;\n                width: 80%; } }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n          display: -webkit-box;\n          display: -webkit-flex;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n          -webkit-flex-direction: column;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-box-pack: justify;\n          -webkit-justify-content: space-between;\n              -ms-flex-pack: justify;\n                  justify-content: space-between;\n          min-width: 420px;\n          max-width: 50%;\n          margin-left: 2.5%; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n            margin-top: 1.5rem; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n              display: inline-block;\n              margin-bottom: 3px; }\n              @media screen and (max-width: 860px) {\n                .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n                  display: -webkit-box;\n                  display: -webkit-flex;\n                  display: -ms-flexbox;\n                  display: flex; } }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {\n              margin-right: 1rem; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--stream {\n              position: relative; }\n              .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--stream:hover {\n                cursor: pointer; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            font-size: 2.7rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p {\n            font-size: .9rem;\n            line-height: 1.4; }\n    @media screen and (max-width: 860px) {\n      .overlay-shop .overlay-wrapper .para-container {\n        display: none; }\n      .overlay-shop .overlay-wrapper .button__shop--stream {\n        margin-top: 10px; } }\n\n@media screen and (max-width: 600px) {\n  .overlay-shop .overlay-wrapper {\n    -webkit-box-align: end;\n    -webkit-align-items: flex-end;\n        -ms-flex-align: end;\n            align-items: flex-end; }\n    .overlay-shop .overlay-wrapper .top-bar-wrapper {\n      position: absolute; }\n      .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close {\n        background-color: rgba(0, 0, 0, 0);\n        padding: 24px; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close svg {\n          width: 35px;\n          height: 35px; }\n          .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close svg path {\n            fill: #f3eee9; }\n    .overlay-shop .overlay-wrapper .right-bar-wrapper, .overlay-shop .overlay-wrapper .left-bar-wrapper {\n      display: none; }\n    .overlay-shop .overlay-wrapper .content-wrapper {\n      width: 100vw; }\n      .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-flex-flow: wrap;\n            -ms-flex-flow: wrap;\n                flex-flow: wrap;\n        -webkit-box-pack: center;\n        -webkit-justify-content: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        min-height: 50vh; }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n          -webkit-box-pack: center;\n          -webkit-justify-content: center;\n              -ms-flex-pack: center;\n                  justify-content: center; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {\n            margin-top: 10%;\n            padding: 0;\n            width: 48vw;\n            height: 48vw; }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n          max-width: 90%;\n          min-width: 100vw;\n          padding: 10px;\n          margin-left: 0; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p, .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            margin: 5px 15px; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            margin-top: 3vh; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p {\n            font-size: 1rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .produced {\n            display: none; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .para-container {\n            display: none; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .available {\n            margin-bottom: 4vh; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n            display: -webkit-box;\n            display: -webkit-flex;\n            display: -ms-flexbox;\n            display: flex;\n            -webkit-box-orient: vertical;\n            -webkit-box-direction: normal;\n            -webkit-flex-direction: column;\n                -ms-flex-direction: column;\n                    flex-direction: column;\n            -webkit-box-align: center;\n            -webkit-align-items: center;\n                -ms-flex-align: center;\n                    align-items: center;\n            margin-top: 0;\n            margin-bottom: .5rem; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n              display: -webkit-box;\n              display: -webkit-flex;\n              display: -ms-flexbox;\n              display: flex;\n              -webkit-box-orient: vertical;\n              -webkit-box-direction: normal;\n              -webkit-flex-direction: column;\n                  -ms-flex-direction: column;\n                      flex-direction: column;\n              width: 90vw;\n              padding: 15px 0;\n              text-align: center; }\n              .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button svg {\n                display: none; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {\n              margin-right: 0; } }\n\n.stream-modal-background {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100vh;\n  width: 100vw;\n  z-index: 999;\n  background: black;\n  opacity: .85; }\n\n.stream-modal {\n  position: absolute;\n  z-index: 999;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  width: 600px;\n  height: 450px;\n  background: #000;\n  border: 2px solid #f3eee9; }\n  .stream-modal .close-button {\n    position: absolute;\n    display: inline-block;\n    padding: 1rem; }\n    .stream-modal .close-button:hover {\n      cursor: pointer; }\n    .stream-modal .close-button .closeModal {\n      font-size: 1.5rem; }\n  .stream-modal ul {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center; }\n    .stream-modal ul li {\n      padding: 1rem 0; }\n      .stream-modal ul li a {\n        color: #f3eee9;\n        font-size: 1.3rem; }\n        .stream-modal ul li a:hover {\n          border-bottom: 2px #f3eee9 solid; }\n  @media screen and (max-width: 600px) {\n    .stream-modal {\n      width: 100vw;\n      height: 100vh;\n      border: none; }\n      .stream-modal .close-button {\n        bottom: 24px;\n        left: 50%;\n        -webkit-transform: translate(-50%);\n                transform: translate(-50%);\n        border: 3px solid #f3eee9; } }\n\n.about {\n  background: #f3eee9;\n  padding-top: 4rem; }\n  .about .content-wrapper {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    color: #262626;\n    padding-bottom: 5rem;\n    width: 100%;\n    -webkit-box-pack: start;\n    -webkit-justify-content: flex-start;\n        -ms-flex-pack: start;\n            justify-content: flex-start; }\n    .about .content-wrapper h2.title span.capital {\n      font-size: 6rem; }\n    .about .content-wrapper .article {\n      width: 235px; }\n      .about .content-wrapper .article .text {\n        font-size: .98rem; }\n    .about .content-wrapper .photo-container {\n      position: relative;\n      display: grid;\n      grid-template-columns: repeat(3, auto);\n      grid-gap: 20px;\n      justify-items: flex-start;\n      -webkit-align-content: flex-start;\n          -ms-flex-line-pack: start;\n              align-content: flex-start;\n      margin-left: 8rem;\n      max-width: 60%;\n      height: 100%;\n      -webkit-transition: all .2s linear;\n      transition: all .2s linear; }\n      .about .content-wrapper .photo-container .photo-overlay {\n        position: absolute;\n        top: 0;\n        left: 0;\n        height: 100%;\n        width: 100%;\n        background-color: black;\n        opacity: 0;\n        -webkit-transition: all .2s linear;\n        transition: all .2s linear; }\n      .about .content-wrapper .photo-container .more-photos {\n        position: absolute;\n        font-size: 1.2rem;\n        color: #fff;\n        top: 50%;\n        left: 50%;\n        -webkit-transform: translate(-50%, -50%);\n                transform: translate(-50%, -50%);\n        opacity: 0;\n        -webkit-transition: all .15s linear;\n        transition: all .15s linear;\n        cursor: pointer; }\n      .about .content-wrapper .photo-container:hover {\n        grid-gap: 0;\n        padding: 20px; }\n        .about .content-wrapper .photo-container:hover .photo-overlay {\n          top: 20px;\n          left: 20px;\n          height: calc(100% - 40px);\n          width: calc(100% - 40px);\n          opacity: .5;\n          cursor: pointer; }\n        .about .content-wrapper .photo-container:hover p.more-photos {\n          opacity: 1; }\n      .about .content-wrapper .photo-container img {\n        width: 100%; }\n        .about .content-wrapper .photo-container img:hover {\n          cursor: pointer; }\n\n.no-scroll {\n  overflow: hidden;\n  -webkit-overflow-scrolling: touch; }\n\n.no-selection {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\n\n.carousel {\n  color: white;\n  display: block;\n  position: fixed;\n  z-index: 99;\n  height: 100vh;\n  width: 100%;\n  top: 0;\n  left: 0;\n  background: rgba(0, 0, 0, 0.88);\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\n  .carousel .overlay-wrapper {\n    position: relative;\n    height: 100vh;\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    z-index: 101; }\n    .carousel .overlay-wrapper .top-bar-wrapper {\n      position: absolute;\n      top: 0;\n      width: 100%; }\n      .carousel .overlay-wrapper .top-bar-wrapper .button-close {\n        top: 0;\n        left: 0;\n        background-color: #fff;\n        display: inline-block;\n        padding: .7rem; }\n        .carousel .overlay-wrapper .top-bar-wrapper .button-close:hover {\n          cursor: pointer; }\n    .carousel .overlay-wrapper .left-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-right: 4rem; }\n      @media screen and (max-width: 1011px) {\n        .carousel .overlay-wrapper .left-bar-wrapper {\n          padding: 0px; }\n          .carousel .overlay-wrapper .left-bar-wrapper svg path {\n            display: none; } }\n      .carousel .overlay-wrapper .left-bar-wrapper svg path {\n        fill: #5a5959;\n        -webkit-transition: all .2s linear;\n        transition: all .2s linear; }\n      .carousel .overlay-wrapper .left-bar-wrapper:hover {\n        cursor: pointer; }\n        .carousel .overlay-wrapper .left-bar-wrapper:hover svg path {\n          fill: #f3eee9; }\n        @media screen and (max-width: 1011px) {\n          .carousel .overlay-wrapper .left-bar-wrapper:hover {\n            cursor: default; } }\n    .carousel .overlay-wrapper .right-bar-wrapper {\n      padding: 8rem 3rem;\n      padding-left: 4rem; }\n      @media screen and (max-width: 1011px) {\n        .carousel .overlay-wrapper .right-bar-wrapper {\n          padding: 0px; }\n          .carousel .overlay-wrapper .right-bar-wrapper svg path {\n            display: none; } }\n      .carousel .overlay-wrapper .right-bar-wrapper svg path {\n        fill: #5a5959;\n        -webkit-transition: all .2s linear;\n        transition: all .2s linear; }\n      .carousel .overlay-wrapper .right-bar-wrapper:hover {\n        cursor: pointer; }\n        .carousel .overlay-wrapper .right-bar-wrapper:hover svg path {\n          fill: #f3eee9; }\n        @media screen and (max-width: 1011px) {\n          .carousel .overlay-wrapper .right-bar-wrapper:hover {\n            cursor: default; } }\n    .carousel .overlay-wrapper .content-wrapper {\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n      -webkit-justify-content: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      width: 65%; }\n      .carousel .overlay-wrapper .content-wrapper .content-container {\n        height: 100%;\n        width: 100%;\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-pack: center;\n        -webkit-justify-content: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        min-height: 400px; }\n        @media screen and (max-width: 860px) {\n          .carousel .overlay-wrapper .content-wrapper .content-container {\n            min-height: 100%; } }\n        .carousel .overlay-wrapper .content-wrapper .content-container .image-container {\n          max-height: 100%;\n          min-width: 420px;\n          max-width: 50%;\n          padding-right: 2.5%; }\n          @media screen and (max-width: 860px) {\n            .carousel .overlay-wrapper .content-wrapper .content-container .image-container {\n              display: -webkit-box;\n              display: -webkit-flex;\n              display: -ms-flexbox;\n              display: flex;\n              -webkit-box-pack: end;\n              -webkit-justify-content: flex-end;\n                  -ms-flex-pack: end;\n                      justify-content: flex-end; } }\n          .carousel .overlay-wrapper .content-wrapper .content-container .image-container img {\n            width: 100%; }\n            @media screen and (max-width: 860px) {\n              .carousel .overlay-wrapper .content-wrapper .content-container .image-container img {\n                padding-left: 10px;\n                width: 80%; } }\n        .carousel .overlay-wrapper .content-wrapper .content-container .info-container {\n          display: -webkit-box;\n          display: -webkit-flex;\n          display: -ms-flexbox;\n          display: flex;\n          -webkit-box-orient: vertical;\n          -webkit-box-direction: normal;\n          -webkit-flex-direction: column;\n              -ms-flex-direction: column;\n                  flex-direction: column;\n          -webkit-box-pack: justify;\n          -webkit-justify-content: space-between;\n              -ms-flex-pack: justify;\n                  justify-content: space-between;\n          min-width: 420px;\n          max-width: 50%;\n          margin-left: 2.5%; }\n          .carousel .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            font-size: 2.7rem; }\n          .carousel .overlay-wrapper .content-wrapper .content-container .info-container p {\n            font-size: .9rem;\n            line-height: 1.4; }\n    @media screen and (max-width: 860px) {\n      .carousel .overlay-wrapper .para-container {\n        display: none; }\n      .carousel .overlay-wrapper .button__shop--stream {\n        margin-top: 10px; } }\n\n@media screen and (max-width: 600px) {\n  .overlay-shop .overlay-wrapper {\n    -webkit-box-align: end;\n    -webkit-align-items: flex-end;\n        -ms-flex-align: end;\n            align-items: flex-end; }\n    .overlay-shop .overlay-wrapper .top-bar-wrapper {\n      position: absolute; }\n      .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close {\n        background-color: rgba(0, 0, 0, 0);\n        padding: 24px; }\n        .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close svg {\n          width: 35px;\n          height: 35px; }\n          .overlay-shop .overlay-wrapper .top-bar-wrapper .button-close svg path {\n            fill: #f3eee9; }\n    .overlay-shop .overlay-wrapper .right-bar-wrapper, .overlay-shop .overlay-wrapper .left-bar-wrapper {\n      display: none; }\n    .overlay-shop .overlay-wrapper .content-wrapper {\n      width: 100vw; }\n      .overlay-shop .overlay-wrapper .content-wrapper .content-container {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-flex-flow: wrap;\n            -ms-flex-flow: wrap;\n                flex-flow: wrap;\n        -webkit-box-pack: center;\n        -webkit-justify-content: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        min-height: 50vh; }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container {\n          -webkit-box-pack: center;\n          -webkit-justify-content: center;\n              -ms-flex-pack: center;\n                  justify-content: center; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .image-container img {\n            margin-top: 10%;\n            padding: 0;\n            width: 48vw;\n            height: 48vw; }\n        .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container {\n          max-width: 90%;\n          min-width: 100vw;\n          padding: 10px;\n          margin-left: 0; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p, .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            margin: 5px 15px; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container h2 {\n            margin-top: 3vh; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container p {\n            font-size: 1rem; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .produced {\n            display: none; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .para-container {\n            display: none; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .available {\n            margin-bottom: 4vh; }\n          .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container {\n            display: -webkit-box;\n            display: -webkit-flex;\n            display: -ms-flexbox;\n            display: flex;\n            -webkit-box-orient: vertical;\n            -webkit-box-direction: normal;\n            -webkit-flex-direction: column;\n                -ms-flex-direction: column;\n                    flex-direction: column;\n            -webkit-box-align: center;\n            -webkit-align-items: center;\n                -ms-flex-align: center;\n                    align-items: center;\n            margin-top: 0;\n            margin-bottom: .5rem; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button {\n              display: -webkit-box;\n              display: -webkit-flex;\n              display: -ms-flexbox;\n              display: flex;\n              -webkit-box-orient: vertical;\n              -webkit-box-direction: normal;\n              -webkit-flex-direction: column;\n                  -ms-flex-direction: column;\n                      flex-direction: column;\n              width: 90vw;\n              padding: 15px 0;\n              text-align: center; }\n              .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button svg {\n                display: none; }\n            .overlay-shop .overlay-wrapper .content-wrapper .content-container .info-container .buttons-container .button__shop--buy {\n              margin-right: 0; } }\n\n.video {\n  background: #000;\n  color: #fff;\n  padding-bottom: 7rem;\n  padding-top: 4rem; }\n  .video .title {\n    grid-column: 2 / 4; }\n  .video .video-container {\n    grid-column: 2 / 12;\n    display: grid;\n    grid-template-columns: repeat(2, auto);\n    grid-gap: 20px;\n    justify-items: start;\n    -webkit-align-content: start;\n        -ms-flex-line-pack: start;\n            align-content: start;\n    margin-bottom: 2rem; }\n    .video .video-container iframe {\n      width: 100%; }\n  .video .button__flex--video {\n    width: 200px;\n    margin: 0 auto;\n    text-align: center; }\n    .video .button__flex--video:hover {\n      cursor: pointer; }\n  @media screen and (max-width: 900px) {\n    .video .video-container {\n      display: block; } }\n  @media screen and (max-width: 600px) {\n    .video {\n      padding-bottom: 2rem; }\n      .video .video-container .video-1, .video .video-container .video-2 {\n        max-height: 30vh; } }\n\n.contact {\n  min-height: 50vh;\n  background: #000;\n  color: #fff;\n  padding: 5rem 0; }\n  .contact h2 {\n    grid-column-start: 3;\n    margin-bottom: 1.5rem; }\n  @media screen and (max-width: 900px) {\n    .contact {\n      height: 100vh; } }\n  .contact .flex-wrapper {\n    grid-column: 3 / 11;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    white-space: nowrap; }\n    .contact .flex-wrapper .label, .contact .flex-wrapper .bookings, .contact .flex-wrapper .management {\n      width: 200px; }\n    .contact .flex-wrapper p {\n      font-size: .9rem; }\n    .contact .flex-wrapper h3 {\n      font-size: .9rem; }\n  @media screen and (max-width: 900px) {\n    .contact h2 {\n      margin-bottom: .5rem; }\n    .contact .flex-wrapper {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -webkit-flex-direction: column;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n      .contact .flex-wrapper .label, .contact .flex-wrapper .bookings, .contact .flex-wrapper .management {\n        margin-bottom: 2.5em; }\n      .contact .flex-wrapper p, .contact .flex-wrapper h3 {\n        font-size: 1rem; } }\n\n.footer {\n  background: #000;\n  color: #fff;\n  padding: 5rem 0;\n  height: 100%;\n  padding: 1.5rem 0; }\n  .footer .flex-wrapper {\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n    -webkit-justify-content: flex-end;\n        -ms-flex-pack: end;\n            justify-content: flex-end; }\n    .footer .flex-wrapper h3 {\n      text-transform: uppercase;\n      font-weight: 100;\n      font-size: .9rem; }\n    .footer .flex-wrapper .socials-container {\n      margin-top: 1rem;\n      width: 18vw;\n      min-width: 200px;\n      display: -webkit-box;\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: justify;\n      -webkit-justify-content: space-between;\n          -ms-flex-pack: justify;\n              justify-content: space-between; }\n    .footer .flex-wrapper .socials {\n      padding: 10px; }\n      .footer .flex-wrapper .socials svg path {\n        fill: #989898;\n        -webkit-transition: fill .15s linear;\n        transition: fill .15s linear; }\n      .footer .flex-wrapper .socials:hover svg path {\n        fill: #fff; }\n    .footer .flex-wrapper #mc_embed_signup {\n      background: #000;\n      color: #fff;\n      clear: left;\n      width: 60%;\n      height: 100%;\n      margin-bottom: 2rem;\n      margin-top: 1rem; }\n      @media screen and (max-width: 600px) {\n        .footer .flex-wrapper #mc_embed_signup {\n          width: 90%;\n          margin-bottom: 3rem; } }\n      .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll,\n      .footer .flex-wrapper #mc_embed_signup .clear {\n        padding: 0;\n        height: 100%; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email,\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email,\n        .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n        .footer .flex-wrapper #mc_embed_signup .clear .email,\n        .footer .flex-wrapper #mc_embed_signup .clear .button {\n          height: 44px;\n          font-family: futura, sans-serif;\n          font-size: .9rem;\n          border: none;\n          border-bottom: 2px solid #fff;\n          border-radius: 0;\n          background-color: #000; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email,\n        .footer .flex-wrapper #mc_embed_signup .clear .email {\n          margin-right: 5px; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email::-webkit-input-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email::-webkit-input-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email::-webkit-input-placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email::-moz-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email::-moz-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email::-moz-placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email:-ms-input-placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email::-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email::-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email::-ms-input-placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email::placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email::placeholder,\n          .footer .flex-wrapper #mc_embed_signup .clear .email::placeholder {\n            color: #696969;\n            opacity: 1; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus,\n          .footer .flex-wrapper #mc_embed_signup .clear .email:focus {\n            outline: none;\n            caret-color: #fff;\n            color: #fff;\n            font-size: 1.3rem; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus::-webkit-input-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus::-webkit-input-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email:focus::-webkit-input-placeholder {\n            color: transparent; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus::-moz-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus::-moz-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email:focus::-moz-placeholder {\n            color: transparent; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus:-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus:-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email:focus:-ms-input-placeholder {\n            color: transparent; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus::-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus::-ms-input-placeholder, .footer .flex-wrapper #mc_embed_signup .clear .email:focus::-ms-input-placeholder {\n            color: transparent; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .email:focus::placeholder, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .email:focus::placeholder,\n          .footer .flex-wrapper #mc_embed_signup .clear .email:focus::placeholder {\n            color: transparent; }\n        .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n        .footer .flex-wrapper #mc_embed_signup .clear .button {\n          border: 2px solid #fff;\n          width: 80px;\n          -webkit-transition: all .15s linear;\n          transition: all .15s linear; }\n          .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button:hover, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button:hover,\n          .footer .flex-wrapper #mc_embed_signup .clear .button:hover {\n            background-color: #f3eee9;\n            color: #000; }\n          @media screen and (max-width: 768px) {\n            .footer .flex-wrapper #mc_embed_signup #mc-embedded-subscribe-form .button, .footer .flex-wrapper #mc_embed_signup #mc_embed_signup_scroll .button,\n            .footer .flex-wrapper #mc_embed_signup .clear .button {\n              width: 100%;\n              margin-top: .5rem; } }\n    .footer .flex-wrapper .logo-container {\n      margin-bottom: 1rem;\n      margin-left: 20px; }\n    .footer .flex-wrapper .copyright {\n      font-size: .85rem; }\n  @media screen and (max-width: 600px) {\n    .footer {\n      margin-top: 5rem; }\n      .footer .flex-wrapper {\n        text-align: center; }\n        .footer .flex-wrapper h3 {\n          font-size: 1rem;\n          margin-bottom: 1rem; } }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -28601,6 +28776,286 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && btoa) {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
 /***/ "./src/data/bruut-albums.js":
 /*!**********************************!*\
   !*** ./src/data/bruut-albums.js ***!
@@ -28775,6 +29230,71 @@ var albums = [{
 
 /***/ }),
 
+/***/ "./src/data/bruut-photos.js":
+/*!**********************************!*\
+  !*** ./src/data/bruut-photos.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var photos = [{
+  id: 0,
+  photoURL: "img/2016_nagasaki.jpg",
+  caption: "Nagasaki - 2016"
+}, {
+  id: 1,
+  photoURL: "img/2016_spain.jpg",
+  caption: "Spain Tourposter - 2016"
+}, {
+  id: 2,
+  photoURL: "img/2014_poland.jpg",
+  caption: "Bielsko Biala, Poland - 2014"
+}];
+/* harmony default export */ __webpack_exports__["default"] = (photos);
+
+/***/ }),
+
+/***/ "./src/img/2014_poland.jpg":
+/*!*********************************!*\
+  !*** ./src/img/2014_poland.jpg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/2014_poland.jpg");
+
+/***/ }),
+
+/***/ "./src/img/2016_nagasaki.jpg":
+/*!***********************************!*\
+  !*** ./src/img/2016_nagasaki.jpg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/2016_nagasaki.jpg");
+
+/***/ }),
+
+/***/ "./src/img/2016_spain.jpg":
+/*!********************************!*\
+  !*** ./src/img/2016_spain.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/2016_spain.jpg");
+
+/***/ }),
+
 /***/ "./src/img/album-bruut.jpg":
 /*!*********************************!*\
   !*** ./src/img/album-bruut.jpg ***!
@@ -28853,6 +29373,45 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/img/apple.svg":
+/*!***************************!*\
+  !*** ./src/img/apple.svg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/apple.svg");
+
+/***/ }),
+
+/***/ "./src/img/parallax.jpg":
+/*!******************************!*\
+  !*** ./src/img/parallax.jpg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/parallax.jpg");
+
+/***/ }),
+
+/***/ "./src/img/shopping.svg":
+/*!******************************!*\
+  !*** ./src/img/shopping.svg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "img/shopping.svg");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -28869,14 +29428,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_scroll_album__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/scroll-album */ "./src/js/scroll-album.js");
 /* harmony import */ var _js_scroll_album__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_scroll_album__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _js_Shop__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/Shop */ "./src/js/Shop.js");
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sass/main.scss */ "./src/sass/main.scss");
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _img_album_go_surfing_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/album-go-surfing.jpg */ "./src/img/album-go-surfing.jpg");
-/* harmony import */ var _img_album_v_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/album-v.jpg */ "./src/img/album-v.jpg");
-/* harmony import */ var _img_album_superjazz_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/album-superjazz.jpg */ "./src/img/album-superjazz.jpg");
-/* harmony import */ var _img_album_madpack_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/album-madpack.jpg */ "./src/img/album-madpack.jpg");
-/* harmony import */ var _img_album_fire_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/album-fire.jpg */ "./src/img/album-fire.jpg");
-/* harmony import */ var _img_album_bruut_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/album-bruut.jpg */ "./src/img/album-bruut.jpg");
+/* harmony import */ var _js_Photos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/Photos */ "./src/js/Photos.js");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sass/main.scss */ "./src/sass/main.scss");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _img_album_go_surfing_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/album-go-surfing.jpg */ "./src/img/album-go-surfing.jpg");
+/* harmony import */ var _img_album_v_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/album-v.jpg */ "./src/img/album-v.jpg");
+/* harmony import */ var _img_album_superjazz_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./img/album-superjazz.jpg */ "./src/img/album-superjazz.jpg");
+/* harmony import */ var _img_album_madpack_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./img/album-madpack.jpg */ "./src/img/album-madpack.jpg");
+/* harmony import */ var _img_album_fire_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./img/album-fire.jpg */ "./src/img/album-fire.jpg");
+/* harmony import */ var _img_album_bruut_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./img/album-bruut.jpg */ "./src/img/album-bruut.jpg");
+/* harmony import */ var _img_2014_poland_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./img/2014_poland.jpg */ "./src/img/2014_poland.jpg");
+/* harmony import */ var _img_2016_nagasaki_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./img/2016_nagasaki.jpg */ "./src/img/2016_nagasaki.jpg");
+/* harmony import */ var _img_2016_spain_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./img/2016_spain.jpg */ "./src/img/2016_spain.jpg");
 
 
 
@@ -28888,6 +29451,81 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/js/Photos.js":
+/*!**************************!*\
+  !*** ./src/js/Photos.js ***!
+  \**************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Carousel */ "./src/js/components/Carousel.js");
+/* harmony import */ var _data_bruut_photos__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../data/bruut-photos */ "./src/data/bruut-photos.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+function Photos() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      carouselVisibility = _useState2[0],
+      setCarouselVisibility = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0),
+      _useState4 = _slicedToArray(_useState3, 2),
+      photoIndex = _useState4[0],
+      setPhotoIndex = _useState4[1];
+
+  if (carouselVisibility) {
+    var overlay = document.getElementById("photo-container");
+    document.body.setAttribute("class", "no-scroll");
+
+    overlay.ontouchmove = function (e) {
+      e.preventDefault();
+      return false;
+    };
+  } else {
+    document.body.removeAttribute("class", "no-scroll");
+  }
+
+  var openCarousel = document.getElementById("photo-container");
+  openCarousel.addEventListener('click', function () {
+    setCarouselVisibility(true);
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, carouselVisibility && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    setCarouselVisibility: setCarouselVisibility,
+    photos: _data_bruut_photos__WEBPACK_IMPORTED_MODULE_3__["default"],
+    photoIndex: photoIndex,
+    setPhotoIndex: setPhotoIndex
+  }));
+}
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Photos, null), document.getElementById('photos-carousel'));
 
 /***/ }),
 
@@ -29035,6 +29673,107 @@ function Albums(_ref) {
 
 /***/ }),
 
+/***/ "./src/js/components/Carousel.js":
+/*!***************************************!*\
+  !*** ./src/js/components/Carousel.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Carousel; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Carousel(_ref) {
+  var setCarouselVisibility = _ref.setCarouselVisibility,
+      photos = _ref.photos,
+      photoIndex = _ref.photoIndex,
+      setPhotoIndex = _ref.setPhotoIndex;
+
+  var nextPhoto = function nextPhoto(e) {
+    e.stopPropagation();
+
+    if (photoIndex === photos.length - 1) {
+      setPhotoIndex(0);
+    } else {
+      setPhotoIndex(photoIndex + 1);
+      console.log(photoIndex);
+    }
+  };
+
+  var prevPhoto = function prevPhoto(e) {
+    e.stopPropagation();
+
+    if (!photoIndex) {
+      setPhotoIndex(photos.length - 1);
+    } else {
+      setPhotoIndex(photoIndex - 1);
+      console.log(photoIndex);
+    }
+  };
+
+  function closeCarousel() {
+    setCarouselVisibility(false);
+    setPhotoIndex(0);
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "carousel",
+    id: "overlay-shop"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "overlay-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "top-bar-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button-close",
+    onClick: closeCarousel
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    width: "64",
+    height: "64",
+    viewBox: "0 0 64 64",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M6.08697 0.0139848L64 58.1832L58.2095 64L0.294848 5.83247L6.08697 0.0139848Z",
+    fill: "black"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M0 58.1684L57.913 0L63.7052 5.81684L5.79212 63.986L0 58.1684Z",
+    fill: "black"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "left-bar-wrapper",
+    onClick: prevPhoto
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    width: "25",
+    height: "44",
+    viewBox: "0 0 25 44",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M0.678442 23.4691L19.5838 42.3741C20.021 42.8117 20.6047 43.0527 21.2271 43.0527C21.8495 43.0527 22.4332 42.8117 22.8704 42.3741L24.2627 40.9822C25.1686 40.0752 25.1686 38.6011 24.2627 37.6955L8.38743 21.8202L24.2803 5.92734C24.7176 5.48974 24.959 4.90639 24.959 4.28435C24.959 3.66162 24.7176 3.07827 24.2803 2.64032L22.8881 1.24876C22.4505 0.811161 21.8671 0.570084 21.2447 0.570084C20.6223 0.570084 20.0386 0.811161 19.6014 1.24876L0.678442 20.171C0.240149 20.61 -0.000583391 21.1961 0.000798202 21.8192C-0.000583282 22.4447 0.240149 23.0304 0.678442 23.4691Z",
+    fill: "white"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "photo-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: photos[photoIndex].photoURL
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "right-bar-wrapper",
+    onClick: nextPhoto
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+    width: "25",
+    height: "44",
+    viewBox: "0 0 25 44",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+    d: "M24.3216 20.1537L5.41624 1.24875C4.97898 0.811147 4.39528 0.570068 3.7729 0.570068C3.15051 0.570068 2.56681 0.811147 2.12956 1.24875L0.737311 2.64065C-0.168633 3.54763 -0.168633 5.02173 0.737311 5.92733L16.6126 21.8026L0.719696 37.6955C0.28244 38.1331 0.0410156 38.7164 0.0410156 39.3385C0.0410156 39.9612 0.28244 40.5445 0.719696 40.9825L2.11194 42.374C2.54954 42.8116 3.1329 43.0527 3.75528 43.0527C4.37767 43.0527 4.96137 42.8116 5.39862 42.374L24.3216 23.4518C24.7598 23.0128 25.0006 22.4267 24.9992 21.8036C25.0006 21.1781 24.7598 20.5924 24.3216 20.1537Z",
+    fill: "white"
+  })))));
+}
+
+/***/ }),
+
 /***/ "./src/js/components/Overlay.js":
 /*!**************************************!*\
   !*** ./src/js/components/Overlay.js ***!
@@ -29078,7 +29817,7 @@ function Overlay(_ref) {
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "overlay-shop",
+    className: "carousel",
     id: "overlay-shop"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "overlay-wrapper"
@@ -29317,9 +30056,27 @@ gsap.to(".lp", {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src!../../node_modules/sass-loader/dist/cjs.js!./main.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.9bd763cc55.bundle.js.map
+//# sourceMappingURL=main.519071954a.bundle.js.map

@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import data from './../data/bruut-albums';
-import Albums from './components/Albums'
-import Overlay from './components/Overlay'
-
+import Albums from './components/Albums';
+import Overlay from './components/Overlay';
 
 function Shop() {
   const [selectedAlbum, setSelectedAlbum] = useState(null);
@@ -19,8 +18,6 @@ function Shop() {
   } else {
     document.body.removeAttribute("class", "no-scroll");
   }
-
-
 
   return (
     <div className="margin-70">

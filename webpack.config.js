@@ -23,7 +23,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader, // 3. inject styles into DOM (for prod: MiniCssExtractPlugin.loader)
+          'style-loader', // 3. inject styles into DOM (for prod: MiniCssExtractPlugin.loader)
           "css-loader", // 2. turns css into common js
           "postcss-loader",
           "sass-loader", // 1. turns sass into css

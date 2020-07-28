@@ -1,0 +1,252 @@
+.no-scroll {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-selection {
+  user-select: none;
+}
+
+.carousel {
+  color: white;
+  display: block;
+  position: fixed;
+  z-index: 99;
+  height: 100vh;
+  width: 100%; // is default?
+  top: 0; 
+  left: 0;
+  background: rgba(0,0,0,.88);
+  user-select: none; 
+  .overlay-wrapper {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 101;
+      .top-bar-wrapper {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          .button-close {
+              top: 0;
+              left: 0;
+              background-color: $white;
+              display: inline-block;
+              padding: .7rem;
+              &:hover {
+                  cursor: pointer;
+              }
+          }
+      }
+      .left-bar-wrapper {
+          padding: 8rem 3rem;
+          padding-right: 4rem;
+          @media screen and (max-width: 1011px) {
+              padding: 0px;
+              svg path {
+                  display: none;
+              }
+          }
+          svg path {
+              fill: #5a5959;
+              transition: all .2s linear;
+          }
+          &:hover {
+              cursor: pointer;
+              svg path {
+                  fill: $off-white;
+              }
+              @media screen and (max-width: 1011px) {
+                  cursor: default;
+              }
+          }
+      }
+      .photo-wrapper {
+        
+      }
+      .right-bar-wrapper {
+          padding: 8rem 3rem;
+          padding-left: 4rem;
+          @media screen and (max-width: 1011px) {
+              padding: 0px;
+              svg path {
+                  display: none;
+              }
+          }
+          svg path {
+              fill: #5a5959;
+              transition: all .2s linear;
+          }
+          &:hover {
+              cursor: pointer;
+              svg path {
+                  fill: $off-white;
+              }
+              @media screen and (max-width: 1011px) {
+                  cursor: default;
+              }
+          }
+      }
+      .content-wrapper {
+          display: flex;
+          justify-content: center;
+          width: 65%;
+          .content-container {
+              height: 100%;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              min-height: 400px;
+              @media screen and (max-width: 860px) {
+                  min-height: 100%;
+              }
+              .image-container {
+                  max-height: 100%;
+                  min-width: 420px;
+                  max-width: 50%;
+                  padding-right: 2.5%;
+                  @media screen and (max-width: 860px) {
+                      display: flex;
+                      justify-content: flex-end;
+                  }
+                  img {
+                      width: 100%;
+                      // min-width: 300px;
+                      @media screen and (max-width: 860px) {
+                          padding-left: 10px;
+                          width: 80%;
+                          // min-width: 300px;
+                          // max-width: 70%;
+                      }
+                  }
+                  // @media screen and (max-width: 600px) {
+                  //     display: none;
+                  // }
+              }
+              .info-container {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                  min-width: 420px;
+                  max-width: 50%;
+                  // padding-left: 2.5%;
+                  margin-left: 2.5%;
+                  h2 {
+                      font-size: 2.7rem;
+                  } p {
+                      font-size: .9rem;
+                      line-height: 1.4;
+                  }
+              } 
+          }
+      }
+      @media screen and (max-width: 860px) {
+          .para-container {
+              display: none;
+          }
+          .button__shop--stream {
+              margin-top: 10px;
+          }
+      }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overlay-shop {
+      .overlay-wrapper{
+          align-items: flex-end;
+          .top-bar-wrapper {
+              position: absolute;
+              .button-close {
+                  background-color: rgba(0,0,0,0);
+                  padding: 24px;
+                  svg {
+                      width: 35px;
+                      height: 35px;
+                      path {
+                          fill: $off-white;
+                      }
+                  }
+                  // &:hover {
+                  //     cursor: pointer;
+                  // }
+              }
+          }
+          .right-bar-wrapper, .left-bar-wrapper {
+              display: none;
+          }
+          .content-wrapper {
+              width: 100vw;
+              .content-container {
+                  // position: relative;
+                  flex-direction: column;
+                  flex-flow: wrap;
+                  justify-content: center;
+                  min-height: 50vh;
+                  .image-container {
+                      // position: absolute;
+                      // right: 15px;
+                      // top: 15px;
+                      // min-width: 100vw;
+                      // padding: 0;
+                      // display: flex;
+                      justify-content: center;
+                      img {
+                          margin-top: 10%;
+                          padding: 0;
+                          width: 48vw;
+                          height: 48vw;
+                      }
+                  }
+                  .info-container {
+                      max-width: 90%;
+                      min-width: 100vw;
+                      padding: 10px;
+                      margin-left: 0;
+                      p, h2 {
+                          margin: 5px 15px;
+                      }
+                      h2 {
+                          margin-top: 3vh;
+                      }
+                      p {
+                          font-size: 1rem;
+                      }
+                      .produced {
+                          display: none;
+                      }
+                      .para-container {
+                          display: none;
+                      }
+                      .available {
+                          margin-bottom: 4vh;
+                      }
+                      .buttons-container {
+                          display: flex;
+                          flex-direction: column;
+                          align-items: center;
+                          margin-top: 0;
+                          margin-bottom: .5rem;
+                          .button {
+                              display: flex;
+                              flex-direction: column;
+                              width: 90vw;
+                              padding: 15px 0;
+                              text-align: center;
+                              svg {
+                                  display: none;
+                              }
+                          }
+                          .button__shop--buy {
+                              margin-right: 0;
+                          }
+                      }
+                  }
+              }
+          } 
+      }
+  }  
+}
