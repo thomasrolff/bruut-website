@@ -30,7 +30,7 @@ export default function Overlay({
   )};
 
   return (
-    <div className="carousel" id="overlay-shop">
+    <div className="overlay-shop" id="overlay-shop">
       <div className="overlay-wrapper">
         <div className="top-bar-wrapper">
           <div 
